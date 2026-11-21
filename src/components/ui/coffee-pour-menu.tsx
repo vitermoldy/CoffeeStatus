@@ -2174,3 +2174,4 @@ export function CoffeePourMenu({
                     {it.subtitle && (
                       <span
                         className={cn(
+                          "mt-0.5 truncate text-[11.5px] tracking-tight transition-colors duration-300 sm:mt-1 sm:text-[13px]",
