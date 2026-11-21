@@ -918,3 +918,4 @@ function stepCup(c: Cup, dt: number, t: number, spills: Particle[]): boolean {
     }
     if (p.phase === "tail") {
       p.tailV += G_STREAM * dt;
+      p.tail += p.tailV * dt;
