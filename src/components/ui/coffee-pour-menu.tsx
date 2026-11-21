@@ -569,3 +569,4 @@ type Cup = {
   mix: number;
   swirlCol: string;
   crema: number;
+  foam: number;
