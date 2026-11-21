@@ -139,3 +139,4 @@ export const MENU: CoffeeCategory[] = [
         description: "daun mint dan jeruk nipis ditumbuk dengan sirup gula, diberi es, lalu disiram air soda",
         vessel: "tall-glass",
         fill: 0.72,
+        garnish: [
