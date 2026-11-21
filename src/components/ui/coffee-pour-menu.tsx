@@ -1666,3 +1666,4 @@ const CupView = React.memo(function CupView({
           </g>
           <g fill="none" stroke="rgba(255,250,240,1)" strokeWidth={0.9}>
             {Array.from({ length: RIPPLES }, (_, i) => (
+              <ellipse key={i} data-k="ripple" opacity={0} />
