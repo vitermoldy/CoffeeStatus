@@ -702,3 +702,5 @@ function share(c: Cup, T: number) {
   return tot ? x / tot : 1;
 }
 
+const topCell = (c: Cup) => Math.max(0, Math.min(N - 1, Math.ceil(c.level * N) - 1));
+
