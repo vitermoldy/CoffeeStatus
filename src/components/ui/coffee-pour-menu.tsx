@@ -1783,3 +1783,4 @@ function Defs({ id }: { id: (s: string) => string }) {
         <stop offset={0.5} stopColor="white" stopOpacity={0.05} />
         <stop offset={1} stopColor="rgb(90,66,46)" stopOpacity={0.18} />
       </linearGradient>
+      {lin("liqDepth", [[0, "rgba(18,8,3,0.55)"], [0.16, "rgba(18,8,3,0.1)"], [0.38, "rgba(255,230,200,0.08)"], [0.62, "rgba(18,8,3,0)"], [0.84, "rgba(18,8,3,0.12)"], [1, "rgba(18,8,3,0.6)"]])}
