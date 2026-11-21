@@ -1696,3 +1696,4 @@ const CupView = React.memo(function CupView({
         )}
         {[0, 1].map((s) => (
           <g key={s}>
+            <path data-k={`stream${s}`} fill={`url(#${id(`st${k}-${s}`)})`} />
