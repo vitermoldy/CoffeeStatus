@@ -1354,3 +1354,4 @@ function VesselBack({ g, id }: { g: Geo; id: (s: string) => string }) {
   const gl = GLAZE[g.glaze ?? "cream"];
   const fr = o.rb * 0.86;
   return (
+    <g>
