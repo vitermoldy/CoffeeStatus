@@ -65,3 +65,4 @@ export interface CoffeeItem {
   art?: "heart" | "none";
   /** How completely the pours blend, 0 (stay layered) to 1 (fully mixed). Default 1. */
   blend?: number;
+  /** Ice cubes in the glass, 0 to 4. They rest on the bottom until the drink lifts them. */
