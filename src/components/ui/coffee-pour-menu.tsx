@@ -904,3 +904,4 @@ function stepCup(c: Cup, dt: number, t: number, spills: Particle[]): boolean {
           c.swirlCol = SWIRL[p.type];
           if (g.glass && c.tendrils.length < TENDRILS && Math.random() < dt * 3.2) {
             c.tendrils.push({ x: p.x, age: 0, dir: Math.random() < 0.5 ? -1 : 1, ph: Math.random() * 6, col: STREAM[p.type].fill });
+          }
