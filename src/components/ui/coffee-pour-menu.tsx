@@ -1737,3 +1737,4 @@ const BUBBLES: [number, number, number][] = [
 function Defs({ id }: { id: (s: string) => string }) {
   const lin = (name: string, stops: [number, string][], v = false) => (
     <linearGradient id={id(name)} x1={0} y1={v ? 0 : 0} x2={v ? 0 : 1} y2={v ? 1 : 0}>
+      {stops.map(([o, c]) => (
