@@ -1267,3 +1267,4 @@ function renderCup(c: Cup, t: number) {
   }
 }
 
+function cacheEls(root: SVGGElement): Els {
