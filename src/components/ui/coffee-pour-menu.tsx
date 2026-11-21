@@ -2228,3 +2228,4 @@ export function CoffeePourMenu({
 
       <div className="relative aspect-[9/10] w-full overflow-hidden rounded-[26px] [grid-area:stage] bg-[radial-gradient(80%_62%_at_50%_42%,#fbf1e3_0%,#f0dcc2_45%,#e2c6a3_80%,#d6b791_100%)] shadow-[inset_0_1px_0_rgba(255,255,255,0.7),inset_0_0_0_1px_rgba(120,75,35,0.08),0_30px_60px_-30px_rgba(90,55,25,0.5)]">
         <svg viewBox={`0 0 ${W} ${H}`} className="absolute inset-0 h-full w-full" aria-hidden="true">
+          <Defs id={id} />
