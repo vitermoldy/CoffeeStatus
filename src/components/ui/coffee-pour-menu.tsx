@@ -787,3 +787,4 @@ function stepCup(c: Cup, dt: number, t: number, spills: Particle[]): boolean {
     if (c.wait <= 0) c.mode = "enter";
     return true;
   }
+  if (c.mode === "enter" || c.mode === "rest") {
