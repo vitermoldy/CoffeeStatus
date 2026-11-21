@@ -2207,3 +2207,4 @@ export function CoffeePourMenu({
                   <span className="flex min-w-0 items-center gap-2">
                     <span
                       aria-hidden="true"
+                      className="size-2.5 shrink-0 rounded-full shadow-[inset_0_0_0_1px_rgba(58,39,29,0.2)]"
