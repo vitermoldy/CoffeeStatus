@@ -2003,3 +2003,4 @@ export function CoffeePourMenu({
       cup.opacity = 0;
       cup.x = CX;
       fillInstantly(cup);
+    } else {
