@@ -537,3 +537,4 @@ type Cup = {
   geo: Geo;
   mode: "wait" | "enter" | "rest" | "fall" | "fadeIn" | "fadeOut";
   wait: number;
+  x: number;
