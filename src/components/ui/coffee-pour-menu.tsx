@@ -1662,3 +1662,4 @@ const CupView = React.memo(function CupView({
           </g>
           <g fill="none" strokeLinecap="round" filter={`url(#${id("blur1")})`}>
             <path data-k="swirl" strokeWidth={3.2} />
+            <path data-k="swirl" strokeWidth={2.2} />
