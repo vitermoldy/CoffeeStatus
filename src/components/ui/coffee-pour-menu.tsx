@@ -2198,3 +2198,4 @@ export function CoffeePourMenu({
           {/* live counter for sighted users; screen readers get the recipe from the list and the live region */}
           <div aria-hidden="true" className="flex h-5 items-baseline justify-between gap-3 text-[13px] font-medium text-[#8a5226] sm:text-[14px]">
             <span data-status className="truncate" />
+            <span data-count className="shrink-0 tabular-nums" />
