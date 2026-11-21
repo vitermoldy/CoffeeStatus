@@ -366,3 +366,4 @@ type LiquidDef = {
 
 /** Every pourable liquid. Espresso, water and milk must stay first: their mixes keep the original coffee shading. */
 const LIQUIDS = {
+  espresso: { label: "Espresso", color: [58, 30, 14], ramp: COFFEE_RAMP, opacity: 1, tint: 3, stream: { fill: "rgb(58,30,14)", a: 1, hi: 0.35, w: 1.3 }, swirl: "rgb(60,30,14)", pen: 0.3, jet: 0.9 },
