@@ -345,3 +345,4 @@ const hexRGB = (h: string): RGB => {
 };
 
 type LiquidDef = {
+  /** Name on the recipe card. */
