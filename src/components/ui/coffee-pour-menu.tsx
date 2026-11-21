@@ -1762,3 +1762,4 @@ function Defs({ id }: { id: (s: string) => string }) {
       {blur("blur3", 3.2)}
       {lin("cerCream", [[0, "#c3b49e"], [0.1, "#ddd1c0"], [0.3, "#f6f0e6"], [0.42, "#fffdf9"], [0.62, "#f1e8dc"], [0.85, "#d7c9b6"], [1, "#bba98f"]])}
       {lin("cerTerra", [[0, "#7c3f22"], [0.12, "#9a5230"], [0.32, "#c27447"], [0.44, "#cf8556"], [0.64, "#ac6136"], [0.86, "#8b4a2a"], [1, "#723a20"]])}
+      {lin("handleCream", [[0, "#efe6da"], [0.5, "#d9ccba"], [1, "#b5a48c"]])}
