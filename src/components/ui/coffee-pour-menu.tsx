@@ -1504,3 +1504,4 @@ const GARNISH = {
   lime: { label: "jeruk nipis", unit: "iris" },
 } as const;
 
+function MintLeaf({ fill = "#4f9a44" }: { fill?: string }) {
