@@ -51,3 +51,4 @@ export interface CoffeeItem {
   description?: string;
   /** Vessel to serve it in. */
   vessel: CoffeeVessel;
+  /** Pours in order. A milk pour after espresso overlaps it slightly. */
