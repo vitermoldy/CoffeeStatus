@@ -7,3 +7,4 @@ export const MENU: CoffeeCategory[] = [
     id: "jus",
     label: "Jus",
     items: [
+      {
