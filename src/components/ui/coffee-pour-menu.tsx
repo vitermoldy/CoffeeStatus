@@ -519,3 +519,4 @@ type Els = {
   art: SVGGElement | null;
   base: SVGPathElement | null;
   stops: SVGStopElement[];
+  swirl: SVGPathElement[];
