@@ -109,3 +109,4 @@ export const MENU: CoffeeCategory[] = [
         vessel: "glass-mug",
         fill: 0.8,
         layers: [
+          { type: "tea", ml: 200 },
