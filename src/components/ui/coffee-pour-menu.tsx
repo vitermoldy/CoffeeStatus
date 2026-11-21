@@ -726,3 +726,4 @@ function fillInstantly(c: Cup) {
   c.art = 1;
   c.progress.fill(1);
   c.fizzT = FIZZ_T;
+  c.sprig = 1;
