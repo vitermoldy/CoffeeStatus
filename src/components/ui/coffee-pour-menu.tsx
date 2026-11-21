@@ -574,3 +574,4 @@ type Cup = {
   artV: number;
   spill: number;
   dirty: boolean;
+  el?: Els;
