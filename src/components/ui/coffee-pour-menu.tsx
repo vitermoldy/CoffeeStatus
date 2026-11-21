@@ -1554,3 +1554,4 @@ const CupView = React.memo(function CupView({
   const g = GEO[it.vessel] ?? GEO.cup;
   const k = cup.key;
   const liqId = id(`liq${k}`);
+  const clip = id(`clip-${it.vessel}`);
