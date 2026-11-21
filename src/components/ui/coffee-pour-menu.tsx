@@ -562,3 +562,4 @@ type Cup = {
   ripples: { x: number; age: number }[];
   tendrils: Tendril[];
   w1: number;
+  v1: number;
