@@ -2143,3 +2143,4 @@ export function CoffeePourMenu({
                 }}
                 type="button"
                 role="radio"
+                aria-checked={active}
