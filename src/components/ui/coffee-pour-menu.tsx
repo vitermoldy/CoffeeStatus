@@ -1735,3 +1735,4 @@ const BUBBLES: [number, number, number][] = [
 ];
 
 function Defs({ id }: { id: (s: string) => string }) {
+  const lin = (name: string, stops: [number, string][], v = false) => (
