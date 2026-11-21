@@ -337,3 +337,4 @@ function shade(e: number, w: number, m: number): [RGB, number] {
     rgb = ramp(st, m);
   }
   return [rgb, 1 - (1 - aC) * (1 - Math.min(1, m * 3))];
+}
