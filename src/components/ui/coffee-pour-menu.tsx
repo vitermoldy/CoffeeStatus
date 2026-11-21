@@ -1990,3 +1990,4 @@ export function CoffeePourMenu({
       c.va = (Math.random() < 0.75 ? -1 : 1) * (1.3 + Math.random() * 1.4) + c.va * 0.3;
       c.pours = [];
       c.next = c.layers.length;
+      falling++;
