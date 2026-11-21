@@ -997,3 +997,4 @@ function stepCup(c: Cup, dt: number, t: number, spills: Particle[]): boolean {
     busy = true;
   }
   if (!pouring && c.level > 0 && c.foam < 1 && c.mode !== "fall") {
+    c.foam = Math.min(1, c.foam + dt / 0.75);
