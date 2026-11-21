@@ -1510,3 +1510,4 @@ function MintLeaf({ fill = "#4f9a44" }: { fill?: string }) {
       <path d={LEAF} fill={fill} stroke="#2f6a28" strokeWidth={0.8} vectorEffect="non-scaling-stroke" />
       <path d="M-0.46 0L0.4 0" fill="none" stroke="rgba(214,238,196,0.7)" strokeWidth={0.8} vectorEffect="non-scaling-stroke" />
     </>
+  );
