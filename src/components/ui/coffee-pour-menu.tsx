@@ -1854,3 +1854,4 @@ function paintRecipe(root: HTMLElement | null, c: Cup | undefined) {
     count = total ? `${total} ml` : "";
   } else if (last >= 0) {
     const at = flowing >= 0 ? flowing : last;
+    const l = c.layers[at];
