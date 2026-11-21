@@ -1690,3 +1690,4 @@ const CupView = React.memo(function CupView({
               <g key={i} data-k="ice">
                 <rect x={-0.5} y={-0.5} width={1} height={1} rx={0.2} fill="rgba(255,255,255,0.3)" stroke="rgba(255,255,255,0.85)" strokeWidth={1} vectorEffect="non-scaling-stroke" />
                 <path d="M-0.3 -0.3L0.2 -0.3M-0.3 -0.3L-0.3 0.1" fill="none" stroke="white" strokeOpacity={0.9} strokeWidth={1.3} strokeLinecap="round" vectorEffect="non-scaling-stroke" />
+              </g>
