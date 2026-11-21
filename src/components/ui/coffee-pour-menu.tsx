@@ -1753,3 +1753,4 @@ function Defs({ id }: { id: (s: string) => string }) {
     <filter id={id(name)} x="-50%" y="-50%" width="200%" height="200%">
       <feGaussianBlur stdDeviation={s} />
     </filter>
+  );
