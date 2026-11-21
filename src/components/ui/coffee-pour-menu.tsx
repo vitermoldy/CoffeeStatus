@@ -571,3 +571,4 @@ type Cup = {
   crema: number;
   foam: number;
   art: number;
+  artV: number;
