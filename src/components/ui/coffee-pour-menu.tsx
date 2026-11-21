@@ -1963,3 +1963,4 @@ export function CoffeePourMenu({
     if (live && shown.current === selected.id) {
       loop();
       return;
+    }
