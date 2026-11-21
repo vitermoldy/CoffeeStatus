@@ -2216,3 +2216,4 @@ export function CoffeePourMenu({
                   </span>
                   {l.ml != null && <span className="shrink-0 tabular-nums text-[#3a271d]">{l.ml} ml</span>}
                 </div>
+                <div aria-hidden="true" className="mt-1.5 h-[3px] overflow-hidden rounded-full bg-[#3a271d]/10">
