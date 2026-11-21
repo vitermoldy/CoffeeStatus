@@ -961,3 +961,5 @@ function stepCup(c: Cup, dt: number, t: number, spills: Particle[]): boolean {
     c.tendrils[i].age += dt;
     if (c.tendrils[i].age > 1.8) c.tendrils.splice(i, 1);
   }
+  if (c.ripples.length || c.tendrils.length) busy = true;
+
