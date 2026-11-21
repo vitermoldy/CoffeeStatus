@@ -89,3 +89,4 @@ Stack: Vite 8, React 19, TypeScript, Tailwind CSS 4, `motion` untuk animasi pil 
   `fizz` (gelembung soda selama dituang).
 
 Komponennya bisa dipakai dengan satu daftar (`items`) atau berkelompok di tab (`categories`),
+terkontrol (`value` + `onValueChange`) atau tidak (`defaultValue`). `showRecipe={false}`
