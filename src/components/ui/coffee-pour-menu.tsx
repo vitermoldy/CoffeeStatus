@@ -875,3 +875,4 @@ function stepCup(c: Cup, dt: number, t: number, spills: Particle[]): boolean {
       if (p.lead > 0 && p.timer > 0.08) {
         spawnDrop(c, p);
         p.lead--;
+        p.timer = 0;
