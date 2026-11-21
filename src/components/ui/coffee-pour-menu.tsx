@@ -2109,3 +2109,4 @@ export function CoffeePourMenu({
                 onClick={() => openGroup(g)}
                 className={cn(
                   "min-h-11 truncate rounded-xl px-2 text-[14px] font-medium tracking-tight outline-none transition-colors focus-visible:ring-2 focus-visible:ring-[#8a5226] active:translate-y-px sm:text-[15px]",
+                  on
