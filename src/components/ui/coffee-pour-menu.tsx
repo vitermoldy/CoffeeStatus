@@ -509,3 +509,4 @@ type Els = {
   body: SVGGElement;
   liquid: SVGGElement;
   liq: SVGPathElement;
+  depth: SVGPathElement | null;
