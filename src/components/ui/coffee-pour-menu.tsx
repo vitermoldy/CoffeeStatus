@@ -974,3 +974,5 @@ function stepCup(c: Cup, dt: number, t: number, spills: Particle[]): boolean {
     const m = rS * P * 0.8;
     c.w2 = clamp(c.w2, -m, m);
   }
+  if (Math.abs(c.w1 - tiltTarget) + Math.abs(c.v1) * 0.1 + Math.abs(c.w2) + Math.abs(c.v2) * 0.1 + c.w3 > 0.02) busy = true;
+
