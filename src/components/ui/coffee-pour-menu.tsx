@@ -1622,3 +1622,4 @@ const CupView = React.memo(function CupView({
               ))}
             </g>
           )}
+          <path data-k="foam" fill={`url(#${foamFill})`} />
