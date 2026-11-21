@@ -309,3 +309,4 @@ function ramp(stops: [number, RGB][], t: number): RGB {
   }
   return stops[stops.length - 1][1];
 }
+const MILK: RGB = [248, 242, 232];
