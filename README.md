@@ -81,3 +81,4 @@ Stack: Vite 8, React 19, TypeScript, Tailwind CSS 4, `motion` untuk animasi pil 
   `chocolate`, `strawberry`, `banana`, `yogurt`, `mango`, `tea`, `condensed`, `matcha`, `lemon`,
   `honey`, `syrup`, `lime`, `soda`. Warna, kepekatan, dan cara tuangnya ada di `LIQUIDS` dalam
   komponen.
+- `garnish` untuk bahan padat yang ditumbuk di gelas sebelum dituang:
