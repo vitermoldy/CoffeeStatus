@@ -97,3 +97,5 @@ End ke kategori pertama dan terakhir. Tab berikutnya masuk ke minuman yang terpi
 memilih minuman. Kalau sistem meminta gerakan dikurangi, gelas langsung tampil penuh dan kartu
 resep langsung selesai.
 
+## Perubahan dari komponen aslinya
+
