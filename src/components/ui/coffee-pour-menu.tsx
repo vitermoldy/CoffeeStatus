@@ -1507,3 +1507,4 @@ const GARNISH = {
 function MintLeaf({ fill = "#4f9a44" }: { fill?: string }) {
   return (
     <>
+      <path d={LEAF} fill={fill} stroke="#2f6a28" strokeWidth={0.8} vectorEffect="non-scaling-stroke" />
