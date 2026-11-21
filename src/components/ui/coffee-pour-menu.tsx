@@ -2098,3 +2098,4 @@ export function CoffeePourMenu({
               <button
                 key={g.id}
                 ref={(el) => {
+                  tabs.current[i] = el;
