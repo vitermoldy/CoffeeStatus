@@ -1107,3 +1107,4 @@ function renderCup(c: Cup, t: number) {
     if (i <= K / 2) back += (i ? "L" : "M") + pt;
   }
   const surf = `M${pts.join("L")}Z`;
+  e.surf.setAttribute("d", surf);
