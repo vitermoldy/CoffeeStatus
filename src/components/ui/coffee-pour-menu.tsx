@@ -1693,3 +1693,4 @@ const CupView = React.memo(function CupView({
               </g>
             ))}
           </g>
+        )}
