@@ -51,3 +51,5 @@ src/
   App.tsx                        halaman
   index.css                      Tailwind 4 dan font
 components.json                  konfigurasi shadcn CLI
+```
+
