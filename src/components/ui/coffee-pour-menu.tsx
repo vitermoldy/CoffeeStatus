@@ -1298,3 +1298,4 @@ function cacheEls(root: SVGGElement): Els {
     ice: (all("ice") as SVGGElement[]),
     bubbles: (all("bub") as SVGCircleElement[]),
     mint: (all("mint") as SVGGElement[]),
+    lime: (all("lime") as SVGGElement[]),
