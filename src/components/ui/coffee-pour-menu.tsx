@@ -431,3 +431,5 @@ function shadeMix(cells: Float32Array, o: number): [RGB, number] {
   }
   wsum ||= 1;
   return [[r / wsum, g / wsum, b / wsum], 1 - Math.exp(-od)];
+}
+
