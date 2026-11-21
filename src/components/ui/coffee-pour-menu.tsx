@@ -1048,3 +1048,4 @@ function renderCup(c: Cup, t: number) {
   e.root.setAttribute("opacity", c.opacity.toFixed(3));
   e.body.setAttribute(
     "transform",
+    `translate(${f1(c.x)} ${f1(c.y)}) rotate(${((c.a * 180) / Math.PI).toFixed(2)} 0 ${-c.pivot})`,
