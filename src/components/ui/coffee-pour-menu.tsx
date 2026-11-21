@@ -37,3 +37,4 @@ export interface CoffeeLayer {
   /** Volume shown on the recipe card. */
   ml?: number;
   /** Name on the recipe card when it differs from the liquid's own, e.g. "Susu evaporasi". */
+  label?: string;
