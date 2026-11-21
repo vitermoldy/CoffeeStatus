@@ -1280,3 +1280,4 @@ function cacheEls(root: SVGGElement): Els {
     foam: (q("foam") as SVGPathElement),
     surf: (q("surf") as SVGPathElement),
     sclip: (q("sclip") as SVGPathElement),
+    decor: (q("decor") as SVGGElement),
