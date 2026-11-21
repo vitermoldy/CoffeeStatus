@@ -163,3 +163,4 @@ const H = 400;
 const FLOOR = 330;
 const CX = 180;
 const SRC = -FLOOR - 10; // pour source, local y, just above the stage
+const P = 0.34; // ellipse squash: how far above the table we look from
