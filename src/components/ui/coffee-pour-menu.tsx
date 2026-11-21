@@ -1688,3 +1688,4 @@ const CupView = React.memo(function CupView({
           <g clipPath={`url(#${clip})`}>
             {Array.from({ length: iceCount }, (_, i) => (
               <g key={i} data-k="ice">
+                <rect x={-0.5} y={-0.5} width={1} height={1} rx={0.2} fill="rgba(255,255,255,0.3)" stroke="rgba(255,255,255,0.85)" strokeWidth={1} vectorEffect="non-scaling-stroke" />
