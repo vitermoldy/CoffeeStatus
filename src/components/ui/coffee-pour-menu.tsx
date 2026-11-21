@@ -294,3 +294,4 @@ function wallLine(p: Profile, k: number, t0: number, t1: number) {
 
 type RGB = [number, number, number];
 const mixRGB = (a: RGB, b: RGB, t: number): RGB => [
+  lerp(a[0], b[0], t),
