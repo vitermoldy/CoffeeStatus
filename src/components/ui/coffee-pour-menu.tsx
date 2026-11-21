@@ -1344,3 +1344,4 @@ function VesselBack({ g, id }: { g: Geo; id: (s: string) => string }) {
       <g>
         {g.handle && <GlassHandle d={g.handle} w={g.handleW!} mask={id("hmask")} />}
         <path d={silhouette(i)} fill="rgba(255,250,240,0.2)" />
+        <path d={`M${-i.r} ${i.top}A${i.r} ${f1(i.r * P)} 0 0 1 ${i.r} ${i.top}`} fill="none" stroke="rgba(90,58,32,0.3)" strokeWidth={1} />
