@@ -92,3 +92,4 @@ export interface CoffeePourMenuProps {
   /** Drinks grouped under tabs. Takes the place of `items`. */
   categories?: CoffeeCategory[];
   /** Show the recipe card that counts each layer's ml while it pours. Default true. */
+  showRecipe?: boolean;
