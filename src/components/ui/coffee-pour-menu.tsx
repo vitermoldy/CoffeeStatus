@@ -2040,3 +2040,4 @@ export function CoffeePourMenu({
     if (n < 0) return;
     e.preventDefault();
     select(list[n].id);
+    btns.current[n]?.focus();
