@@ -1205,3 +1205,4 @@ function renderCup(c: Cup, t: number) {
     for (let k = 0; k < e.bubbles.length; k++) {
       const el = e.bubbles[k];
       if (fa < 0.01 || yb - yS < 8 || c.mode === "fall") {
+        el.setAttribute("r", "0");
