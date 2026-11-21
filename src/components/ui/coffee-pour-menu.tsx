@@ -403,3 +403,4 @@ const JET = pick((d) => d.jet);
 const TYPE_INDEX = Object.fromEntries(LIQ.map((k, i) => [k, i])) as Record<CoffeeLiquid, number>;
 
 /** Any mix: tint-weighted colour, opacity from summed optical depth. */
+function shadeMix(cells: Float32Array, o: number): [RGB, number] {
