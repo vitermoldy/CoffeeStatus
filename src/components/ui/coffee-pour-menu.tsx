@@ -1370,3 +1370,4 @@ function VesselBack({ g, id }: { g: Geo; id: (s: string) => string }) {
       <ellipse cx={0} cy={o.top} rx={o.r} ry={o.r * P} fill={gl.rim} />
       <ellipse cx={0} cy={i.top + 0.8} rx={i.r} ry={i.r * P} fill={`url(#${id(gl.inner)})`} />
       <ellipse cx={0} cy={i.top + 0.8} rx={i.r} ry={i.r * P} fill="none" stroke="rgba(90,60,35,0.18)" strokeWidth={1} />
+    </g>
