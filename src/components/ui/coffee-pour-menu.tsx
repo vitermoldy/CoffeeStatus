@@ -1588,3 +1588,4 @@ const CupView = React.memo(function CupView({
           </>
         )}
         <linearGradient id={liqId} gradientUnits="userSpaceOnUse" x1={0} y1={g.inner.bot} x2={0} y2={g.inner.top}>
+          {Array.from({ length: N }, (_, i) => (
