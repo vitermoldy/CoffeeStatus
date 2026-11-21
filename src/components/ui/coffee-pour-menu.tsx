@@ -563,3 +563,4 @@ type Cup = {
   tendrils: Tendril[];
   w1: number;
   v1: number;
+  w2: number;
