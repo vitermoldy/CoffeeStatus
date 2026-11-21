@@ -776,3 +776,4 @@ function splash(c: Cup, x: number, y: number, col: string, n: number, s: number)
 }
 
 /** Advance one cup. Returns true while anything is still moving. */
+function stepCup(c: Cup, dt: number, t: number, spills: Particle[]): boolean {
