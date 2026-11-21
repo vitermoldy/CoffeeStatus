@@ -1614,3 +1614,4 @@ const CupView = React.memo(function CupView({
                 <path key={i} data-k="tendril" strokeWidth={6 - i} />
               ))}
             </g>
+          )}
