@@ -21,3 +21,4 @@ Di Windows, jalankan dari `C:\MyRepo\CoffeeStatus` (huruf C besar).
 
 ## Menu
 
+| Tab | Minuman | Gelas | Resep |
