@@ -1979,3 +1979,4 @@ export function CoffeePourMenu({
         c.mode = "fadeOut";
         continue;
       }
+      // swap the pivot to the centre of mass without a visual jump
