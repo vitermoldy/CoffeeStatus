@@ -1964,3 +1964,4 @@ export function CoffeePourMenu({
       loop();
       return;
     }
+    shown.current = selected.id;
