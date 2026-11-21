@@ -583,3 +583,4 @@ function makeCup(key: number, item: CoffeeItem): Cup {
   return {
     key,
     item,
+    geo,
