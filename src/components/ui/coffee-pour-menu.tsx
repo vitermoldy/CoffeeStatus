@@ -1891,3 +1891,4 @@ export function CoffeePourMenu({
   const sim = React.useRef(new Map<number, Cup>());
   const spills = React.useRef<Particle[]>([]);
   const spillEls = React.useRef<SVGGElement>(null);
+  const raf = React.useRef(0);
