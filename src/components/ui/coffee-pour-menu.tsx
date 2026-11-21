@@ -1054,3 +1054,4 @@ function renderCup(c: Cup, t: number) {
   e.shadow.setAttribute("transform", `translate(${f1(c.x)} ${FLOOR})`);
   e.shadow.setAttribute("opacity", sh.toFixed(3));
 
+  const foamH = foamOf(it) * easeOut(c.foam);
