@@ -831,3 +831,4 @@ function stepCup(c: Cup, dt: number, t: number, spills: Particle[]): boolean {
           vy: c.vy + c.va * rx - 60 - Math.random() * 80,
           r: 1.2 + Math.random() * 2.2,
           col: css(col),
+          drop: true,
