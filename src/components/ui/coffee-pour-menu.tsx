@@ -300,3 +300,4 @@ const mixRGB = (a: RGB, b: RGB, t: number): RGB => [
 ];
 function ramp(stops: [number, RGB][], t: number): RGB {
   if (t <= stops[0][0]) return stops[0][1];
+  for (let i = 1; i < stops.length; i++) {
