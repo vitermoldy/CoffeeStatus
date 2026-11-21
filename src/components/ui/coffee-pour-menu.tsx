@@ -264,3 +264,5 @@ const lerp = (a: number, b: number, t: number) => a + (b - a) * t;
 const mid = (p: Profile) => (p.top + p.bot) / 2;
 /** Wall radius at t (0 top, 1 bottom). */
 const wallR = (p: Profile, t: number) =>
+  (1 - t) * (1 - t) * p.r + 2 * t * (1 - t) * p.c + t * t * p.rb;
+
