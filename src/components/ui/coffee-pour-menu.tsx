@@ -312,3 +312,4 @@ function ramp(stops: [number, RGB][], t: number): RGB {
 const MILK: RGB = [248, 242, 232];
 const COFFEE_RAMP: [number, RGB][] = [
   [0, [236, 230, 218]],
+  [0.3, [172, 104, 50]],
