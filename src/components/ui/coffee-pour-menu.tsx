@@ -2244,3 +2244,4 @@ export function CoffeePourMenu({
             <CupView key={c.key} cup={c} id={id} register={register} />
           ))}
           <g ref={spillEls}>
+            {Array.from({ length: SPILLS }, (_, i) => (
