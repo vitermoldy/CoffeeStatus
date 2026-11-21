@@ -239,3 +239,4 @@ const GEO: Record<CoffeeVessel, Geo> = {
     inner: { top: -136, r: 54, bot: -20, rb: 44, c: 49.5 },
     glass: true,
     height: 138,
+    shadowR: 60,
