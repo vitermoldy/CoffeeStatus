@@ -53,3 +53,4 @@ export const MENU: CoffeeCategory[] = [
       },
       {
         id: "mango-lassi",
+        name: "Mango Lassi",
