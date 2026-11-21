@@ -1929,3 +1929,4 @@ export function CoffeePourMenu({
         if (q.y > H + 20) sp.splice(i, 1);
       }
       const nodes = spillEls.current?.children;
+      if (nodes) {
