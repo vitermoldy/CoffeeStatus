@@ -2191,3 +2191,4 @@ export function CoffeePourMenu({
 
       {showRecipe && selected && (
         <section
+          ref={recipeEl}
