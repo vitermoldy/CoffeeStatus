@@ -833,3 +833,4 @@ function stepCup(c: Cup, dt: number, t: number, spills: Particle[]): boolean {
           col: css(col),
           drop: true,
         });
+        c.level = Math.max(0.05, c.level - 0.004);
