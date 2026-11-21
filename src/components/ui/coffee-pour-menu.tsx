@@ -1038,3 +1038,5 @@ function streamPath(p: Pour, yBot: number, t: number) {
   const d = `M${L.join("L")}${cap}L${R.slice(1).join("L")}Z`;
   const hwB = (p.w / 2) * 0.55;
   return [d, `${hiTop}L${f1(p.x - hwB * 0.35)} ${f1(yBot - 2)}`];
+}
+
