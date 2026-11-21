@@ -90,3 +90,4 @@ export const MENU: CoffeeCategory[] = [
       {
         id: "matcha-latte",
         name: "Matcha Latte",
+        subtitle: "240 ml, lembut",
