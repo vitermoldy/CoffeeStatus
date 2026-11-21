@@ -1185,3 +1185,4 @@ function renderCup(c: Cup, t: number) {
       e.tendrils[k].setAttribute("d", "");
       continue;
     }
+    const grow = easeOut(td.age / 0.7);
