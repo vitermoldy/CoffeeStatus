@@ -1441,3 +1441,4 @@ function GlassHandle({ d, w, mask }: { d: string; w: number; mask: string }) {
       <mask id={mask} maskUnits="userSpaceOnUse" x={-200} y={-300} width={400} height={400}>
         <path d={d} fill="none" stroke="white" strokeWidth={w} strokeLinecap="round" />
         <path d={d} fill="none" stroke="black" strokeWidth={w - 2.8} strokeLinecap="round" />
+      </mask>
