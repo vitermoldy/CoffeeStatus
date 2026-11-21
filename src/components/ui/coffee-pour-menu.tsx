@@ -1121,3 +1121,4 @@ function renderCup(c: Cup, t: number) {
     for (let i = K / 2; i <= K; i++) {
       const u = COS[i];
       front += `L${f1(rL * u)} ${f1(yL + rL * P * SIN[i] + wave(c, u, t))}`;
+    }
