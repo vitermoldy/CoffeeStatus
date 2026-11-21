@@ -398,3 +398,4 @@ const pick = <T,>(f: (d: LiquidDef) => T) =>
   Object.fromEntries(LIQ.map((k) => [k, f(LIQUIDS[k])])) as Record<CoffeeLiquid, T>;
 const STREAM = pick((d) => d.stream);
 const SWIRL = pick((d) => d.swirl);
+const PEN = pick((d) => d.pen);
