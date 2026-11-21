@@ -1005,3 +1005,5 @@ function stepCup(c: Cup, dt: number, t: number, spills: Particle[]): boolean {
     c.art += c.artV * dt;
     if (Math.abs(c.art - 1) + Math.abs(c.artV) * 0.05 > 0.002) busy = true;
     else c.art = 1;
+  }
+
