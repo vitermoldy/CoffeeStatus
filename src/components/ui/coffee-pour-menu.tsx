@@ -1759,3 +1759,4 @@ function Defs({ id }: { id: (s: string) => string }) {
       {blur("blur05", 0.5)}
       {blur("blur1", 1)}
       {blur("blur2", 2)}
+      {blur("blur3", 3.2)}
