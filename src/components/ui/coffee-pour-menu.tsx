@@ -1474,3 +1474,4 @@ const ICE: [number, number, number, number][] = [
 /** Muddled solids: position across (u) and into (v) the glass, size factor, angle, 1 if it floats up. */
 type Solid = [number, number, number, number, number];
 const MINT: Solid[] = [
+  [-0.5, 0.2, 1, -30, 0],
