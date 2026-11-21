@@ -97,3 +97,4 @@ export interface CoffeePourMenuProps {
   defaultValue?: string;
   /** Selected id (controlled). */
   value?: string;
+  /** Called when the user picks a drink. */
