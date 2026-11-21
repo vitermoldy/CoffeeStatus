@@ -22,3 +22,4 @@ export const MENU: CoffeeCategory[] = [
         foamColor: "#f9c98a",
         ice: 3,
       },
+      {
