@@ -1433,3 +1433,5 @@ function VesselFront({ g, id }: { g: Geo; id: (s: string) => string }) {
       )}
     </g>
   );
+}
+
