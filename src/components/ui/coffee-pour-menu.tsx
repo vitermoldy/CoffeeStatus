@@ -2046,3 +2046,5 @@ export function CoffeePourMenu({
   // each tab remembers the drink last picked in it
   React.useEffect(() => {
     if (group && selected) lastPick.current[group.id] = selected.id;
+  }, [group, selected]);
+
