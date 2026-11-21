@@ -1804,3 +1804,4 @@ function Defs({ id }: { id: (s: string) => string }) {
         </clipPath>
       ))}
     </defs>
+  );
