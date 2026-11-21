@@ -578,3 +578,4 @@ type Cup = {
 };
 
 function makeCup(key: number, item: CoffeeItem): Cup {
+  const geo = GEO[item.vessel] ?? GEO.cup;
