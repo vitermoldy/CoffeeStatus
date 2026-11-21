@@ -105,3 +105,4 @@ resep langsung selesai.
   dan irisan jeruk nipis, dan dua gelas baru (`tumbler`, `jar`).
 - Komponen menempel ke atas, bukan di tengah. Tinggi kartu resep berbeda antar minuman, dan kalau
   di tengah, daftar minuman akan bergeser di bawah kursor saat hover memilih minuman lain.
+- Teks dalam bahasa Indonesia, subjudul memakai koma (`30 ml, pekat`), bukan titik tengah.
