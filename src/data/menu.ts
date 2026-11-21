@@ -65,3 +65,4 @@ export const MENU: CoffeeCategory[] = [
         ],
         foam: 0.04,
         foamColor: "#fde2a8",
+      },
