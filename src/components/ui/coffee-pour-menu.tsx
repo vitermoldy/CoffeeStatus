@@ -884,3 +884,4 @@ function stepCup(c: Cup, dt: number, t: number, spills: Particle[]): boolean {
       p.headV += G_STREAM * dt;
       p.head += p.headV * dt;
       if (p.head >= surfY) {
+        p.phase = "flow";
