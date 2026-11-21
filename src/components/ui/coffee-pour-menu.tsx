@@ -2063,3 +2063,4 @@ export function CoffeePourMenu({
     if (n < 0) return;
     e.preventDefault();
     openGroup(groups[n]);
+    tabs.current[n]?.focus();
