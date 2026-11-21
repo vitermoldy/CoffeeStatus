@@ -629,3 +629,4 @@ const levelR = (g: Geo, f: number) => wallR(g.inner, 1 - f);
 const easeOut = (t: number) => 1 - Math.pow(1 - clamp(t, 0, 1), 3);
 
 /** Add dv of a liquid on top, entraining some of it into the liquid below. */
+function deposit(c: Cup, type: CoffeeLiquid, dv: number) {
