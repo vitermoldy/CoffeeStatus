@@ -278,3 +278,4 @@ function bodyPath(p: Profile) {
 }
 /** Band between two concentric front arcs (rim lip, saucer edge, glass base). */
 function frontBand(r1: number, y1: number, r2: number, y2: number) {
+  return `M${-r1} ${y1}A${r1} ${f1(r1 * P)} 0 0 0 ${r1} ${y1}L${r2} ${y2}A${r2} ${f1(r2 * P)} 0 0 1 ${-r2} ${y2}Z`;
