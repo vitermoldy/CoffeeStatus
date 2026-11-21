@@ -127,3 +127,4 @@ export const DEFAULT_COFFEE_ITEMS: CoffeeItem[] = [
     blend: 0.9,
   },
   {
+    id: "cappuccino",
