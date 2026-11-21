@@ -1035,3 +1035,4 @@ function streamPath(p: Pour, yBot: number, t: number) {
     if (i === 1) hiTop = `M${f1(p.x - hw * 0.35 + wob)} ${f1(y)}`;
   }
   const cap = p.phase === "fall" ? `A1 1 0 0 0 ${R[0]}` : `L${R[0]}`;
+  const d = `M${L.join("L")}${cap}L${R.slice(1).join("L")}Z`;
