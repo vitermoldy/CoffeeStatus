@@ -2087,3 +2087,4 @@ export function CoffeePourMenu({
       {groups && (
         <div
           role="tablist"
+          aria-label={TEXT.tabs}
