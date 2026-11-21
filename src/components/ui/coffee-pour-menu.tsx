@@ -1869,3 +1869,4 @@ export function CoffeePourMenu({
   items = DEFAULT_COFFEE_ITEMS,
   categories,
   defaultValue,
+  value,
