@@ -1904,3 +1904,4 @@ export function CoffeePourMenu({
     if (raf.current) return;
     let last = performance.now();
     const tick = (now: number) => {
+      const dt = Math.min(1 / 30, (now - last) / 1000);
