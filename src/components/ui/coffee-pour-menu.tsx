@@ -44,3 +44,4 @@ export interface CoffeeItem {
   /** Unique id, used for selection. */
   id: string;
   /** Display name, e.g. "Cappuccino". */
+  name: string;
