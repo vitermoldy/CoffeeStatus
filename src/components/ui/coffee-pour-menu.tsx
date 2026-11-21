@@ -2001,3 +2001,4 @@ export function CoffeePourMenu({
     if (reduce) {
       cup.mode = "fadeIn";
       cup.opacity = 0;
+      cup.x = CX;
