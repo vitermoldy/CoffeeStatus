@@ -921,3 +921,4 @@ function stepCup(c: Cup, dt: number, t: number, spills: Particle[]): boolean {
       p.tail += p.tailV * dt;
       if (p.tail >= surfY) {
         p.phase = "drips";
+        p.timer = 0;
