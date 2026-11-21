@@ -724,3 +724,4 @@ function fillInstantly(c: Cup) {
   c.crema = 1;
   c.foam = 1;
   c.art = 1;
+  c.progress.fill(1);
