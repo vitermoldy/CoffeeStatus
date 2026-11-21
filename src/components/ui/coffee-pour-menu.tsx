@@ -891,3 +891,4 @@ function stepCup(c: Cup, dt: number, t: number, spills: Particle[]): boolean {
         if (c.level > 0.02 && top < 0.85) c.swirlCol = SWIRL[p.type];
       }
     }
+    if (p.phase === "flow" || p.phase === "tail") {
