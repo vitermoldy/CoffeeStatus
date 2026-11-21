@@ -847,3 +847,4 @@ function stepCup(c: Cup, dt: number, t: number, spills: Particle[]): boolean {
 
   /* recipe: start pours once the cup has (nearly) arrived */
   const arrived = c.mode === "rest" || (c.mode === "enter" && Math.abs(c.x - CX) < 16);
+  if (arrived && c.next < c.layers.length) {
