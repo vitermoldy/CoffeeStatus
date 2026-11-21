@@ -335,3 +335,4 @@ function shade(e: number, w: number, m: number): [RGB, number] {
   if (m > 0.001) {
     const st: [number, RGB][] = [[0, rgb], ...MILK_RAMP.map(([p, col]) => [p, mixRGB(MILK, col, c)] as [number, RGB])];
     rgb = ramp(st, m);
+  }
