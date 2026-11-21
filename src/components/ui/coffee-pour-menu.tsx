@@ -112,3 +112,4 @@ export const DEFAULT_COFFEE_ITEMS: CoffeeItem[] = [
     vessel: "demitasse",
     layers: [{ type: "espresso", amount: 0.72, ml: 30 }],
     crema: true,
+  },
