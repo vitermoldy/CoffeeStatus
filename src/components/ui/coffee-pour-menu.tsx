@@ -1385,3 +1385,4 @@ function VesselFront({ g, id }: { g: Geo; id: (s: string) => string }) {
         {/* thick base: refracts the liquid above it */}
         <path data-k="base" d={frontBand(i.rb, i.bot, o.rb, o.bot)} fill="transparent" />
         <path d={frontBand(i.rb, i.bot, o.rb, o.bot)} fill={`url(#${id("glassBase")})`} />
+        <path d={`M${-i.rb} ${i.bot}A${i.rb} ${f1(i.rb * P)} 0 0 0 ${i.rb} ${i.bot}`} fill="none" stroke="rgba(255,255,255,0.75)" strokeWidth={1} />
