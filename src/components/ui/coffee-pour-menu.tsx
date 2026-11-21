@@ -339,3 +339,4 @@ function shade(e: number, w: number, m: number): [RGB, number] {
   return [rgb, 1 - (1 - aC) * (1 - Math.min(1, m * 3))];
 }
 const css = (c: RGB) => `rgb(${c[0] | 0},${c[1] | 0},${c[2] | 0})`;
+const hexRGB = (h: string): RGB => {
