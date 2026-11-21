@@ -1993,3 +1993,4 @@ export function CoffeePourMenu({
       falling++;
     }
     // cap leftover falling cups
+    const fallers = [...sim.current.values()].filter((c) => c.mode === "fall");
