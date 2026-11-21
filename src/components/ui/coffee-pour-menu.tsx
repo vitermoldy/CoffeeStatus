@@ -95,3 +95,4 @@ export interface CoffeePourMenuProps {
   showRecipe?: boolean;
   /** Initially selected id (uncontrolled). Defaults to the first item. */
   defaultValue?: string;
+  /** Selected id (controlled). */
