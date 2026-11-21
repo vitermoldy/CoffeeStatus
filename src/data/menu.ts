@@ -52,3 +52,4 @@ export const MENU: CoffeeCategory[] = [
         foamColor: "#f6c3c8",
       },
       {
+        id: "mango-lassi",
