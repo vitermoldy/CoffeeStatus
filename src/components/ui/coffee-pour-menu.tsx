@@ -1790,3 +1790,4 @@ function Defs({ id }: { id: (s: string) => string }) {
       {rad("artBase", [[0, "#b87d4c"], [0.55, "#a66b3d"], [0.74, "#8d552c"], [0.83, "#c39467"], [0.88, "#f1e5d3"], [1, "#f7efe3"]])}
       {rad("heart", [[0, "#fffdf9"], [0.7, "#f8f0e4"], [1, "#e8d6bb"]])}
       <linearGradient id={id("foamBand")} x1={0} y1={1} x2={0} y2={0}>
+        <stop offset={0} stopColor="#dcc19e" />
