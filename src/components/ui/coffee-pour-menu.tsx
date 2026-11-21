@@ -1259,3 +1259,4 @@ function renderCup(c: Cup, t: number) {
     if (!q) {
       el.setAttribute("r", "0");
       continue;
+    }
