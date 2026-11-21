@@ -2235,3 +2235,4 @@ export function CoffeePourMenu({
           </linearGradient>
           <radialGradient id={id("pool")}>
             <stop offset={0} stopColor="rgb(255,248,236)" stopOpacity={0.45} />
+            <stop offset={1} stopColor="rgb(255,248,236)" stopOpacity={0} />
