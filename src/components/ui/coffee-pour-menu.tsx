@@ -1289,3 +1289,4 @@ function cacheEls(root: SVGGElement): Els {
     swirl: (all("swirl") as SVGPathElement[]),
     tendrils: (all("tendril") as SVGPathElement[]),
     ripples: (all("ripple") as SVGEllipseElement[]),
+    streams: [0, 1].map((i) => ({
