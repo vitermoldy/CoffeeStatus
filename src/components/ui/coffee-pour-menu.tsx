@@ -1272,3 +1272,4 @@ function cacheEls(root: SVGGElement): Els {
   const all = <T extends Element>(k: string) => Array.from(root.querySelectorAll(`[data-k="${k}"]`)) as T[];
   return {
     root,
+    shadow: (q("shadow") as SVGGElement),
