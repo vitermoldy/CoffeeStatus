@@ -1676,3 +1676,4 @@ const CupView = React.memo(function CupView({
               <g key={`l${i}`} data-k="lime" opacity={0.92}>
                 <LimeSlice />
               </g>
+            ))}
