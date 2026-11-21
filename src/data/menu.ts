@@ -5,3 +5,4 @@ export const MENU: CoffeeCategory[] = [
   { id: "kopi", label: "Kopi", items: DEFAULT_COFFEE_ITEMS },
   {
     id: "jus",
+    label: "Jus",
