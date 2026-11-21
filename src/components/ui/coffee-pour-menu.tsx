@@ -2105,3 +2105,4 @@ export function CoffeePourMenu({
                 role="tab"
                 aria-selected={on}
                 aria-controls={`${uid}-list`}
+                tabIndex={on ? 0 : -1}
