@@ -103,3 +103,4 @@ resep langsung selesai.
   buatan Aakash Mehra, campuran lain memakai warna rata-rata berbobot dan kepekatan per bahan.
 - Tab kategori, kartu resep dengan hitungan ml, es batu, gelembung soda, busa berwarna, daun mint
   dan irisan jeruk nipis, dan dua gelas baru (`tumbler`, `jar`).
+- Komponen menempel ke atas, bukan di tengah. Tinggi kartu resep berbeda antar minuman, dan kalau
