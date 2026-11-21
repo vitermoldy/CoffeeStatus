@@ -1911,3 +1911,4 @@ export function CoffeePourMenu({
       let removed = false;
       for (const c of sim.current.values()) {
         busy = stepCup(c, dt, t, spills.current) || busy;
+        const gone =
