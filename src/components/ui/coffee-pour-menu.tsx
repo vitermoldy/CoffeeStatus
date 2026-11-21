@@ -1883,3 +1883,4 @@ export function CoffeePourMenu({
   const group = groups?.[groupIndex];
   const list = group ? group.items : all;
   const layers = React.useMemo(() => (selected ? resolveLayers(selected) : []), [selected]);
+  const reduce = useReducedMotion() ?? false;
