@@ -663,3 +663,4 @@ function stir(c: Cup, k: number) {
   let tot = 0;
   const m = MEAN.fill(0);
   for (let i = 0; i < N; i++) {
+    const f = clamp(c.level * N - i, 0, 1);
