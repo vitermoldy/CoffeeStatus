@@ -78,3 +78,4 @@ Stack: Vite 8, React 19, TypeScript, Tailwind CSS 4, `motion` untuk animasi pil 
 - `layers` dituang berurutan. `ml` tampil di kartu resep, `label` mengganti nama bahan di kartu.
   Tanpa `amount`, tinggi tiap lapisan dihitung dari `fill` dan perbandingan ml.
 - Cairan yang tersedia: `espresso`, `water`, `milk`, `orange`, `carrot`, `avocado`, `sugar`,
+  `chocolate`, `strawberry`, `banana`, `yogurt`, `mango`, `tea`, `condensed`, `matcha`, `lemon`,
