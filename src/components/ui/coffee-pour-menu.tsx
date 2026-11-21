@@ -660,3 +660,4 @@ const MEAN = new Float64Array(NL);
 /** Stirring: relax every filled cell toward the column's mean. */
 function stir(c: Cup, k: number) {
   const cells = c.cells;
+  let tot = 0;
