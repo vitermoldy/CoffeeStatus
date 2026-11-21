@@ -1235,3 +1235,4 @@ function renderCup(c: Cup, t: number) {
   }
 
   // streams
+  for (let k = 0; k < 2; k++) {
