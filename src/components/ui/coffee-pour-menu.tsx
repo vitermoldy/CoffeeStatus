@@ -1642,3 +1642,4 @@ const CupView = React.memo(function CupView({
               {!!it.foam && it.art !== "heart" && (
                 <g data-k="foamtop" opacity={0}>
                   <circle r={1.1} fill={`url(#${frothStops ? id(`ft${k}`) : id("foamTop")})`} />
+                  {BUBBLES.map(([x, y, r], j) => (
