@@ -1022,3 +1022,4 @@ function streamPath(p: Pour, yBot: number, t: number) {
   const yTop = p.phase === "tail" ? p.tail : SRC;
   if (p.phase === "lead" || p.phase === "drips" || p.phase === "done" || yBot - yTop < 1) return ["", ""];
   const L: string[] = [];
+  const R: string[] = [];
