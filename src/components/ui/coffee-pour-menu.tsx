@@ -2043,3 +2043,4 @@ export function CoffeePourMenu({
     btns.current[n]?.focus();
   };
 
+  // each tab remembers the drink last picked in it
