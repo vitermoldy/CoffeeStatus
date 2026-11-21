@@ -93,3 +93,4 @@ export const MENU: CoffeeCategory[] = [
         subtitle: "240 ml, lembut",
         description: "susu dingin dengan matcha dituang perlahan di atasnya",
         vessel: "tumbler",
+        fill: 0.8,
