@@ -1125,3 +1125,5 @@ function renderCup(c: Cup, t: number) {
     e.foam.setAttribute("d", `${back}${front}Z`);
   } else {
     e.foam.setAttribute("d", "");
+  }
+
