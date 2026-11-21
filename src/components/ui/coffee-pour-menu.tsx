@@ -1815,3 +1815,4 @@ const TEXT = {
   menu: "Menu minuman",
   tabs: "Jenis minuman",
   recipe: "Resep",
+  waiting: "Menyiapkan gelas",
