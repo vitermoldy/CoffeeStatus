@@ -1351,3 +1351,4 @@ function VesselBack({ g, id }: { g: Geo; id: (s: string) => string }) {
       </g>
     );
   }
+  const gl = GLAZE[g.glaze ?? "cream"];
