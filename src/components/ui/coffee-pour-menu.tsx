@@ -456,3 +456,4 @@ function swatch(type: CoffeeLiquid) {
 /*                                  Physics                                   */
 /* -------------------------------------------------------------------------- */
 
+const G_STREAM = 3000;
