@@ -42,3 +42,4 @@ export interface CoffeeLayer {
 
 export interface CoffeeItem {
   /** Unique id, used for selection. */
+  id: string;
