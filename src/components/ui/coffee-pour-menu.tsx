@@ -1190,3 +1190,4 @@ function renderCup(c: Cup, t: number) {
     let d = "";
     for (let i = 0; i <= 10; i++) {
       const s = i / 10;
+      const x = td.x + td.dir * s * s * rS * 0.6 * grow + Math.sin(s * 5 + td.age * 3.5 + td.ph) * s * 8;
