@@ -1971,3 +1971,4 @@ export function CoffeePourMenu({
         falling++;
         continue;
       }
+      if (c.mode === "wait") {
