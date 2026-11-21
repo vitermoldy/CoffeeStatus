@@ -181,3 +181,4 @@ type Geo = {
   rings?: number[];
   height: number;
   shadowR: number;
+  streamX: number;
