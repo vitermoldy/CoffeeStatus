@@ -1820,3 +1820,5 @@ const TEXT = {
   ready: "Siap disajikan",
 };
 
+const lowerFirst = (s: string) => s.charAt(0).toLowerCase() + s.slice(1);
+
