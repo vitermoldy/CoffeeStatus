@@ -1265,3 +1265,5 @@ function renderCup(c: Cup, t: number) {
     el.setAttribute("r", q.r.toFixed(2));
     el.setAttribute("fill", q.col);
   }
+}
+
