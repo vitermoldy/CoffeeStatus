@@ -332,3 +332,4 @@ function shade(e: number, w: number, m: number): [RGB, number] {
   const c = e + w > 1e-4 ? 1 - Math.pow(1 - e / (e + w), 2) : 1;
   let rgb = ramp(COFFEE_RAMP, c);
   const aC = c < 0.35 ? lerp(0.18, 0.88, c / 0.35) : lerp(0.88, 1, Math.min(1, (c - 0.35) / 0.35));
+  if (m > 0.001) {
