@@ -4,3 +4,4 @@
    so the page keeps that light on dark-mode systems too. */
 @custom-variant dark (&:where(.dark, .dark *));
 
+@theme {
