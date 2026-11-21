@@ -105,3 +105,4 @@ export const MENU: CoffeeCategory[] = [
         id: "teh-lemon-madu",
         name: "Teh Lemon Madu",
         subtitle: "250 ml, hangat",
+        description: "teh panas dengan perasan lemon dan madu, diaduk rata",
