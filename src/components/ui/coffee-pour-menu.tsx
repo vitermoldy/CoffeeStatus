@@ -826,3 +826,4 @@ function stepCup(c: Cup, dt: number, t: number, spills: Particle[]): boolean {
         const [col] = shadeAt(c.cells, topCell(c));
         spills.push({
           x: c.x + rx,
+          y: c.y - c.pivot + ry,
