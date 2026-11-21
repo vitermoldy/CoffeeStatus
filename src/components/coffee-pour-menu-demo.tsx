@@ -3,3 +3,4 @@ import { MENU } from "@/data/menu";
 
 export default function CoffeePourMenuDemo() {
   return (
+    <div className="flex w-full flex-col items-center bg-[#e4cdb0] p-2 sm:p-6">
