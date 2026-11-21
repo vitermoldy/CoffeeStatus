@@ -1323,3 +1323,4 @@ function Saucer({ g, id }: { g: Geo; id: (s: string) => string }) {
       <path d={frontBand(r * 0.985, y + 7, r * 0.6, y + 11)} fill="rgba(70,45,25,0.18)" />
       <ellipse cx={0} cy={y} rx={r} ry={r * P} fill={`url(#${id(gl.saucer)})`} />
       <ellipse cx={0} cy={y - 0.6} rx={r * 0.985} ry={r * P * 0.985} fill="none" stroke="rgba(255,255,255,0.9)" strokeWidth={1} />
+      {g.glaze === "cream" && (
