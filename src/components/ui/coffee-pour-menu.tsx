@@ -1598,3 +1598,4 @@ const CupView = React.memo(function CupView({
             <stop data-k={`sstop${s}`} offset={1} stopColor="#3a1e0e" />
           </linearGradient>
         ))}
+        <clipPath id={sclip}>
