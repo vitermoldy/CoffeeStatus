@@ -87,3 +87,4 @@ export interface CoffeeCategory {
 }
 
 export interface CoffeePourMenuProps {
+  /** Drinks to show. Defaults to Espresso, Americano, Cappuccino and Latte. */
