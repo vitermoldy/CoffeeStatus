@@ -1706,3 +1706,4 @@ const CupView = React.memo(function CupView({
           ))}
         </g>
         {mintCount > 0 && (
+          // drawn behind the front wall, unclipped, so the top pokes out over the rim
