@@ -1384,3 +1384,4 @@ function VesselFront({ g, id }: { g: Geo; id: (s: string) => string }) {
         <path d={`${silhouette(o)}${silhouette(i)}`} fillRule="evenodd" fill={`url(#${id("glassWall")})`} />
         {/* thick base: refracts the liquid above it */}
         <path data-k="base" d={frontBand(i.rb, i.bot, o.rb, o.bot)} fill="transparent" />
+        <path d={frontBand(i.rb, i.bot, o.rb, o.bot)} fill={`url(#${id("glassBase")})`} />
