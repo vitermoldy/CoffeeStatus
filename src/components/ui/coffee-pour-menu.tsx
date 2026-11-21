@@ -1140,3 +1140,4 @@ function renderCup(c: Cup, t: number) {
     e.depth?.setAttribute("opacity", (ta * 0.9).toFixed(3));
     if (e.base) {
       const [b, ba] = shadeAt(c.cells, 0);
+      e.base.setAttribute("fill", css(b));
