@@ -2059,3 +2059,4 @@ export function CoffeePourMenu({
     if (e.key === "ArrowRight") n = (groupIndex + 1) % groups.length;
     else if (e.key === "ArrowLeft") n = (groupIndex - 1 + groups.length) % groups.length;
     else if (e.key === "Home") n = 0;
+    else if (e.key === "End") n = groups.length - 1;
