@@ -547,3 +547,4 @@ type Cup = {
   opacity: number;
   fallT: number;
   level: number;
+  /** N cells bottom to top, each holding the share of every liquid (NL values). */
