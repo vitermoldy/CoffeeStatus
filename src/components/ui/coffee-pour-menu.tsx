@@ -526,3 +526,4 @@ type Els = {
   parts: SVGCircleElement[];
   ice: SVGGElement[];
   bubbles: SVGCircleElement[];
+  mint: SVGGElement[];
