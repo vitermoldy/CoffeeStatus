@@ -1260,3 +1260,4 @@ function renderCup(c: Cup, t: number) {
       el.setAttribute("r", "0");
       continue;
     }
+    el.setAttribute("cx", f1(q.x).toString());
