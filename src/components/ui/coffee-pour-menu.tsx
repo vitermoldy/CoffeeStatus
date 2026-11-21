@@ -2096,3 +2096,4 @@ export function CoffeePourMenu({
             const on = i === groupIndex;
             return (
               <button
+                key={g.id}
