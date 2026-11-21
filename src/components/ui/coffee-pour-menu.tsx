@@ -553,3 +553,4 @@ type Cup = {
   /** Poured fraction of each layer, 0 to 1. */
   progress: Float32Array;
   fizzT: number;
+  /** Mint sprig on top, 0 hidden to 1 grown. */
