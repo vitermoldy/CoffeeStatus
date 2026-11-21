@@ -1768,3 +1768,4 @@ function Defs({ id }: { id: (s: string) => string }) {
       {lin("edgeTerra", [[0, "#7a3e22"], [0.3, "#b8693e"], [0.55, "#a65d35"], [1, "#743b20"]])}
       {(["aoCream", "aoTerra"] as const).map((n) => (
         <linearGradient key={n} id={id(n)} x1={0} y1={0} x2={0} y2={1}>
+          <stop offset={0} stopColor={n === "aoCream" ? "rgb(96,64,38)" : "rgb(70,30,12)"} stopOpacity={0} />
