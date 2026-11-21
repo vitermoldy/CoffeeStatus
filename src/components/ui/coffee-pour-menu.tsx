@@ -1874,3 +1874,4 @@ export function CoffeePourMenu({
   showRecipe = true,
   className,
 }: CoffeePourMenuProps) {
+  const groups = categories?.length ? categories : null;
