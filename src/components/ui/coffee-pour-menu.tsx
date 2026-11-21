@@ -383,3 +383,4 @@ const LIQUIDS = {
   matcha: { label: "Matcha", color: [108, 148, 48], opacity: 0.95, tint: 2, stream: { fill: "rgb(100,140,42)", a: 1, hi: 0.6, w: 1.5 }, swirl: "rgb(150,186,90)", pen: 0.12, jet: 0.5 },
   lemon: { label: "Air lemon", color: [246, 232, 120], opacity: 0.4, tint: 0.6, stream: { fill: "rgb(240,224,100)", a: 0.8, hi: 1, w: 1.1 }, swirl: "rgb(250,242,170)", pen: 0.15, jet: 0.6 },
   honey: { label: "Madu", color: [226, 150, 36], opacity: 0.75, tint: 1.2, stream: { fill: "rgb(222,144,30)", a: 0.95, hi: 0.9, w: 0.9 }, swirl: "rgb(240,190,90)", pen: 0.08, jet: 0.4 },
+  syrup: { label: "Sirup merah", color: [204, 28, 58], opacity: 0.92, tint: 2.6, stream: { fill: "rgb(196,22,52)", a: 0.95, hi: 0.7, w: 1.1 }, swirl: "rgb(228,90,110)", pen: 0.08, jet: 0.4 },
