@@ -2104,3 +2104,4 @@ export function CoffeePourMenu({
                 type="button"
                 role="tab"
                 aria-selected={on}
+                aria-controls={`${uid}-list`}
