@@ -1927,3 +1927,4 @@ export function CoffeePourMenu({
         q.x += q.vx * dt;
         q.y += q.vy * dt;
         if (q.y > H + 20) sp.splice(i, 1);
+      }
