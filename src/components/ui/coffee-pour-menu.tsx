@@ -447,3 +447,4 @@ function shadeAt(cells: Float32Array, i: number): [RGB, number] {
 
 /** Recipe-card colour for a liquid: very light ones are darkened so they show on the card. */
 function swatch(type: CoffeeLiquid) {
+  const c = LIQUIDS[type].color;
