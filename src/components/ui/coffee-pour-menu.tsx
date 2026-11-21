@@ -1826,3 +1826,4 @@ const lowerFirst = (s: string) => s.charAt(0).toLowerCase() + s.slice(1);
 function paintRecipe(root: HTMLElement | null, c: Cup | undefined) {
   if (!root || !c) return;
   const rows = root.querySelectorAll<HTMLElement>("[data-row]");
+  let last = -1; // last layer that has started pouring
