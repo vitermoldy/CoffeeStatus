@@ -1454,3 +1454,4 @@ function Shadow({ g, id }: { g: Geo; id: (s: string) => string }) {
   const r = g.shadowR;
   return (
     <g data-k="shadow">
+      <ellipse cx={10} cy={4} rx={r * 1.25} ry={r * P * 1.3} fill={`url(#${id("shadow")})`} opacity={g.glass ? 0.55 : 0.8} />
