@@ -81,3 +81,4 @@ export interface CoffeeGarnish {
 
 export interface CoffeeCategory {
   id: string;
+  /** Tab label. */
