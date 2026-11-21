@@ -2141,3 +2141,4 @@ export function CoffeePourMenu({
                 ref={(el) => {
                   btns.current[i] = el;
                 }}
+                type="button"
