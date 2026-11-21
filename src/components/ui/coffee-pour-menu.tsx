@@ -1531,3 +1531,4 @@ function LimeSlice() {
 
 /** "6 lembar daun mint, 2 iris jeruk nipis dan es batu", or "" when there is nothing besides liquids. */
 function extrasText(item: CoffeeItem) {
+  const parts = (item.garnish ?? [])
