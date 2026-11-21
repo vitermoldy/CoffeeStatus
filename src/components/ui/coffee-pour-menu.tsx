@@ -1127,3 +1127,4 @@ function renderCup(c: Cup, t: number) {
     e.foam.setAttribute("d", "");
   }
 
+  if (c.dirty) {
