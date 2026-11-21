@@ -53,3 +53,4 @@ export interface CoffeeItem {
   vessel: CoffeeVessel;
   /** Pours in order. A milk pour after espresso overlaps it slightly. */
   layers: CoffeeLayer[];
+  /** Fill height (0 to 1) shared out by `ml` among layers that have no `amount`. Default 0.8. */
