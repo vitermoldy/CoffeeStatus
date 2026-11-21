@@ -2177,3 +2177,4 @@ export function CoffeePourMenu({
                           "mt-0.5 truncate text-[11.5px] tracking-tight transition-colors duration-300 sm:mt-1 sm:text-[13px]",
                           active ? "text-[#8a5226]" : "text-[#6b4a35]",
                         )}
+                      >
