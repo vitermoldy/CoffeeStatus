@@ -1184,3 +1184,4 @@ function renderCup(c: Cup, t: number) {
     if (!td) {
       e.tendrils[k].setAttribute("d", "");
       continue;
+    }
