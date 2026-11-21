@@ -1389,3 +1389,4 @@ function VesselFront({ g, id }: { g: Geo; id: (s: string) => string }) {
         <path d={`M${-o.rb + 1} ${o.bot - 1}A${o.rb - 1} ${f1((o.rb - 1) * P)} 0 0 0 ${o.rb - 1} ${o.bot - 1}`} fill="none" stroke="rgba(255,255,255,0.7)" strokeWidth={1.2} />
         <path d={`M${-o.rb} ${o.bot}A${o.rb} ${f1(o.rb * P)} 0 0 0 ${o.rb} ${o.bot}`} fill="none" stroke="rgba(80,50,28,0.4)" strokeWidth={0.9} />
         <path d={bodyPath(o)} fill={`url(#${id("glassFace")})`} />
+        {/* highlights */}
