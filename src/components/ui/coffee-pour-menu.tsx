@@ -117,3 +117,4 @@ export const DEFAULT_COFFEE_ITEMS: CoffeeItem[] = [
     id: "americano",
     name: "Americano",
     subtitle: "240 ml, ringan",
+    description: "espresso dituang di atas air panas",
