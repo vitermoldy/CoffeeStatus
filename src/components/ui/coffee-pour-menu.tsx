@@ -1775,3 +1775,4 @@ function Defs({ id }: { id: (s: string) => string }) {
       ))}
       {rad("innerCream", [[0, "#fffdf9"], [0.55, "#f1e9dd"], [0.85, "#dccfbd"], [1, "#c9b9a2"]], 0.42, 0.18, 0.75)}
       {rad("saucerCream", [[0, "#fffefb"], [0.5, "#f6f0e7"], [0.8, "#e9e0d3"], [0.93, "#ddd1c0"], [1, "#efe7dc"]], 0.45, 0.4, 0.55)}
+      {rad("shadow", [[0, "rgba(70,40,18,0.48)"], [0.5, "rgba(70,40,18,0.18)"], [1, "rgba(70,40,18,0)"]])}
