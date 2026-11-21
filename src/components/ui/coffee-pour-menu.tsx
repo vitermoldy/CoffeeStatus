@@ -1209,3 +1209,4 @@ function renderCup(c: Cup, t: number) {
         continue;
       }
       const f = (t * (0.45 + ((k * 37) % 10) / 18) + k * 0.618) % 1;
+      const y = lerp(yb, yS + 2, f);
