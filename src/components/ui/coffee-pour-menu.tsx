@@ -2248,3 +2248,4 @@ export function CoffeePourMenu({
               <circle key={i} r={0} />
             ))}
           </g>
+        </svg>
