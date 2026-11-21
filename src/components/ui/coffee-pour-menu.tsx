@@ -1677,3 +1677,4 @@ const CupView = React.memo(function CupView({
                 <LimeSlice />
               </g>
             ))}
+            {Array.from({ length: mintCount }, (_, i) => (
