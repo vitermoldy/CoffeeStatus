@@ -2151,3 +2151,4 @@ export function CoffeePourMenu({
                 className="group relative rounded-2xl px-3.5 py-3 text-left outline-none transition-colors focus-visible:ring-2 focus-visible:ring-[#8a5226] sm:px-6 sm:py-4"
               >
                 {active && (
+                  <motion.span
