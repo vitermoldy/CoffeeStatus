@@ -102,3 +102,4 @@ resep langsung selesai.
 - Cairan tidak lagi terbatas pada espresso, air, dan susu. Campuran kopi tetap memakai warna asli
   buatan Aakash Mehra, campuran lain memakai warna rata-rata berbobot dan kepekatan per bahan.
 - Tab kategori, kartu resep dengan hitungan ml, es batu, gelembung soda, busa berwarna, daun mint
+  dan irisan jeruk nipis, dan dua gelas baru (`tumbler`, `jar`).
