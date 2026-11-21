@@ -750,3 +750,4 @@ function startPour(c: Cup, i: number) {
     tailV: V0,
     drips: l.type === "espresso" ? 2 : 1,
     lead: l.type === "espresso" ? 2 : 0,
+    rippleT: 0,
