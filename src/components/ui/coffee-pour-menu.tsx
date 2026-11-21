@@ -1822,3 +1822,4 @@ const TEXT = {
 
 const lowerFirst = (s: string) => s.charAt(0).toLowerCase() + s.slice(1);
 
+/** Writes the pour progress of cup c into the recipe card, touching the DOM only on change. */
