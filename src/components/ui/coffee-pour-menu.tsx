@@ -1286,3 +1286,4 @@ function cacheEls(root: SVGGElement): Els {
     art: (q("art") as SVGGElement | null),
     base: (q("base") as SVGPathElement | null),
     stops: (all("stop") as SVGStopElement[]),
+    swirl: (all("swirl") as SVGPathElement[]),
