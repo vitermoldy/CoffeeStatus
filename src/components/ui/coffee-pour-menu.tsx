@@ -1833,3 +1833,4 @@ function paintRecipe(root: HTMLElement | null, c: Cup | undefined) {
     const p = c.progress[i];
     const started = i < c.pours.length || p > 0;
     if (started) last = i;
+    if (p > 0 && p < 0.999) flowing = i;
