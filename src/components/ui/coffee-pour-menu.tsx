@@ -1153,3 +1153,4 @@ function renderCup(c: Cup, t: number) {
   e.foamTop?.setAttribute("opacity", easeOut(c.foam).toFixed(3));
   if (e.art) {
     const s = Math.max(0, c.art);
+    e.art.setAttribute("opacity", clamp(c.art * 1.6, 0, 1).toFixed(3));
