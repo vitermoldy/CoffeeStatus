@@ -1596,3 +1596,4 @@ const CupView = React.memo(function CupView({
           <linearGradient key={s} id={id(`st${k}-${s}`)} gradientUnits="userSpaceOnUse" x1={0} y1={-FLOOR} x2={0} y2={-FLOOR + 70}>
             <stop data-k={`sstop${s}`} offset={0} stopOpacity={0} stopColor="#3a1e0e" />
             <stop data-k={`sstop${s}`} offset={1} stopColor="#3a1e0e" />
+          </linearGradient>
