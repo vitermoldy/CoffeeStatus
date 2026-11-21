@@ -44,3 +44,4 @@ export const MENU: CoffeeCategory[] = [
         vessel: "jar",
         fill: 0.8,
         layers: [
+          { type: "strawberry", ml: 120 },
