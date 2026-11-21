@@ -1194,3 +1194,4 @@ function renderCup(c: Cup, t: number) {
       d += `${i ? "L" : "M"}${f1(x)} ${f1(yS + 2 + s * depth)}`;
     }
     e.tendrils[k].setAttribute("d", d);
+    e.tendrils[k].setAttribute("stroke", td.col);
