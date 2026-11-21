@@ -987,3 +987,4 @@ function stepCup(c: Cup, dt: number, t: number, spills: Particle[]): boolean {
     busy = true;
   }
   if (!flowing) c.mix = Math.max(0, c.mix - dt * 0.85);
+  if (c.mix > 0) {
