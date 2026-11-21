@@ -268,3 +268,4 @@ const wallR = (p: Profile, t: number) =>
 
 /** Closed outline seen through the opening: back rim arc, walls, front bottom arc. */
 function silhouette(p: Profile) {
+  const m = mid(p);
