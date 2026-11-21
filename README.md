@@ -35,3 +35,5 @@ Di Windows, jalankan dari `C:\MyRepo\CoffeeStatus` (huruf C besar).
 | Teh & soda | Matcha Latte | tumbler + es | susu dingin 170 ml, matcha 70 ml |
 | Teh & soda | Teh Lemon Madu | glass-mug | teh 200 ml, air lemon 25 ml, madu 25 ml |
 | Teh & soda | Soda Gembira | tall-glass + es | sirup merah 30 ml, susu kental manis 30 ml, air soda 190 ml |
+| Teh & soda | Mojito (tanpa alkohol) | tall-glass + es | air jeruk nipis 30 ml, sirup gula 20 ml, air soda 150 ml, dengan 6 lembar daun mint dan 2 iris jeruk nipis |
+
