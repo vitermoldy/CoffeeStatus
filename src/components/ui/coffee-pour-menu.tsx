@@ -1023,3 +1023,4 @@ function streamPath(p: Pour, yBot: number, t: number) {
   if (p.phase === "lead" || p.phase === "drips" || p.phase === "done" || yBot - yTop < 1) return ["", ""];
   const L: string[] = [];
   const R: string[] = [];
+  const n = 12;
