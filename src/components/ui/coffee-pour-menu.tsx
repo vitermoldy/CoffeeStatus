@@ -515,3 +515,4 @@ type Els = {
   sclip: SVGPathElement;
   decor: SVGGElement;
   crema: SVGGElement | null;
+  foamTop: SVGGElement | null;
