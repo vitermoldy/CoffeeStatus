@@ -94,3 +94,4 @@ export const MENU: CoffeeCategory[] = [
         description: "susu dingin dengan matcha dituang perlahan di atasnya",
         vessel: "tumbler",
         fill: 0.8,
+        layers: [
