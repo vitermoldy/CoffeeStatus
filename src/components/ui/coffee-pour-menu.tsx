@@ -650,3 +650,4 @@ function deposit(c: Cup, type: CoffeeLiquid, dv: number) {
       for (let j = 0; j < NL; j++) cells[o + j] *= 1 - k;
       cells[o + T] += k;
     }
+  }
