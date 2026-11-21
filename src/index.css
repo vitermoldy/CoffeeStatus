@@ -5,3 +5,4 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
+  /* Fraunces: a soft old-style serif that reads like a printed cafe menu card. Its optical-size
