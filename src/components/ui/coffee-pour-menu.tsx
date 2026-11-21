@@ -531,3 +531,4 @@ type Els = {
   sprig: SVGGElement | null;
 };
 
+type Cup = {
