@@ -512,3 +512,4 @@ type Els = {
   depth: SVGPathElement | null;
   foam: SVGPathElement;
   surf: SVGPathElement;
+  sclip: SVGPathElement;
