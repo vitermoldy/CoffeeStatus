@@ -1061,3 +1061,4 @@ function renderCup(c: Cup, t: number) {
   const ry = rS * P;
   e.liquid.setAttribute("opacity", clamp(c.level * 50, 0, 1).toFixed(3));
 
+  // ice rests on the bottom until the rising surface lifts it
