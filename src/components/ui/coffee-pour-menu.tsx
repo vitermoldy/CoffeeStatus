@@ -2002,3 +2002,4 @@ export function CoffeePourMenu({
       cup.mode = "fadeIn";
       cup.opacity = 0;
       cup.x = CX;
+      fillInstantly(cup);
