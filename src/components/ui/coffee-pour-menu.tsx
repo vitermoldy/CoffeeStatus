@@ -2062,3 +2062,4 @@ export function CoffeePourMenu({
     else if (e.key === "End") n = groups.length - 1;
     if (n < 0) return;
     e.preventDefault();
+    openGroup(groups[n]);
