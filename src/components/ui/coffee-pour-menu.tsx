@@ -1795,3 +1795,4 @@ function Defs({ id }: { id: (s: string) => string }) {
         <stop offset={1} stopColor="#fdf9f2" />
       </linearGradient>
       <linearGradient id={id("cremaBand")} x1={0} y1={1} x2={0} y2={0}>
+        <stop offset={0} stopColor="#7a4220" />
