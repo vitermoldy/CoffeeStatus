@@ -2161,3 +2161,4 @@ export function CoffeePourMenu({
                   <span className="flex min-w-0 flex-col">
                     <span
                       className={cn(
+                        // long names wrap on phones instead of being cut off
