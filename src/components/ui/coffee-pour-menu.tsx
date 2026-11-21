@@ -1897,3 +1897,4 @@ export function CoffeePourMenu({
   const btns = React.useRef<(HTMLButtonElement | null)[]>([]);
   const tabs = React.useRef<(HTMLButtonElement | null)[]>([]);
   const recipeEl = React.useRef<HTMLElement>(null);
+  const curKey = React.useRef(0);
