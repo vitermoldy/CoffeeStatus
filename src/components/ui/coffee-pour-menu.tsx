@@ -86,3 +86,4 @@ export interface CoffeeCategory {
   items: CoffeeItem[];
 }
 
+export interface CoffeePourMenuProps {
