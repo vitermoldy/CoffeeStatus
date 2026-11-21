@@ -1686,3 +1686,4 @@ const CupView = React.memo(function CupView({
         )}
         {iceCount > 0 && (
           <g clipPath={`url(#${clip})`}>
+            {Array.from({ length: iceCount }, (_, i) => (
