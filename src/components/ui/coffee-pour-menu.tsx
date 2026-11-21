@@ -2034,3 +2034,4 @@ export function CoffeePourMenu({
     const i = list.findIndex((it) => it.id === selectedId);
     let n = -1;
     if (e.key === "ArrowDown" || e.key === "ArrowRight") n = (i + 1) % list.length;
+    else if (e.key === "ArrowUp" || e.key === "ArrowLeft") n = (i - 1 + list.length) % list.length;
