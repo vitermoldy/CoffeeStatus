@@ -56,3 +56,4 @@ export const MENU: CoffeeCategory[] = [
         name: "Mango Lassi",
         subtitle: "280 ml, asam manis",
         description: "mangga, yogurt dan susu diblender ala India",
+        vessel: "glass-mug",
