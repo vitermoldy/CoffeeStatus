@@ -676,3 +676,4 @@ function stir(c: Cup, k: number) {
   c.dirty = true;
 }
 
+/** Local diffusion between neighbouring cells: softens layer boundaries. */
