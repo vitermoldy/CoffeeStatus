@@ -1856,3 +1856,4 @@ function paintRecipe(root: HTMLElement | null, c: Cup | undefined) {
     const at = flowing >= 0 ? flowing : last;
     const l = c.layers[at];
     const p = clamp(c.progress[at], 0, 1);
+    status = `${TEXT.pouring} ${lowerFirst(l.label)}`;
