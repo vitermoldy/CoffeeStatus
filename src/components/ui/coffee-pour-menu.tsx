@@ -376,3 +376,4 @@ const LIQUIDS = {
   chocolate: { label: "Susu cokelat", color: [92, 52, 30], opacity: 1, tint: 2.2, stream: { fill: "rgb(86,48,26)", a: 1, hi: 0.4, w: 1.2 }, swirl: "rgb(110,66,40)", pen: 0.1, jet: 0.45 },
   strawberry: { label: "Stroberi", color: [214, 58, 78], opacity: 0.95, tint: 1.6, stream: { fill: "rgb(206,46,70)", a: 1, hi: 0.6, w: 2 }, swirl: "rgb(236,120,140)", pen: 0.16, jet: 0.65 },
   banana: { label: "Pisang", color: [244, 226, 168], opacity: 1, tint: 0.8, stream: { fill: "rgb(240,220,156)", a: 1, hi: 0.9, w: 2.1 }, swirl: "rgb(250,240,200)", pen: 0.14, jet: 0.6 },
+  yogurt: { label: "Yogurt", color: [250, 248, 240], opacity: 1, tint: 0.9, stream: { fill: "rgb(252,250,244)", a: 1, hi: 0.9, w: 2 }, swirl: "rgb(253,252,248)", pen: 0.14, jet: 0.6 },
