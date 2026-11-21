@@ -285,3 +285,4 @@ function wallLine(p: Profile, k: number, t0: number, t1: number) {
   const y0 = lerp(p.top, p.bot, t0);
   const y1 = lerp(p.top, p.bot, t1);
   const ym = (y0 + y1) / 2;
+  return `M${f1(k * wallR(p, t0))} ${f1(y0)}Q${f1(k * wallR(p, (t0 + t1) / 2) * 1.02)} ${f1(ym)} ${f1(k * wallR(p, t1))} ${f1(y1)}`;
