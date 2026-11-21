@@ -570,3 +570,4 @@ type Cup = {
   swirlCol: string;
   crema: number;
   foam: number;
+  art: number;
