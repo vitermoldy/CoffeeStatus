@@ -24,3 +24,4 @@ Di Windows, jalankan dari `C:\MyRepo\CoffeeStatus` (huruf C besar).
 | Tab | Minuman | Gelas | Resep |
 |---|---|---|---|
 | Kopi | Espresso | demitasse | espresso 30 ml |
+| Kopi | Americano | glass-mug | air panas 180 ml, espresso 60 ml |
