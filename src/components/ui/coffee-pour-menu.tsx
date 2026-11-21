@@ -161,3 +161,4 @@ export const DEFAULT_COFFEE_ITEMS: CoffeeItem[] = [
 const W = 360;
 const H = 400;
 const FLOOR = 330;
+const CX = 180;
