@@ -804,3 +804,4 @@ function stepCup(c: Cup, dt: number, t: number, spills: Particle[]): boolean {
         c.mode = "rest";
       }
     }
+  } else if (c.mode === "fall") {
