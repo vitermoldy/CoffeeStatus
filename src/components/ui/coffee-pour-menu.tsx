@@ -1238,3 +1238,4 @@ function renderCup(c: Cup, t: number) {
   for (let k = 0; k < 2; k++) {
     const p = c.pours.find((q) => q.slot === k && q.phase !== "done" && q.phase !== "drips");
     const s = e.streams[k];
+    if (!p || c.mode === "fall") {
