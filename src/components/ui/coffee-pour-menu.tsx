@@ -745,3 +745,4 @@ function startPour(c: Cup, i: number) {
     phase: l.type === "espresso" ? "lead" : "fall",
     timer: 0,
     head: SRC,
+    headV: V0,
