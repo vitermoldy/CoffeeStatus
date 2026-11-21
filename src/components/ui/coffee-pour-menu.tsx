@@ -180,3 +180,4 @@ type Geo = {
   /** Screw-thread lines on a glass, as distances below the rim. */
   rings?: number[];
   height: number;
+  shadowR: number;
