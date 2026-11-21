@@ -1847,3 +1847,4 @@ function paintRecipe(root: HTMLElement | null, c: Cup | undefined) {
     }
   }
   let status = TEXT.waiting;
+  let count = "";
