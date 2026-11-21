@@ -42,3 +42,4 @@ Data menu ada di [src/data/menu.ts](src/data/menu.ts).
 ## Struktur
 
 ```
+src/
