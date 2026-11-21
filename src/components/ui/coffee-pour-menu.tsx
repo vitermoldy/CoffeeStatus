@@ -1347,3 +1347,4 @@ function VesselBack({ g, id }: { g: Geo; id: (s: string) => string }) {
         <path d={`M${-i.r} ${i.top}A${i.r} ${f1(i.r * P)} 0 0 1 ${i.r} ${i.top}`} fill="none" stroke="rgba(90,58,32,0.3)" strokeWidth={1} />
         {/* back wall edges seen through the glass */}
         <path d={wallLine(i, -0.97, 0.04, 0.95)} fill="none" stroke="rgba(90,58,32,0.12)" strokeWidth={1.4} />
+        <path d={wallLine(i, 0.97, 0.04, 0.95)} fill="none" stroke="rgba(90,58,32,0.12)" strokeWidth={1.4} />
