@@ -1747,3 +1747,4 @@ function Defs({ id }: { id: (s: string) => string }) {
       {stops.map(([o, c]) => (
         <stop key={o} offset={o} stopColor={c} />
       ))}
+    </radialGradient>
