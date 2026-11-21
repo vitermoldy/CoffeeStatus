@@ -124,3 +124,4 @@ export const MENU: CoffeeCategory[] = [
         layers: [
           { type: "syrup", ml: 30 },
           { type: "condensed", ml: 30 },
+          { type: "soda", ml: 190 },
