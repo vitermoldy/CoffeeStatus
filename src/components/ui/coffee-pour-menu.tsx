@@ -437,3 +437,4 @@ function shadeMix(cells: Float32Array, o: number): [RGB, number] {
 function shadeAt(cells: Float32Array, i: number): [RGB, number] {
   const o = i * NL;
   let other = 0;
+  for (let j = 3; j < NL; j++) other += cells[o + j];
