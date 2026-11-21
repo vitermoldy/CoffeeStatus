@@ -368,3 +368,4 @@ type LiquidDef = {
 const LIQUIDS = {
   espresso: { label: "Espresso", color: [58, 30, 14], ramp: COFFEE_RAMP, opacity: 1, tint: 3, stream: { fill: "rgb(58,30,14)", a: 1, hi: 0.35, w: 1.3 }, swirl: "rgb(60,30,14)", pen: 0.3, jet: 0.9 },
   water: { label: "Air", color: [214, 226, 228], opacity: 0.12, tint: 0.05, stream: { fill: "rgb(188,204,208)", a: 0.7, hi: 1, w: 1.5 }, swirl: "rgb(230,225,215)", pen: 0.1, jet: 0.5 },
+  milk: { label: "Susu", color: MILK, opacity: 1, tint: 1, stream: { fill: "rgb(250,245,236)", a: 1, hi: 0.9, w: 1.9 }, swirl: "rgb(252,247,238)", pen: 0.18, jet: 0.8 },
