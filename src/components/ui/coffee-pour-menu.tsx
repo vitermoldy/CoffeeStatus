@@ -364,3 +364,4 @@ type LiquidDef = {
   jet: number;
 };
 
+/** Every pourable liquid. Espresso, water and milk must stay first: their mixes keep the original coffee shading. */
