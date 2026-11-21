@@ -1946,3 +1946,4 @@ export function CoffeePourMenu({
       if (sp.length) busy = true;
       paintRecipe(recipeEl.current, sim.current.get(curKey.current));
       if (removed) setCups((cs) => cs.filter((c) => sim.current.has(c.key)));
+      raf.current = busy ? requestAnimationFrame(tick) : 0;
