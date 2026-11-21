@@ -597,3 +597,4 @@ function makeCup(key: number, item: CoffeeItem): Cup {
     fallT: 0,
     level: 0,
     cells: new Float32Array(N * NL),
+    layers,
