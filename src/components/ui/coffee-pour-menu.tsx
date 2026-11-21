@@ -418,3 +418,4 @@ function shadeMix(cells: Float32Array, o: number): [RGB, number] {
   let wsum = 0;
   let od = 0;
   for (let j = 0; j < NL; j++) {
+    const f = cells[o + j] / tot;
