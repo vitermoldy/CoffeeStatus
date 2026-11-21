@@ -487,3 +487,4 @@ type Pour = {
   amount: number;
   rate: number;
   poured: number;
+  x: number;
