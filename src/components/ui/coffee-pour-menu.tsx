@@ -1601,3 +1601,4 @@ const CupView = React.memo(function CupView({
         <clipPath id={sclip}>
           <path data-k="sclip" />
         </clipPath>
+      </defs>
