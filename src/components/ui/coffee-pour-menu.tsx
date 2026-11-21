@@ -1831,3 +1831,4 @@ function paintRecipe(root: HTMLElement | null, c: Cup | undefined) {
   let done = true;
   for (let i = 0; i < c.layers.length; i++) {
     const p = c.progress[i];
+    const started = i < c.pours.length || p > 0;
