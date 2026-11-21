@@ -45,3 +45,4 @@ export const MENU: CoffeeCategory[] = [
         fill: 0.8,
         layers: [
           { type: "strawberry", ml: 120 },
+          { type: "banana", ml: 80 },
