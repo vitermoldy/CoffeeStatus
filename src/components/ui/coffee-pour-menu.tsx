@@ -90,3 +90,4 @@ export interface CoffeePourMenuProps {
   /** Drinks to show. Defaults to Espresso, Americano, Cappuccino and Latte. */
   items?: CoffeeItem[];
   /** Drinks grouped under tabs. Takes the place of `items`. */
+  categories?: CoffeeCategory[];
