@@ -803,3 +803,4 @@ function stepCup(c: Cup, dt: number, t: number, spills: Particle[]): boolean {
         c.va = 0;
         c.mode = "rest";
       }
+    }
