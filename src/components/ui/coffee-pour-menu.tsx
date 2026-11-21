@@ -1133,3 +1133,4 @@ function renderCup(c: Cup, t: number) {
       const [rgb, a] = shadeAt(c.cells, i);
       e.stops[i].setAttribute("stop-color", css(rgb));
       e.stops[i].setAttribute("stop-opacity", a.toFixed(3));
+    }
