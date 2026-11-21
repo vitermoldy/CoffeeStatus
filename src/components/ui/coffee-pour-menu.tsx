@@ -730,3 +730,4 @@ function fillInstantly(c: Cup) {
   c.next = c.layers.length;
 }
 
+function startPour(c: Cup, i: number) {
