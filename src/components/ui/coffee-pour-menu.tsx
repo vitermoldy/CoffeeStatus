@@ -2092,3 +2092,4 @@ export function CoffeePourMenu({
           className="grid gap-1 rounded-2xl bg-[#3a271d]/[0.06] p-1 [grid-area:tabs]"
           style={{ gridTemplateColumns: `repeat(${groups.length}, minmax(0, 1fr))` }}
         >
+          {groups.map((g, i) => {
