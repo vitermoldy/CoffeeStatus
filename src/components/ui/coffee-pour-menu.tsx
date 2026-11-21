@@ -195,3 +195,4 @@ const GEO: Record<CoffeeVessel, Geo> = {
     saucer: { y: -6, r: 90 },
     handle: "M41 -74C66 -80 76 -56 60 -44C52 -38 42 -37 34 -39",
     handleW: 8,
+    height: 92,
