@@ -1651,3 +1651,4 @@ const CupView = React.memo(function CupView({
                 <>
                   <g data-k="foamtop" opacity={0}>
                     <circle r={1.1} fill={`url(#${id("artBase")})`} />
+                  </g>
