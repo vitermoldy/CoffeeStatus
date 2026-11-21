@@ -1660,3 +1660,4 @@ const CupView = React.memo(function CupView({
               )}
             </g>
           </g>
+          <g fill="none" strokeLinecap="round" filter={`url(#${id("blur1")})`}>
