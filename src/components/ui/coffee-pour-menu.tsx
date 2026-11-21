@@ -1104,3 +1104,4 @@ function renderCup(c: Cup, t: number) {
     const u = COS[i];
     const pt = `${f1(rS * u)} ${f1(yS + ry * SIN[i] + wave(c, u, t))}`;
     pts.push(pt);
+    if (i <= K / 2) back += (i ? "L" : "M") + pt;
