@@ -357,3 +357,4 @@ type LiquidDef = {
   tint: number;
   /** Pour stream: fill, opacity at the bottom, highlight strength, width factor. */
   stream: { fill: string; a: number; hi: number; w: number };
+  /** Swirl it leaves on the surface when poured into something else. */
