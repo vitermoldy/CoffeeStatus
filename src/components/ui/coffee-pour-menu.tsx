@@ -655,3 +655,5 @@ function deposit(c: Cup, type: CoffeeLiquid, dv: number) {
   c.dirty = true;
 }
 
+const MEAN = new Float64Array(NL);
+
