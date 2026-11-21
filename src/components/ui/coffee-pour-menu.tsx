@@ -318,3 +318,4 @@ const COFFEE_RAMP: [number, RGB][] = [
 ];
 const MILK_RAMP: [number, RGB][] = [
   [0.3, [108, 62, 32]],
+  [0.55, [168, 112, 66]],
