@@ -2205,3 +2205,4 @@ export function CoffeePourMenu({
               <li key={`${selected.id}-${i}`} data-row data-state="wait" className="group/row">
                 <div className="flex items-baseline justify-between gap-3 text-[15px] leading-tight sm:text-[16px]">
                   <span className="flex min-w-0 items-center gap-2">
+                    <span
