@@ -1418,3 +1418,4 @@ function VesselFront({ g, id }: { g: Geo; id: (s: string) => string }) {
       <path d={bodyPath(o)} fill={`url(#${id(gl.body)})`} />
       <path d={bodyPath(o)} fill={`url(#${id(gl.ao)})`} />
       {/* bounce light from the saucer, and a soft specular streak */}
+      <path d={wallLine(o, 0.93, 0.35, 0.92)} fill="none" stroke="rgba(255,236,214,0.4)" strokeWidth={3} filter={`url(#${id("blur2")})`} />
