@@ -1921,3 +1921,4 @@ export function CoffeePourMenu({
       }
       // spilled drops in stage space
       const sp = spills.current;
+      for (let i = sp.length - 1; i >= 0; i--) {
