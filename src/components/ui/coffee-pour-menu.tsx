@@ -878,3 +878,4 @@ function stepCup(c: Cup, dt: number, t: number, spills: Particle[]): boolean {
         p.timer = 0;
       } else if (p.lead === 0 && p.timer > 0.1) {
         p.phase = "fall";
+      }
