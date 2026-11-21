@@ -1900,3 +1900,4 @@ export function CoffeePourMenu({
   const curKey = React.useRef(0);
   const lastPick = React.useRef<Record<string, string>>({});
 
+  const loop = React.useCallback(() => {
