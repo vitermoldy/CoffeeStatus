@@ -2252,3 +2252,4 @@ export function CoffeePourMenu({
         <p aria-live="polite" className="sr-only">
           {spoken}
         </p>
+      </div>
