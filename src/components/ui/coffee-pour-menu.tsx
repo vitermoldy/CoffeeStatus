@@ -1041,3 +1041,4 @@ function streamPath(p: Pour, yBot: number, t: number) {
 }
 
 function renderCup(c: Cup, t: number) {
+  const e = c.el;
