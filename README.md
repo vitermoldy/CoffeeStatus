@@ -75,3 +75,4 @@ Stack: Vite 8, React 19, TypeScript, Tailwind CSS 4, `motion` untuk animasi pil 
 }
 ```
 
+- `layers` dituang berurutan. `ml` tampil di kartu resep, `label` mengganti nama bahan di kartu.
