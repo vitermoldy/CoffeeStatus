@@ -1243,3 +1243,4 @@ function renderCup(c: Cup, t: number) {
       s.hi.setAttribute("d", "");
       continue;
     }
+    const yBot = p.phase === "fall" ? p.head : yS + wave(c, p.x / rS, t) + 1;
