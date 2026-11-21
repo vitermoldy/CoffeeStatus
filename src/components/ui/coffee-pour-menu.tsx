@@ -2054,3 +2054,4 @@ export function CoffeePourMenu({
   };
 
   const onTabKey = (e: React.KeyboardEvent) => {
+    if (!groups) return;
