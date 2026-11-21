@@ -1682,3 +1682,4 @@ const CupView = React.memo(function CupView({
                 <MintLeaf />
               </g>
             ))}
+          </g>
