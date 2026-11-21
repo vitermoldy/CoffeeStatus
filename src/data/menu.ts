@@ -149,3 +149,4 @@ export const MENU: CoffeeCategory[] = [
           { type: "soda", ml: 150 },
         ],
         foam: 0.02,
+        foamColor: "#eef3d8",
