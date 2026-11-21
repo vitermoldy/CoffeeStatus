@@ -1724,3 +1724,4 @@ const CupView = React.memo(function CupView({
 
 const BUBBLES: [number, number, number][] = [
   [-0.82, -0.3, 0.035],
+  [-0.88, 0.1, 0.028],
