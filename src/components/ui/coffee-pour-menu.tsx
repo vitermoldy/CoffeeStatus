@@ -1567,3 +1567,4 @@ const CupView = React.memo(function CupView({
   const iceCount = clamp(Math.round(it.ice ?? 0), 0, ICE.length);
   const solid = (type: CoffeeGarnish["type"], max: number) =>
     clamp(Math.round(it.garnish?.find((x) => x.type === type)?.count ?? 0), 0, max);
+  const mintCount = solid("mint", MINT.length);
