@@ -73,3 +73,4 @@ export interface CoffeeItem {
   fizz?: boolean;
 }
 
+export interface CoffeeGarnish {
