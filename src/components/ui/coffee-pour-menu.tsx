@@ -30,3 +30,4 @@ export interface CoffeeLayer {
   /** What is poured. */
   type: CoffeeLiquid;
   /**
+   * How much, as a fraction (0 to 1) of the vessel's inner height. Without it
