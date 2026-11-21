@@ -1342,3 +1342,4 @@ function VesselBack({ g, id }: { g: Geo; id: (s: string) => string }) {
   if (g.glass) {
     return (
       <g>
+        {g.handle && <GlassHandle d={g.handle} w={g.handleW!} mask={id("hmask")} />}
