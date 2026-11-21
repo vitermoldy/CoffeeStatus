@@ -1915,3 +1915,4 @@ export function CoffeePourMenu({
           (c.mode === "fall" && c.y - c.pivot - c.geo.height > H + 20) ||
           (c.mode === "fadeOut" && c.opacity <= 0);
         if (gone) {
+          sim.current.delete(c.key);
