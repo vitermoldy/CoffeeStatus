@@ -328,3 +328,4 @@ function shade(e: number, w: number, m: number): [RGB, number] {
   const s = e + w + m || 1;
   e /= s;
   w /= s;
+  m /= s;
