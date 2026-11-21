@@ -912,3 +912,4 @@ function stepCup(c: Cup, dt: number, t: number, spills: Particle[]): boolean {
       if (p.rippleT > 0.085) {
         p.rippleT = 0;
         splash(c, p.x, surfY, STREAM[p.type].fill, 1, 0.7);
+        kick(c, p.x / rS, 0.12);
