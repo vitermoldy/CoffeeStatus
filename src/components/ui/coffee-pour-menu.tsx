@@ -169,3 +169,4 @@ const N = 14; // liquid column cells
 /** Quadratic wall: top radius r, bottom radius rb, control x c (y is linear in t). */
 type Profile = { top: number; r: number; bot: number; rb: number; c: number };
 
+type Geo = {
