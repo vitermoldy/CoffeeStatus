@@ -617,3 +617,4 @@ function makeCup(key: number, item: CoffeeItem): Cup {
     crema: 0,
     foam: 0,
     art: 0,
+    artV: 0,
