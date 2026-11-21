@@ -2086,3 +2086,4 @@ export function CoffeePourMenu({
     >
       {groups && (
         <div
+          role="tablist"
