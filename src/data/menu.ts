@@ -107,3 +107,4 @@ export const MENU: CoffeeCategory[] = [
         subtitle: "250 ml, hangat",
         description: "teh panas dengan perasan lemon dan madu, diaduk rata",
         vessel: "glass-mug",
+        fill: 0.8,
