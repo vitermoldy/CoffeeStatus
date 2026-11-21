@@ -759,3 +759,4 @@ function spawnDrop(c: Cup, p: Pour) {
   c.parts.push({ x: p.x + (Math.random() - 0.5), y: SRC + 10, vx: 0, vy: V0 * 0.6, r: p.w * 0.5 + 0.6, col: STREAM[p.type].fill, drop: true });
 }
 
+function splash(c: Cup, x: number, y: number, col: string, n: number, s: number) {
