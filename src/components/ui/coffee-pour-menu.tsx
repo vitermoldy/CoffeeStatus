@@ -1452,3 +1452,4 @@ function GlassHandle({ d, w, mask }: { d: string; w: number; mask: string }) {
 
 function Shadow({ g, id }: { g: Geo; id: (s: string) => string }) {
   const r = g.shadowR;
+  return (
