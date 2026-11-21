@@ -379,3 +379,4 @@ const LIQUIDS = {
   yogurt: { label: "Yogurt", color: [250, 248, 240], opacity: 1, tint: 0.9, stream: { fill: "rgb(252,250,244)", a: 1, hi: 0.9, w: 2 }, swirl: "rgb(253,252,248)", pen: 0.14, jet: 0.6 },
   mango: { label: "Mangga", color: [250, 168, 28], opacity: 1, tint: 1.7, stream: { fill: "rgb(248,166,28)", a: 1, hi: 0.8, w: 2 }, swirl: "rgb(253,206,120)", pen: 0.16, jet: 0.65 },
   tea: { label: "Teh", color: [184, 70, 14], ramp: [[0, [246, 228, 186]], [0.35, [232, 146, 52]], [0.7, [208, 102, 28]], [1, [184, 70, 14]]], opacity: 0.7, tint: 2, stream: { fill: "rgb(176,78,24)", a: 0.9, hi: 0.6, w: 1.5 }, swirl: "rgb(214,128,60)", pen: 0.2, jet: 0.75 },
+  condensed: { label: "Susu kental manis", color: [250, 240, 214], opacity: 1, tint: 1.1, stream: { fill: "rgb(248,236,204)", a: 1, hi: 0.9, w: 1.1 }, swirl: "rgb(252,246,228)", pen: 0.08, jet: 0.4 },
