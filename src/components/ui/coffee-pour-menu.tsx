@@ -46,3 +46,4 @@ export interface CoffeeItem {
   /** Display name, e.g. "Cappuccino". */
   name: string;
   /** Small line under the name, e.g. "180 ml, velvety". */
+  subtitle?: string;
