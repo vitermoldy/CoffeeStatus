@@ -1122,3 +1122,4 @@ function renderCup(c: Cup, t: number) {
       const u = COS[i];
       front += `L${f1(rL * u)} ${f1(yL + rL * P * SIN[i] + wave(c, u, t))}`;
     }
+    e.foam.setAttribute("d", `${back}${front}Z`);
