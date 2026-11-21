@@ -1115,3 +1115,4 @@ function renderCup(c: Cup, t: number) {
 
   if (g.glass && foamH > 0.002) {
     const yL = levelY(g, c.level);
+    const rL = levelR(g, c.level) * 1.02;
