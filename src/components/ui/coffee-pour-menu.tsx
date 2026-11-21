@@ -1635,3 +1635,4 @@ const CupView = React.memo(function CupView({
                   <ellipse cx={0.1} cy={-0.4} rx={0.1} ry={0.06} fill="rgba(110,55,22,0.25)" />
                   <ellipse cx={-0.1} cy={0.1} rx={0.42} ry={0.32} fill="rgba(240,195,130,0.22)" />
                   {BUBBLES.map(([x, y, r], j) => (
+                    <circle key={j} cx={x} cy={y} r={r} fill="rgba(255,236,205,0.55)" />
