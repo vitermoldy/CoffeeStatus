@@ -1750,3 +1750,4 @@ function Defs({ id }: { id: (s: string) => string }) {
     </radialGradient>
   );
   const blur = (name: string, s: number) => (
+    <filter id={id(name)} x="-50%" y="-50%" width="200%" height="200%">
