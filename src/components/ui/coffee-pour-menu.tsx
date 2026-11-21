@@ -557,3 +557,4 @@ type Cup = {
   sprig: number;
   pours: Pour[];
   next: number;
+  pourT: number;
