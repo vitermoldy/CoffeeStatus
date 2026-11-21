@@ -521,3 +521,4 @@ type Els = {
   stops: SVGStopElement[];
   swirl: SVGPathElement[];
   tendrils: SVGPathElement[];
+  ripples: SVGEllipseElement[];
