@@ -392,3 +392,4 @@ const LIQ = Object.keys(LIQUIDS) as CoffeeLiquid[];
 /** Number of liquids tracked in every cell of the column. */
 const NL = LIQ.length;
 const DEF: LiquidDef[] = LIQ.map((k) => LIQUIDS[k]);
+// optical depth per unit share; opaque liquids stay opaque even when diluted 1:6
