@@ -2123,3 +2123,4 @@ export function CoffeePourMenu({
 
       <div
         id={`${uid}-list`}
+        role={groups ? "tabpanel" : undefined}
