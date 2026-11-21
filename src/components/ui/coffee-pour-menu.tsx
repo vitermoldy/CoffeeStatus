@@ -503,3 +503,4 @@ type Pour = {
 type Particle = { x: number; y: number; vx: number; vy: number; r: number; col: string; drop: boolean };
 type Tendril = { x: number; age: number; dir: number; ph: number; col: string };
 
+type Els = {
