@@ -497,3 +497,4 @@ type Pour = {
   tailV: number;
   drips: number;
   lead: number;
+  rippleT: number;
