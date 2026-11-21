@@ -1268,3 +1268,4 @@ function renderCup(c: Cup, t: number) {
 }
 
 function cacheEls(root: SVGGElement): Els {
+  const q = <T extends Element>(k: string) => root.querySelector(`[data-k="${k}"]`) as T | null;
