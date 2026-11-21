@@ -716,3 +716,4 @@ function kick(c: Cup, u: number, s: number) {
 
 /** Pour the whole recipe at once (reduced motion). */
 function fillInstantly(c: Cup) {
+  for (const l of c.layers) {
