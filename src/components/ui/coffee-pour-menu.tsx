@@ -706,3 +706,5 @@ const topCell = (c: Cup) => Math.max(0, Math.min(N - 1, Math.ceil(c.level * N) -
 
 /** Wave height at u (-1 left .. 1 right) in px. */
 const wave = (c: Cup, u: number, t: number) =>
+  c.w1 * u + c.w2 * Math.cos(Math.PI * u) + c.w3 * Math.sin(3 * Math.PI * u - t * 9);
+
