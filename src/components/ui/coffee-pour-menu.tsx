@@ -936,3 +936,4 @@ function stepCup(c: Cup, dt: number, t: number, spills: Particle[]): boolean {
   }
 
   /* particles (local) */
+  for (let i = c.parts.length - 1; i >= 0; i--) {
