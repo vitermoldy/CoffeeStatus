@@ -950,3 +950,4 @@ function stepCup(c: Cup, dt: number, t: number, spills: Particle[]): boolean {
         c.ripples.push({ x: q.x, age: 0 });
       }
       c.parts.splice(i, 1);
+    }
