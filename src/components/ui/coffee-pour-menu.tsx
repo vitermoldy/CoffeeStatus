@@ -2064,3 +2064,5 @@ export function CoffeePourMenu({
     e.preventDefault();
     openGroup(groups[n]);
     tabs.current[n]?.focus();
+  };
+
