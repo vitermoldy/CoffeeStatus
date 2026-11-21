@@ -2114,3 +2114,4 @@ export function CoffeePourMenu({
                     : "text-[#6b4a35] hover:bg-[#f7ecdd]/55 hover:text-[#3a271d]",
                 )}
               >
+                {g.label}
