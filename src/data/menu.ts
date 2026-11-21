@@ -80,3 +80,4 @@ export const MENU: CoffeeCategory[] = [
         vessel: "jar",
         fill: 0.8,
         layers: [
+          { type: "tea", ml: 150, label: "Teh hitam" },
