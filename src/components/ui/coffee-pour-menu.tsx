@@ -2036,3 +2036,4 @@ export function CoffeePourMenu({
     if (e.key === "ArrowDown" || e.key === "ArrowRight") n = (i + 1) % list.length;
     else if (e.key === "ArrowUp" || e.key === "ArrowLeft") n = (i - 1 + list.length) % list.length;
     else if (e.key === "Home") n = 0;
+    else if (e.key === "End") n = list.length - 1;
