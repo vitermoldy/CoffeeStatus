@@ -978,3 +978,4 @@ function stepCup(c: Cup, dt: number, t: number, spills: Particle[]): boolean {
 
   /* mixing, crema, foam, art */
   const pouring = c.next < c.layers.length || c.pours.some((p) => p.phase !== "done");
+  if (it.fizz && c.level > 0.05 && c.fizzT < FIZZ_T && c.mode !== "fall") {
