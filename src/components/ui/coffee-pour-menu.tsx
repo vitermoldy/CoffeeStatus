@@ -182,3 +182,4 @@ type Geo = {
   height: number;
   shadowR: number;
   streamX: number;
+  streamW: number;
