@@ -645,3 +645,4 @@ function deposit(c: Cup, type: CoffeeLiquid, dv: number) {
       cells[o + T] += k;
     }
     if (a0 > 0) {
+      const d = Math.max(0, L1 - (i + 0.5) / N);
