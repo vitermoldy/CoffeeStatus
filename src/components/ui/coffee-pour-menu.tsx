@@ -1837,3 +1837,4 @@ function paintRecipe(root: HTMLElement | null, c: Cup | undefined) {
     if (p < 0.999) done = false;
     const row = rows[i];
     if (!row) continue;
+    const state = p >= 0.999 ? "done" : started ? "pour" : "wait";
