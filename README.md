@@ -15,3 +15,5 @@ jus, teh, dan soda.
 npm install
 npm run dev        # http://localhost:5193
 npm run build      # cek tipe + build ke dist/
+```
+
