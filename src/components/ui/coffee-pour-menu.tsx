@@ -2128,3 +2128,4 @@ export function CoffeePourMenu({
         className="[grid-area:list]"
       >
         <div
+          role="radiogroup"
