@@ -3,3 +3,4 @@ import { DEFAULT_COFFEE_ITEMS, type CoffeeCategory } from "@/components/ui/coffe
 // Layers without `amount` share the glass height (`fill`, default 0.8) in proportion to their ml.
 export const MENU: CoffeeCategory[] = [
   { id: "kopi", label: "Kopi", items: DEFAULT_COFFEE_ITEMS },
+  {
