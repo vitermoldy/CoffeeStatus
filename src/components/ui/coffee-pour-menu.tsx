@@ -1960,3 +1960,4 @@ export function CoffeePourMenu({
   React.useEffect(() => {
     if (!selected) return;
     const live = [...sim.current.values()].some((c) => c.mode !== "fall" && c.mode !== "fadeOut");
+    if (live && shown.current === selected.id) {
