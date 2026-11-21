@@ -1976,3 +1976,4 @@ export function CoffeePourMenu({
         continue;
       }
       if (reduce) {
+        c.mode = "fadeOut";
