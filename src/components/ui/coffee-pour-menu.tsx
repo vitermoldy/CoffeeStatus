@@ -1155,3 +1155,5 @@ function renderCup(c: Cup, t: number) {
     const s = Math.max(0, c.art);
     e.art.setAttribute("opacity", clamp(c.art * 1.6, 0, 1).toFixed(3));
     e.art.setAttribute("transform", `translate(0 0.08) scale(${s.toFixed(3)})`);
+  }
+
