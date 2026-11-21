@@ -2219,3 +2219,4 @@ export function CoffeePourMenu({
                 <div aria-hidden="true" className="mt-1.5 h-[3px] overflow-hidden rounded-full bg-[#3a271d]/10">
                   <div data-bar className="h-full origin-left rounded-full" style={{ background: swatch(l.type), transform: "scaleX(0)" }} />
                 </div>
+              </li>
