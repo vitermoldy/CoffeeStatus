@@ -388,3 +388,4 @@ const LIQUIDS = {
   soda: { label: "Air soda", color: [232, 240, 240], opacity: 0.08, tint: 0.04, stream: { fill: "rgb(208,224,228)", a: 0.6, hi: 1, w: 1.5 }, swirl: "rgb(240,246,246)", pen: 0.25, jet: 0.9 },
 } satisfies Record<string, LiquidDef>;
 
+const LIQ = Object.keys(LIQUIDS) as CoffeeLiquid[];
