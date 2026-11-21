@@ -1846,3 +1846,4 @@ function paintRecipe(root: HTMLElement | null, c: Cup | undefined) {
       bar.style.transform = `scaleX(${v})`;
     }
   }
+  let status = TEXT.waiting;
