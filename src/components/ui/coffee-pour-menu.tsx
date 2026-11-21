@@ -1626,3 +1626,4 @@ const CupView = React.memo(function CupView({
           <path data-k="surf" fill="#3a1e0e" />
           <g clipPath={`url(#${sclip})`}>
             <g data-k="decor">
+              <circle r={1.1} fill={`url(#${id("sheen")})`} />
