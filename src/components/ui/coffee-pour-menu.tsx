@@ -120,3 +120,4 @@ export const DEFAULT_COFFEE_ITEMS: CoffeeItem[] = [
     description: "espresso dituang di atas air panas",
     vessel: "glass-mug",
     layers: [
+      { type: "water", amount: 0.54, ml: 180, label: "Air panas" },
