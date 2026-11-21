@@ -1940,3 +1940,4 @@ export function CoffeePourMenu({
           n.setAttribute("cx", f1(q.x).toString());
           n.setAttribute("cy", f1(q.y).toString());
           n.setAttribute("r", q.r.toFixed(2));
+          n.setAttribute("fill", q.col);
