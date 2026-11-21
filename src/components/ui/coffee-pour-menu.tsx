@@ -1717,3 +1717,4 @@ const CupView = React.memo(function CupView({
           </g>
         )}
         <VesselFront g={g} id={id} />
+      </g>
