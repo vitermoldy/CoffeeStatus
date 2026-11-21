@@ -29,3 +29,4 @@ export type CoffeeLiquid = keyof typeof LIQUIDS;
 export interface CoffeeLayer {
   /** What is poured. */
   type: CoffeeLiquid;
+  /**
