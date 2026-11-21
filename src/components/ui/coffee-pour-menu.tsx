@@ -1228,3 +1228,4 @@ function renderCup(c: Cup, t: number) {
     }
     const rx = 2 + rp.age * rS * 1.3;
     el.setAttribute("cx", f1(rp.x).toString());
+    el.setAttribute("cy", f1(yS + wave(c, clamp(rp.x / rS, -1, 1), t)).toString());
