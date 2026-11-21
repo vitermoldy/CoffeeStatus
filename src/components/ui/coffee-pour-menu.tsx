@@ -2238,3 +2238,4 @@ export function CoffeePourMenu({
             <stop offset={1} stopColor="rgb(255,248,236)" stopOpacity={0} />
           </radialGradient>
           <rect x={0} y={FLOOR - 36} width={W} height={H - FLOOR + 36} fill={`url(#${id("table")})`} />
+          {/* pool of pendant light on the counter */}
