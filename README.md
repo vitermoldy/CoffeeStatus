@@ -45,3 +45,4 @@ Data menu ada di [src/data/menu.ts](src/data/menu.ts).
 src/
   components/
     ui/coffee-pour-menu.tsx      komponen menu (folder ui ala shadcn)
+    coffee-pour-menu-demo.tsx    halaman menu + kredit pembuat
