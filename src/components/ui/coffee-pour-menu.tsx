@@ -1925,3 +1925,4 @@ export function CoffeePourMenu({
         const q = sp[i];
         q.vy += G_FALL * dt;
         q.x += q.vx * dt;
+        q.y += q.vy * dt;
