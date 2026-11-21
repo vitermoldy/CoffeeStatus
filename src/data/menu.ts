@@ -41,3 +41,4 @@ export const MENU: CoffeeCategory[] = [
         name: "Stroberi Pisang",
         subtitle: "260 ml, smoothie",
         description: "stroberi, pisang dan yogurt diblender jadi smoothie",
+        vessel: "jar",
