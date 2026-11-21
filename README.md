@@ -86,3 +86,5 @@ Stack: Vite 8, React 19, TypeScript, Tailwind CSS 4, `motion` untuk animasi pil 
   di atas gelas setelah selesai dituang. Garnish dan es batu ditulis di bawah kartu resep
   ("Dengan 6 lembar daun mint, 2 iris jeruk nipis dan es batu").
 - Opsi lain: `foam` (tebal busa), `foamColor` (warna busa selain susu), `crema`, `art: "heart"`,
+  `fizz` (gelembung soda selama dituang).
+
