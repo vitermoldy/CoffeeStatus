@@ -171,3 +171,4 @@ type Profile = { top: number; r: number; bot: number; rb: number; c: number };
 
 type Geo = {
   outer: Profile;
+  inner: Profile;
