@@ -1258,3 +1258,4 @@ function renderCup(c: Cup, t: number) {
     const el = e.parts[k];
     if (!q) {
       el.setAttribute("r", "0");
+      continue;
