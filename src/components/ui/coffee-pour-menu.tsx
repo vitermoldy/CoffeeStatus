@@ -516,3 +516,4 @@ type Els = {
   decor: SVGGElement;
   crema: SVGGElement | null;
   foamTop: SVGGElement | null;
+  art: SVGGElement | null;
