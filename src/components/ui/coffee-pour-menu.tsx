@@ -1830,3 +1830,4 @@ function paintRecipe(root: HTMLElement | null, c: Cup | undefined) {
   let flowing = -1; // last layer with liquid actually running into the glass
   let done = true;
   for (let i = 0; i < c.layers.length; i++) {
+    const p = c.progress[i];
