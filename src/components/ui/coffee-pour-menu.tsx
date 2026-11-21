@@ -347,3 +347,4 @@ const hexRGB = (h: string): RGB => {
 type LiquidDef = {
   /** Name on the recipe card. */
   label: string;
+  /** Colour of a glass full of it. */
