@@ -4,3 +4,4 @@ import { DEFAULT_COFFEE_ITEMS, type CoffeeCategory } from "@/components/ui/coffe
 export const MENU: CoffeeCategory[] = [
   { id: "kopi", label: "Kopi", items: DEFAULT_COFFEE_ITEMS },
   {
+    id: "jus",
