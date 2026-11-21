@@ -873,3 +873,4 @@ function stepCup(c: Cup, dt: number, t: number, spills: Particle[]): boolean {
     const surfY = yS + wave(c, p.x / rS, t);
     if (p.phase === "lead") {
       if (p.lead > 0 && p.timer > 0.08) {
+        spawnDrop(c, p);
