@@ -1621,3 +1621,4 @@ const CupView = React.memo(function CupView({
                 <circle key={i} data-k="bub" r={0} />
               ))}
             </g>
+          )}
