@@ -636,3 +636,4 @@ function deposit(c: Cup, type: CoffeeLiquid, dv: number) {
   const cells = c.cells;
   for (let i = 0; i < N; i++) {
     if (i / N >= L1) break;
+    const o = i * NL;
