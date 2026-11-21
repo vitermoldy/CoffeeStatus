@@ -1162,3 +1162,4 @@ function renderCup(c: Cup, t: number) {
   for (let k = 0; k < e.swirl.length; k++) {
     if (sa < 0.01) {
       e.swirl[k].setAttribute("d", "");
+      continue;
