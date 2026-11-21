@@ -1100,3 +1100,4 @@ function renderCup(c: Cup, t: number) {
   // surface ring and liquid body
   const pts: string[] = [];
   let back = "";
+  for (let i = 0; i <= K; i++) {
