@@ -94,3 +94,4 @@ export interface CoffeePourMenuProps {
   /** Show the recipe card that counts each layer's ml while it pours. Default true. */
   showRecipe?: boolean;
   /** Initially selected id (uncontrolled). Defaults to the first item. */
+  defaultValue?: string;
