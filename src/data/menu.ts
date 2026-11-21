@@ -117,3 +117,4 @@ export const MENU: CoffeeCategory[] = [
       {
         id: "soda-gembira",
         name: "Soda Gembira",
+        subtitle: "250 ml, berbuih",
