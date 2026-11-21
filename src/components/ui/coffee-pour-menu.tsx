@@ -1812,3 +1812,4 @@ function Defs({ id }: { id: (s: string) => string }) {
 /* -------------------------------------------------------------------------- */
 
 const TEXT = {
+  menu: "Menu minuman",
