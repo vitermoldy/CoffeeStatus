@@ -1816,3 +1816,4 @@ const TEXT = {
   tabs: "Jenis minuman",
   recipe: "Resep",
   waiting: "Menyiapkan gelas",
+  pouring: "Menuang",
