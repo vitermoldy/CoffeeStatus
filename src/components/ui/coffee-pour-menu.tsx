@@ -1108,3 +1108,4 @@ function renderCup(c: Cup, t: number) {
   }
   const surf = `M${pts.join("L")}Z`;
   e.surf.setAttribute("d", surf);
+  e.sclip.setAttribute("d", surf);
