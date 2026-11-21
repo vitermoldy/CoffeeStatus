@@ -216,3 +216,4 @@ const GEO: Record<CoffeeVessel, Geo> = {
     inner: { top: -114, r: 74.5, bot: -76, rb: 57, c: 74 },
     glass: false,
     glaze: "cream",
+    saucer: { y: -6, r: 132 },
