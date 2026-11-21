@@ -460,3 +460,4 @@ const G_STREAM = 3000;
 const G_FALL = 2600;
 const V0 = 220;
 const PARTS = 26;
+const RIPPLES = 6;
