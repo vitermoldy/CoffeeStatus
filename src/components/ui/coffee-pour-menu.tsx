@@ -708,3 +708,4 @@ const topCell = (c: Cup) => Math.max(0, Math.min(N - 1, Math.ceil(c.level * N) -
 const wave = (c: Cup, u: number, t: number) =>
   c.w1 * u + c.w2 * Math.cos(Math.PI * u) + c.w3 * Math.sin(3 * Math.PI * u - t * 9);
 
+function kick(c: Cup, u: number, s: number) {
