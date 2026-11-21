@@ -1780,3 +1780,4 @@ function Defs({ id }: { id: (s: string) => string }) {
       {lin("glassFace", [[0, "rgba(255,255,255,0)"], [0.1, "rgba(255,255,255,0.22)"], [0.18, "rgba(255,255,255,0.05)"], [0.6, "rgba(255,255,255,0)"], [0.88, "rgba(255,255,255,0.14)"], [1, "rgba(255,255,255,0)"]])}
       <linearGradient id={id("glassBase")} x1={0} y1={0} x2={0} y2={1}>
         <stop offset={0} stopColor="white" stopOpacity={0.35} />
+        <stop offset={0.5} stopColor="white" stopOpacity={0.05} />
