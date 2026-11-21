@@ -211,3 +211,4 @@ const GEO: Record<CoffeeVessel, Geo> = {
     streamX: 0.14,
     streamW: 4.2,
   },
+  cup: {
