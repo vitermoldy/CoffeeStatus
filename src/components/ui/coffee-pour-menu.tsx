@@ -124,3 +124,4 @@ export const DEFAULT_COFFEE_ITEMS: CoffeeItem[] = [
       { type: "espresso", amount: 0.24, ml: 60 },
     ],
     crema: true,
+    blend: 0.9,
