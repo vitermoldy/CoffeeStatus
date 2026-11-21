@@ -478,3 +478,4 @@ export function resolveLayers(item: CoffeeItem): Layer[] {
     amount: l.amount ?? (total > 0 ? (fill * (l.ml ?? 0)) / total : fill / item.layers.length),
     ml: l.ml,
     label: l.label ?? LIQUIDS[l.type].label,
+  }));
