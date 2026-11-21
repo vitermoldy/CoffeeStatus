@@ -270,3 +270,4 @@ const wallR = (p: Profile, t: number) =>
 function silhouette(p: Profile) {
   const m = mid(p);
   return `M${-p.r} ${p.top}A${p.r} ${f1(p.r * P)} 0 0 1 ${p.r} ${p.top}Q${p.c} ${m} ${p.rb} ${p.bot}A${p.rb} ${f1(p.rb * P)} 0 0 1 ${-p.rb} ${p.bot}Q${-p.c} ${m} ${-p.r} ${p.top}Z`;
+}
