@@ -34,3 +34,4 @@ export const MENU: CoffeeCategory[] = [
           { type: "avocado", ml: 200 },
           { type: "chocolate", ml: 30 },
         ],
+        blend: 0.12,
