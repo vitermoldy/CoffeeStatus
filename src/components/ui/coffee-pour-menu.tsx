@@ -795,3 +795,4 @@ function stepCup(c: Cup, dt: number, t: number, spills: Particle[]): boolean {
     c.va += (-240 * (c.a - target) - 15 * c.va) * dt;
     c.a += c.va * dt;
     if (c.mode === "enter") {
+      busy = true;
