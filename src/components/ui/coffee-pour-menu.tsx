@@ -307,3 +307,4 @@ function ramp(stops: [number, RGB][], t: number): RGB {
       return mixRGB(c0, c, (t - p0) / (p - p0 || 1));
     }
   }
+  return stops[stops.length - 1][1];
