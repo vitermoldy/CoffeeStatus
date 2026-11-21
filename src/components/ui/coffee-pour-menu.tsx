@@ -589,3 +589,4 @@ function makeCup(key: number, item: CoffeeItem): Cup {
     x: W + 160,
     y: FLOOR,
     vx: 0,
+    vy: 0,
