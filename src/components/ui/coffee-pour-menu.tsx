@@ -549,3 +549,4 @@ type Cup = {
   level: number;
   /** N cells bottom to top, each holding the share of every liquid (NL values). */
   cells: Float32Array;
+  layers: Layer[];
