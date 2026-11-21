@@ -361,3 +361,4 @@ type LiquidDef = {
   swirl: string;
   /** How deep (pen) and how hard (jet) the pour mixes into the liquid below. */
   pen: number;
+  jet: number;
