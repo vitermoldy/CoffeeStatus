@@ -420,3 +420,4 @@ function shadeMix(cells: Float32Array, o: number): [RGB, number] {
   for (let j = 0; j < NL; j++) {
     const f = cells[o + j] / tot;
     if (f <= 0) continue;
+    const d = DEF[j];
