@@ -2039,3 +2039,4 @@ export function CoffeePourMenu({
     else if (e.key === "End") n = list.length - 1;
     if (n < 0) return;
     e.preventDefault();
+    select(list[n].id);
