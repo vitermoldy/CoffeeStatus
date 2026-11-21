@@ -1211,3 +1211,4 @@ function renderCup(c: Cup, t: number) {
       const f = (t * (0.45 + ((k * 37) % 10) / 18) + k * 0.618) % 1;
       const y = lerp(yb, yS + 2, f);
       const wr = wallR(g.inner, clamp((y - g.inner.top) / (g.inner.bot - g.inner.top), 0, 1));
+      const x = (((k * 53) % 17) / 8.5 - 1) * wr * 0.8 + Math.sin(f * 8 + k) * 1.4;
