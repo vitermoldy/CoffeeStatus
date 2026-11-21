@@ -1173,3 +1173,4 @@ function renderCup(c: Cup, t: number) {
       const u = Math.cos(th) * rad;
       d += `${i ? "L" : "M"}${f1(rS * u)} ${f1(yS + ry * Math.sin(th) * rad + wave(c, u, t))}`;
     }
+    e.swirl[k].setAttribute("d", d);
