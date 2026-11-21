@@ -99,3 +99,4 @@ export const MENU: CoffeeCategory[] = [
           { type: "matcha", ml: 70 },
         ],
         blend: 0.08,
+        ice: 2,
