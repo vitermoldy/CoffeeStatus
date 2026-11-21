@@ -1610,3 +1610,4 @@ const CupView = React.memo(function CupView({
           {g.glass && <path data-k="depth" fill={`url(#${id("liqDepth")})`} />}
           {g.glass && (
             <g filter={`url(#${id("blur3")})`} fill="none" strokeLinecap="round">
+              {Array.from({ length: TENDRILS }, (_, i) => (
