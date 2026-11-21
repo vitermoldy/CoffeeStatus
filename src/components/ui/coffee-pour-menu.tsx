@@ -76,3 +76,4 @@ export interface CoffeeItem {
 export interface CoffeeGarnish {
   /** Mint leaves (up to 8, plus a sprig on top once poured) or lime slices (up to 3). */
   type: "mint" | "lime";
+  count: number;
