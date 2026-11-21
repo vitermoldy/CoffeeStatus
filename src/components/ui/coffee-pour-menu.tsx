@@ -1328,3 +1328,4 @@ function Saucer({ g, id }: { g: Geo; id: (s: string) => string }) {
       )}
       <ellipse cx={0} cy={y + 1.6} rx={r * 0.76} ry={r * P * 0.76} fill="none" stroke="rgba(110,80,55,0.16)" strokeWidth={1.4} />
       <ellipse cx={0} cy={y + 0.6} rx={r * 0.76} ry={r * P * 0.76} fill="none" stroke="rgba(255,255,255,0.75)" strokeWidth={1} />
+      <ellipse cx={0} cy={y + 2} rx={r * 0.44} ry={r * P * 0.44} fill="rgba(120,90,60,0.08)" />
