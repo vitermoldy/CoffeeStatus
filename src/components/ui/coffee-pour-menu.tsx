@@ -587,3 +587,4 @@ function makeCup(key: number, item: CoffeeItem): Cup {
     mode: "wait",
     wait: 0,
     x: W + 160,
+    y: FLOOR,
