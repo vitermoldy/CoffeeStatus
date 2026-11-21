@@ -1499,3 +1499,4 @@ const SPRIG: [number, number, number][] = [
   [0.68, -40, 0.35],
   [0.98, -95, 0.32],
 ];
+const GARNISH = {
