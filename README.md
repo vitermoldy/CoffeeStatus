@@ -107,3 +107,4 @@ resep langsung selesai.
   di tengah, daftar minuman akan bergeser di bawah kursor saat hover memilih minuman lain.
 - Teks dalam bahasa Indonesia, subjudul memakai koma (`30 ml, pekat`), bukan titik tengah.
 - Warna teks menu yang tidak aktif, subjudul, kredit, dan ring fokus dipekatkan supaya lolos
+  kontras WCAG AA (nama minuman 4,9:1 di HP dan 3,4:1 di desktop; teks kecil minimal 4,6:1;
