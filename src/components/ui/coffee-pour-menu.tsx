@@ -1527,3 +1527,5 @@ function LimeSlice() {
       <circle r={0.06} fill="#f3f7d6" />
     </>
   );
+}
+
