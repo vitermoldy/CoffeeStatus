@@ -1953,3 +1953,4 @@ export function CoffeePourMenu({
 
   React.useEffect(() => () => {
     cancelAnimationFrame(raf.current);
+    raf.current = 0;
