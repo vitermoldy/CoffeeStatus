@@ -1769,3 +1769,4 @@ function Defs({ id }: { id: (s: string) => string }) {
       {(["aoCream", "aoTerra"] as const).map((n) => (
         <linearGradient key={n} id={id(n)} x1={0} y1={0} x2={0} y2={1}>
           <stop offset={0} stopColor={n === "aoCream" ? "rgb(96,64,38)" : "rgb(70,30,12)"} stopOpacity={0} />
+          <stop offset={0.55} stopColor={n === "aoCream" ? "rgb(96,64,38)" : "rgb(70,30,12)"} stopOpacity={0} />
