@@ -1890,3 +1890,4 @@ export function CoffeePourMenu({
   const [cups, setCups] = React.useState<{ key: number; item: CoffeeItem }[]>([]);
   const sim = React.useRef(new Map<number, Cup>());
   const spills = React.useRef<Particle[]>([]);
+  const spillEls = React.useRef<SVGGElement>(null);
