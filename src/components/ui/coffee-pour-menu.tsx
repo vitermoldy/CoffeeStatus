@@ -449,3 +449,4 @@ function shadeAt(cells: Float32Array, i: number): [RGB, number] {
 function swatch(type: CoffeeLiquid) {
   const c = LIQUIDS[type].color;
   const light = 0.2126 * c[0] + 0.7152 * c[1] + 0.0722 * c[2] > 215;
+  return css(light ? mixRGB(c, [150, 112, 80], 0.62) : c);
