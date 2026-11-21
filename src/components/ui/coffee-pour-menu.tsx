@@ -1424,3 +1424,4 @@ function VesselFront({ g, id }: { g: Geo; id: (s: string) => string }) {
       {/* rim lip in front */}
       <path d={frontBand(o.r, o.top, i.r, i.top + 0.8)} fill={gl.rim} />
       <path d={`M${-i.r} ${i.top + 0.8}A${i.r} ${f1(i.r * P)} 0 0 0 ${i.r} ${i.top + 0.8}`} fill="none" stroke="rgba(90,60,35,0.22)" strokeWidth={0.8} />
+      <path d={`M${-o.r + 2} ${o.top + 0.6}A${o.r - 2} ${f1((o.r - 2) * P)} 0 0 0 ${o.r - 2} ${o.top + 0.6}`} fill="none" stroke="white" strokeOpacity={0.9} strokeWidth={0.9} />
