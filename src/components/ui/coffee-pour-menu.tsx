@@ -951,3 +951,4 @@ function stepCup(c: Cup, dt: number, t: number, spills: Particle[]): boolean {
       }
       c.parts.splice(i, 1);
     }
+  }
