@@ -1457,3 +1457,4 @@ function Shadow({ g, id }: { g: Geo; id: (s: string) => string }) {
       <ellipse cx={10} cy={4} rx={r * 1.25} ry={r * P * 1.3} fill={`url(#${id("shadow")})`} opacity={g.glass ? 0.55 : 0.8} />
       <ellipse cx={2} cy={g.saucer ? 6 : 1} rx={r * 0.98} ry={r * P * 0.9} fill="rgba(62,34,14,0.36)" filter={`url(#${id("blur3")})`} opacity={g.glass ? 0.6 : 1} />
       {g.glass && (
+        <ellipse cx={r * 0.55} cy={5} rx={r * 0.55} ry={r * P * 0.5} fill="rgba(232,160,90,0.3)" filter={`url(#${id("blur3")})`} />
