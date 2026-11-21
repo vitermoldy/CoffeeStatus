@@ -1152,3 +1152,4 @@ function renderCup(c: Cup, t: number) {
   e.crema?.setAttribute("opacity", easeOut(c.crema).toFixed(3));
   e.foamTop?.setAttribute("opacity", easeOut(c.foam).toFixed(3));
   if (e.art) {
+    const s = Math.max(0, c.art);
