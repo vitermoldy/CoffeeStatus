@@ -99,3 +99,4 @@ resep langsung selesai.
 
 ## Perubahan dari komponen aslinya
 
+- Cairan tidak lagi terbatas pada espresso, air, dan susu. Campuran kopi tetap memakai warna asli
