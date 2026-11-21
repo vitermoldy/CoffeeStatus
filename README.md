@@ -49,3 +49,4 @@ src/
   data/menu.ts                   tab dan resep minuman
   lib/utils.ts                   helper cn() (clsx + tailwind-merge)
   App.tsx                        halaman
+  index.css                      Tailwind 4 dan font
