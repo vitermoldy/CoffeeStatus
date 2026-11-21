@@ -1052,3 +1052,5 @@ function renderCup(c: Cup, t: number) {
   );
   const sh = c.mode === "fall" ? Math.max(0, 1 - c.fallT * 6) : 1;
   e.shadow.setAttribute("transform", `translate(${f1(c.x)} ${FLOOR})`);
+  e.shadow.setAttribute("opacity", sh.toFixed(3));
+
