@@ -1409,3 +1409,4 @@ function VesselFront({ g, id }: { g: Geo; id: (s: string) => string }) {
         <ellipse cx={0} cy={o.top} rx={o.r} ry={o.r * P} fill="none" stroke="rgba(255,255,255,0.95)" strokeWidth={1.4} />
         <ellipse cx={0} cy={i.top + 0.6} rx={i.r} ry={i.r * P} fill="none" stroke="rgba(90,58,32,0.32)" strokeWidth={0.8} />
         <path d={`M${-o.r} ${o.top + 1.4}A${o.r} ${f1(o.r * P)} 0 0 0 ${o.r} ${o.top + 1.4}`} fill="none" stroke="rgba(90,58,32,0.26)" strokeWidth={0.9} />
+      </g>
