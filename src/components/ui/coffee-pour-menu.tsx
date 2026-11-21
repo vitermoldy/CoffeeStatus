@@ -1018,3 +1018,4 @@ const K = 36;
 const COS = Array.from({ length: K + 1 }, (_, i) => Math.cos((i / K) * Math.PI * 2 + Math.PI));
 const SIN = Array.from({ length: K + 1 }, (_, i) => Math.sin((i / K) * Math.PI * 2 + Math.PI));
 
+function streamPath(p: Pour, yBot: number, t: number) {
