@@ -13,3 +13,4 @@ export default defineConfig({
   server: { port: 5193 },
   preview: { port: 4193 },
   plugins: [react(), tailwindcss()],
+  resolve: {
