@@ -76,3 +76,4 @@ export const MENU: CoffeeCategory[] = [
         id: "es-teh-susu",
         name: "Es Teh Susu",
         subtitle: "240 ml, manis",
+        description: "teh hitam pekat dengan susu kental manis, disiram susu evaporasi di atasnya",
