@@ -941,3 +941,4 @@ function stepCup(c: Cup, dt: number, t: number, spills: Particle[]): boolean {
     q.vy += G_STREAM * dt;
     q.x += q.vx * dt;
     q.y += q.vy * dt;
+    const sy = yS + wave(c, clamp(q.x / rS, -1, 1), t);
