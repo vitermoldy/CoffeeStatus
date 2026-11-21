@@ -2241,3 +2241,4 @@ export function CoffeePourMenu({
           {/* pool of pendant light on the counter */}
           <ellipse cx={CX} cy={FLOOR + 2} rx={170} ry={46} fill={`url(#${id("pool")})`} />
           {[...cups].reverse().map((c) => (
+            <CupView key={c.key} cup={c} id={id} register={register} />
