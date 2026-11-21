@@ -2132,3 +2132,4 @@ export function CoffeePourMenu({
           aria-label={group?.label ?? TEXT.menu}
           onKeyDown={onKeyDown}
           className="grid grid-cols-2 gap-1.5 sm:flex sm:flex-col sm:gap-1"
+        >
