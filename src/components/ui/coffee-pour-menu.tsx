@@ -710,3 +710,4 @@ const wave = (c: Cup, u: number, t: number) =>
 
 function kick(c: Cup, u: number, s: number) {
   c.v1 += s * u * 40;
+  c.v2 -= s * 50;
