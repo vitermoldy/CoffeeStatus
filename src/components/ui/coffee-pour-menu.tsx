@@ -2000,3 +2000,4 @@ export function CoffeePourMenu({
     curKey.current = cup.key;
     if (reduce) {
       cup.mode = "fadeIn";
+      cup.opacity = 0;
