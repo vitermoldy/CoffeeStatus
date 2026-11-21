@@ -14,3 +14,4 @@ export const MENU: CoffeeCategory[] = [
         description: "jeruk peras dan wortel, diaduk rata di atas es batu",
         vessel: "tumbler",
         fill: 0.78,
+        layers: [
