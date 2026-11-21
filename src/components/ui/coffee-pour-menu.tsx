@@ -1358,3 +1358,4 @@ function VesselBack({ g, id }: { g: Geo; id: (s: string) => string }) {
       <Saucer g={g} id={id} />
       {/* foot ring */}
       <path d={frontBand(fr, o.bot - 2, fr * 0.97, o.bot + 4)} fill={`url(#${id(gl.body)})`} />
+      <path d={frontBand(fr * 0.97, o.bot + 3, fr * 0.97, o.bot + 4)} fill="rgba(60,35,18,0.35)" />
