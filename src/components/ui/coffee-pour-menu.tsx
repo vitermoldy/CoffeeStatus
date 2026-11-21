@@ -1249,3 +1249,4 @@ function renderCup(c: Cup, t: number) {
     s.hi.setAttribute("d", hi);
     s.hi.setAttribute("stroke-opacity", STREAM[p.type].hi.toFixed(2));
     s.stops[0].setAttribute("stop-color", STREAM[p.type].fill);
+    s.stops[1].setAttribute("stop-color", STREAM[p.type].fill);
