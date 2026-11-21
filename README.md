@@ -30,3 +30,4 @@ Di Windows, jalankan dari `C:\MyRepo\CoffeeStatus` (huruf C besar).
 | Jus | Jus Jeruk Wortel | tumbler + es | jus jeruk 150 ml, jus wortel 100 ml |
 | Jus | Jus Alpukat | tall-glass | sirup gula 20 ml, jus alpukat 200 ml, susu cokelat 30 ml |
 | Jus | Stroberi Pisang | jar | stroberi 120 ml, pisang 80 ml, yogurt 60 ml |
+| Jus | Mango Lassi | glass-mug | mangga 140 ml, yogurt 100 ml, susu 40 ml |
