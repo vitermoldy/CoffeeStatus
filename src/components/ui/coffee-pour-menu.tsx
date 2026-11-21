@@ -1545,3 +1545,4 @@ const CupView = React.memo(function CupView({
   cup,
   id,
   register,
+}: {
