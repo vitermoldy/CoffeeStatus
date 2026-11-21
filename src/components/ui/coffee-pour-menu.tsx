@@ -35,3 +35,4 @@ export interface CoffeeLayer {
    */
   amount?: number;
   /** Volume shown on the recipe card. */
+  ml?: number;
