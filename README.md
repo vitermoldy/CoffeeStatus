@@ -33,3 +33,4 @@ Di Windows, jalankan dari `C:\MyRepo\CoffeeStatus` (huruf C besar).
 | Jus | Mango Lassi | glass-mug | mangga 140 ml, yogurt 100 ml, susu 40 ml |
 | Teh & soda | Es Teh Susu | jar + es | teh hitam 150 ml, susu kental manis 40 ml, susu evaporasi 50 ml |
 | Teh & soda | Matcha Latte | tumbler + es | susu dingin 170 ml, matcha 70 ml |
+| Teh & soda | Teh Lemon Madu | glass-mug | teh 200 ml, air lemon 25 ml, madu 25 ml |
