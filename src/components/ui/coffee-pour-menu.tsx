@@ -619,3 +619,4 @@ function makeCup(key: number, item: CoffeeItem): Cup {
     art: 0,
     artV: 0,
     spill: 0,
+    dirty: true,
