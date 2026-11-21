@@ -1130,3 +1130,4 @@ function renderCup(c: Cup, t: number) {
   if (c.dirty) {
     c.dirty = false;
     for (let i = 0; i < N; i++) {
+      const [rgb, a] = shadeAt(c.cells, i);
