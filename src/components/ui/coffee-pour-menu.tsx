@@ -1838,3 +1838,4 @@ function paintRecipe(root: HTMLElement | null, c: Cup | undefined) {
     const row = rows[i];
     if (!row) continue;
     const state = p >= 0.999 ? "done" : started ? "pour" : "wait";
+    if (row.dataset.state !== state) row.dataset.state = state;
