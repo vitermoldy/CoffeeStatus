@@ -1065,3 +1065,4 @@ function renderCup(c: Cup, t: number) {
   for (let k = 0; k < e.ice.length; k++) {
     const [u, v, sz, ang] = ICE[k];
     const s = g.inner.rb * 0.52 * sz;
+    const rest = g.inner.bot + v * g.inner.rb * P * 0.5 - s * 0.45;
