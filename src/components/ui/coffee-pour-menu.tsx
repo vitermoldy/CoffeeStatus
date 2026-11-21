@@ -538,3 +538,4 @@ type Cup = {
   mode: "wait" | "enter" | "rest" | "fall" | "fadeIn" | "fadeOut";
   wait: number;
   x: number;
+  y: number;
