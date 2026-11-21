@@ -545,3 +545,4 @@ type Cup = {
   va: number;
   pivot: number;
   opacity: number;
+  fallT: number;
