@@ -1550,3 +1550,4 @@ const CupView = React.memo(function CupView({
   id: (s: string) => string;
   register: (key: number, el: SVGGElement | null) => void;
 }) {
+  const it = cup.item;
