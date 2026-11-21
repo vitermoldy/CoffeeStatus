@@ -1704,3 +1704,4 @@ const CupView = React.memo(function CupView({
           {Array.from({ length: PARTS }, (_, i) => (
             <circle key={i} data-k="part" r={0} />
           ))}
+        </g>
