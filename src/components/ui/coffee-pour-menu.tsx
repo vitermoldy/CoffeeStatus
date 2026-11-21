@@ -1058,3 +1058,4 @@ function renderCup(c: Cup, t: number) {
   const fTop = c.level + foamH;
   const yS = levelY(g, fTop);
   const rS = levelR(g, fTop) * 1.02;
+  const ry = rS * P;
