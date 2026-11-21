@@ -29,3 +29,4 @@ export const MENU: CoffeeCategory[] = [
         description: "alpukat diblender dengan sirup gula, disiram susu cokelat di atasnya",
         vessel: "tall-glass",
         fill: 0.8,
+        layers: [
