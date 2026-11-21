@@ -1032,3 +1032,4 @@ function streamPath(p: Pour, yBot: number, t: number) {
     const wob = Math.sin(y * 0.045 + t * 14) * 0.5 * (i / n);
     L.push(`${f1(p.x - hw + wob)} ${f1(y)}`);
     R.unshift(`${f1(p.x + hw + wob)} ${f1(y)}`);
+    if (i === 1) hiTop = `M${f1(p.x - hw * 0.35 + wob)} ${f1(y)}`;
