@@ -2048,3 +2048,4 @@ export function CoffeePourMenu({
     if (group && selected) lastPick.current[group.id] = selected.id;
   }, [group, selected]);
 
+  const openGroup = (g: CoffeeCategory) => {
