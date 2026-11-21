@@ -632,3 +632,4 @@ const easeOut = (t: number) => 1 - Math.pow(1 - clamp(t, 0, 1), 3);
 function deposit(c: Cup, type: CoffeeLiquid, dv: number) {
   const T = TYPE_INDEX[type];
   const L0 = c.level;
+  const L1 = Math.min(0.96, L0 + dv);
