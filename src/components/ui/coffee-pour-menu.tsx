@@ -1137,3 +1137,4 @@ function renderCup(c: Cup, t: number) {
     const [top, ta] = shadeAt(c.cells, topCell(c));
     e.surf.setAttribute("fill", css(top));
     e.surf.setAttribute("fill-opacity", Math.min(1, ta + 0.08).toFixed(3));
+    e.depth?.setAttribute("opacity", (ta * 0.9).toFixed(3));
