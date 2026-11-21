@@ -9,3 +9,4 @@ export default function CoffeePourMenuDemo() {
         Komponen asli oleh{" "}
         <a
           href="https://aakashmehra.com/ref/coffeepourmenu"
+          target="_blank"
