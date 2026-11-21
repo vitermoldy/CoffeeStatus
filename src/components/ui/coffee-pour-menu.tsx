@@ -1781,3 +1781,4 @@ function Defs({ id }: { id: (s: string) => string }) {
       <linearGradient id={id("glassBase")} x1={0} y1={0} x2={0} y2={1}>
         <stop offset={0} stopColor="white" stopOpacity={0.35} />
         <stop offset={0.5} stopColor="white" stopOpacity={0.05} />
+        <stop offset={1} stopColor="rgb(90,66,46)" stopOpacity={0.18} />
