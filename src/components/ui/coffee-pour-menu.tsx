@@ -1547,3 +1547,4 @@ const CupView = React.memo(function CupView({
   register,
 }: {
   cup: { key: number; item: CoffeeItem };
+  id: (s: string) => string;
