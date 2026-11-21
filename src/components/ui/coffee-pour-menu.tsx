@@ -1034,3 +1034,4 @@ function streamPath(p: Pour, yBot: number, t: number) {
     R.unshift(`${f1(p.x + hw + wob)} ${f1(y)}`);
     if (i === 1) hiTop = `M${f1(p.x - hw * 0.35 + wob)} ${f1(y)}`;
   }
+  const cap = p.phase === "fall" ? `A1 1 0 0 0 ${R[0]}` : `L${R[0]}`;
