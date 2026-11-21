@@ -1937,3 +1937,4 @@ export function CoffeePourMenu({
             n.setAttribute("r", "0");
             continue;
           }
+          n.setAttribute("cx", f1(q.x).toString());
