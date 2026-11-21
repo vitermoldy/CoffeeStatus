@@ -2163,3 +2163,4 @@ export function CoffeePourMenu({
                       className={cn(
                         // long names wrap on phones instead of being cut off
                         "text-[19px] leading-tight font-medium tracking-[-0.025em] text-balance transition-colors duration-300 sm:truncate sm:text-[34px] sm:leading-[1.1]",
+                        // dimmed names still meet WCAG AA: 4.5:1 at 19px, 3:1 at 34px
