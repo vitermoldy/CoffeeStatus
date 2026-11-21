@@ -11,3 +11,4 @@ export default defineConfig({
   root,
   base: './',
   server: { port: 5193 },
+  preview: { port: 4193 },
