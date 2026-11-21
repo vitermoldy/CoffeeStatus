@@ -220,3 +220,4 @@ const GEO: Record<CoffeeVessel, Geo> = {
     handle: "M75 -98C112 -106 126 -68 98 -52C88 -46 78 -45 66 -47",
     handleW: 11,
     height: 120,
+    shadowR: 132,
