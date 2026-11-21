@@ -678,3 +678,4 @@ function stir(c: Cup, k: number) {
 
 /** Local diffusion between neighbouring cells: softens layer boundaries. */
 function diffuse(c: Cup, k: number) {
+  const cells = c.cells;
