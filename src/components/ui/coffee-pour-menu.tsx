@@ -1000,3 +1000,4 @@ function stepCup(c: Cup, dt: number, t: number, spills: Particle[]): boolean {
     c.foam = Math.min(1, c.foam + dt / 0.75);
     busy = true;
   }
+  if (it.art === "heart" && c.foam > 0.35 && c.mix < 0.5 && c.mode !== "fall") {
