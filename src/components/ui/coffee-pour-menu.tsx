@@ -1827,3 +1827,4 @@ function paintRecipe(root: HTMLElement | null, c: Cup | undefined) {
   if (!root || !c) return;
   const rows = root.querySelectorAll<HTMLElement>("[data-row]");
   let last = -1; // last layer that has started pouring
+  let flowing = -1; // last layer with liquid actually running into the glass
