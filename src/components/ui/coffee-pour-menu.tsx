@@ -2142,3 +2142,4 @@ export function CoffeePourMenu({
                   btns.current[i] = el;
                 }}
                 type="button"
+                role="radio"
