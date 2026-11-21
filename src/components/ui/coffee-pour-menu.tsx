@@ -1234,3 +1234,4 @@ function renderCup(c: Cup, t: number) {
     el.setAttribute("opacity", (0.55 * (1 - rp.age / 0.7)).toFixed(3));
   }
 
+  // streams
