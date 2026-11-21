@@ -1901,3 +1901,4 @@ export function CoffeePourMenu({
   const lastPick = React.useRef<Record<string, string>>({});
 
   const loop = React.useCallback(() => {
+    if (raf.current) return;
