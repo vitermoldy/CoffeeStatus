@@ -2154,3 +2154,4 @@ export function CoffeePourMenu({
                   <motion.span
                     layoutId={`${uid}-pill`}
                     className="absolute inset-0 rounded-2xl bg-[#f7ecdd]/80 shadow-[inset_0_1px_0_rgba(255,255,255,0.8),inset_0_0_0_1px_rgba(185,122,69,0.32),0_1px_2px_rgba(90,55,25,0.08),0_14px_30px_-16px_rgba(90,55,25,0.4)]"
+                    transition={reduce ? { duration: 0 } : { type: "spring", stiffness: 420, damping: 34 }}
