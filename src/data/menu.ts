@@ -140,3 +140,4 @@ export const MENU: CoffeeCategory[] = [
         vessel: "tall-glass",
         fill: 0.72,
         garnish: [
+          { type: "mint", count: 6 },
