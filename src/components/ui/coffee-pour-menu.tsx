@@ -1681,3 +1681,4 @@ const CupView = React.memo(function CupView({
               <g key={`m${i}`} data-k="mint">
                 <MintLeaf />
               </g>
+            ))}
