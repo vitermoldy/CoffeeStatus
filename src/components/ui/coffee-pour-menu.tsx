@@ -670,3 +670,4 @@ function stir(c: Cup, k: number) {
   }
   if (tot <= 0) return;
   for (let i = 0; i < N; i++) {
+    if (i / N >= c.level) break;
