@@ -728,3 +728,5 @@ function fillInstantly(c: Cup) {
   c.fizzT = FIZZ_T;
   c.sprig = 1;
   c.next = c.layers.length;
+}
+
