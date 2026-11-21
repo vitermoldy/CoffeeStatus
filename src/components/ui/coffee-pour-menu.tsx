@@ -1216,3 +1216,4 @@ function renderCup(c: Cup, t: number) {
       el.setAttribute("cy", f1(y).toString());
       el.setAttribute("r", ((0.6 + f) * (k % 3 ? 1 : 1.4)).toFixed(2));
       el.setAttribute("opacity", (fa * (0.35 + 0.5 * f)).toFixed(3));
+    }
