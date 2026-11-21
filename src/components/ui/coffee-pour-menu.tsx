@@ -1751,3 +1751,4 @@ function Defs({ id }: { id: (s: string) => string }) {
   );
   const blur = (name: string, s: number) => (
     <filter id={id(name)} x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation={s} />
