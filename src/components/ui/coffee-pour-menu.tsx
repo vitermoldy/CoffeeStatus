@@ -506,3 +506,4 @@ type Tendril = { x: number; age: number; dir: number; ph: number; col: string };
 type Els = {
   root: SVGGElement;
   shadow: SVGGElement;
+  body: SVGGElement;
