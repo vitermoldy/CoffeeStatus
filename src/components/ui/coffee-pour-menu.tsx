@@ -1884,3 +1884,4 @@ export function CoffeePourMenu({
   const list = group ? group.items : all;
   const layers = React.useMemo(() => (selected ? resolveLayers(selected) : []), [selected]);
   const reduce = useReducedMotion() ?? false;
+  const uid = React.useId().replace(/[^a-zA-Z0-9_-]/g, "");
