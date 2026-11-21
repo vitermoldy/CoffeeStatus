@@ -7,3 +7,4 @@ export default function App() {
       <h1 className="sr-only">CoffeeStatus</h1>
       <CoffeePourMenuDemo />
     </main>
+  )
