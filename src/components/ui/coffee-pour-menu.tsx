@@ -2070,3 +2070,4 @@ export function CoffeePourMenu({
   const spoken = selected
     ? `${selected.name}: ${selected.description ?? selected.subtitle ?? ""}. ` +
       (layers.some((l) => l.ml)
+        ? `${TEXT.recipe}: ${layers.map((l) => `${lowerFirst(l.label)}${l.ml ? ` ${l.ml} ml` : ""}`).join(", ")}.`
