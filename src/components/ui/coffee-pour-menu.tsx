@@ -577,3 +577,4 @@ type Cup = {
   el?: Els;
 };
 
+function makeCup(key: number, item: CoffeeItem): Cup {
