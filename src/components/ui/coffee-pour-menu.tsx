@@ -1394,3 +1394,4 @@ function VesselFront({ g, id }: { g: Geo; id: (s: string) => string }) {
         <path d={wallLine(o, -0.8, 0.07, 0.8)} fill="none" stroke="white" strokeOpacity={0.9} strokeWidth={1.1} strokeLinecap="round" />
         <path d={wallLine(o, 0.84, 0.08, 0.42)} fill="none" stroke="white" strokeOpacity={0.6} strokeWidth={1.6} strokeLinecap="round" />
         <path d={wallLine(o, 0.86, 0.55, 0.62)} fill="none" stroke="white" strokeOpacity={0.5} strokeWidth={1.2} strokeLinecap="round" />
+        {g.rings?.map((d) => {
