@@ -2220,3 +2220,4 @@ export function CoffeePourMenu({
                   <div data-bar className="h-full origin-left rounded-full" style={{ background: swatch(l.type), transform: "scaleX(0)" }} />
                 </div>
               </li>
+            ))}
