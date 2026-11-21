@@ -1467,3 +1467,4 @@ function Shadow({ g, id }: { g: Geo; id: (s: string) => string }) {
 const ICE: [number, number, number, number][] = [
   [-0.42, -0.3, 1, 12],
   [0.4, 0.1, 0.92, -18],
+  [-0.02, 0.55, 0.85, 30],
