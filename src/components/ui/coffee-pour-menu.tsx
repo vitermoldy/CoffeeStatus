@@ -103,3 +103,4 @@ export interface CoffeePourMenuProps {
   className?: string;
 }
 
+export const DEFAULT_COFFEE_ITEMS: CoffeeItem[] = [
