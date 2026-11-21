@@ -1680,3 +1680,4 @@ const CupView = React.memo(function CupView({
             {Array.from({ length: mintCount }, (_, i) => (
               <g key={`m${i}`} data-k="mint">
                 <MintLeaf />
+              </g>
