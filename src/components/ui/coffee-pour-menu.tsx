@@ -637,3 +637,4 @@ function deposit(c: Cup, type: CoffeeLiquid, dv: number) {
   for (let i = 0; i < N; i++) {
     if (i / N >= L1) break;
     const o = i * NL;
+    const a0 = clamp(L0 * N - i, 0, 1);
