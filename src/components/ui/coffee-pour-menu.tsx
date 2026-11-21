@@ -898,3 +898,4 @@ function stepCup(c: Cup, dt: number, t: number, spills: Particle[]): boolean {
         const differs = c.level > 0.03 && share(c, TYPE_INDEX[p.type]) < 0.8;
         deposit(c, p.type, dv);
         p.poured += dv;
+        c.progress[p.layer] = p.poured / p.amount;
