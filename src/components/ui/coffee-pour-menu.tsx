@@ -445,3 +445,4 @@ function shadeAt(cells: Float32Array, i: number): [RGB, number] {
   return t >= 1 ? mix : [mixRGB(coffee[0], mix[0], t), lerp(coffee[1], mix[1], t)];
 }
 
+/** Recipe-card colour for a liquid: very light ones are darkened so they show on the card. */
