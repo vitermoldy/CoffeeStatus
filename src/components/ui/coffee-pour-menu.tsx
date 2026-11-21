@@ -1923,3 +1923,4 @@ export function CoffeePourMenu({
       const sp = spills.current;
       for (let i = sp.length - 1; i >= 0; i--) {
         const q = sp[i];
+        q.vy += G_FALL * dt;
