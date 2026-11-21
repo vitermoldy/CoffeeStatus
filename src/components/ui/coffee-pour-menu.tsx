@@ -796,3 +796,4 @@ function stepCup(c: Cup, dt: number, t: number, spills: Particle[]): boolean {
     c.a += c.va * dt;
     if (c.mode === "enter") {
       busy = true;
+      if (Math.abs(c.x - CX) < 0.4 && Math.abs(c.vx) < 8 && Math.abs(c.a) < 0.003 && Math.abs(c.va) < 0.04) {
