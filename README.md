@@ -80,3 +80,4 @@ Stack: Vite 8, React 19, TypeScript, Tailwind CSS 4, `motion` untuk animasi pil 
 - Cairan yang tersedia: `espresso`, `water`, `milk`, `orange`, `carrot`, `avocado`, `sugar`,
   `chocolate`, `strawberry`, `banana`, `yogurt`, `mango`, `tea`, `condensed`, `matcha`, `lemon`,
   `honey`, `syrup`, `lime`, `soda`. Warna, kepekatan, dan cara tuangnya ada di `LIQUIDS` dalam
+  komponen.
