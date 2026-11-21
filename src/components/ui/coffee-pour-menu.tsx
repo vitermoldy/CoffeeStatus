@@ -792,3 +792,4 @@ function stepCup(c: Cup, dt: number, t: number, spills: Particle[]): boolean {
     c.vx += ax * dt;
     c.x += c.vx * dt;
     const target = clamp(-ax * 0.00011, -0.14, 0.14);
+    c.va += (-240 * (c.a - target) - 15 * c.va) * dt;
