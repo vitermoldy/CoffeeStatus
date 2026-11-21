@@ -1063,3 +1063,4 @@ function renderCup(c: Cup, t: number) {
 
   // ice rests on the bottom until the rising surface lifts it
   for (let k = 0; k < e.ice.length; k++) {
+    const [u, v, sz, ang] = ICE[k];
