@@ -953,3 +953,4 @@ function stepCup(c: Cup, dt: number, t: number, spills: Particle[]): boolean {
     }
   }
   if (c.parts.length) busy = true;
+  for (let i = c.ripples.length - 1; i >= 0; i--) {
