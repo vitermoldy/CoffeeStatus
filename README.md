@@ -50,3 +50,4 @@ src/
   lib/utils.ts                   helper cn() (clsx + tailwind-merge)
   App.tsx                        halaman
   index.css                      Tailwind 4 dan font
+components.json                  konfigurasi shadcn CLI
