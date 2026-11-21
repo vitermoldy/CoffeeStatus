@@ -1803,3 +1803,4 @@ function Defs({ id }: { id: (s: string) => string }) {
           <path d={silhouette(GEO[v].inner)} />
         </clipPath>
       ))}
+    </defs>
