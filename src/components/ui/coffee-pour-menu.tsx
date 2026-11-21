@@ -1646,3 +1646,4 @@ const CupView = React.memo(function CupView({
                     <circle key={j} cx={x * 0.95} cy={y} r={r * 0.8} fill="rgba(200,170,130,0.35)" />
                   ))}
                 </g>
+              )}
