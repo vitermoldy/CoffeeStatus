@@ -510,3 +510,4 @@ type Els = {
   liquid: SVGGElement;
   liq: SVGPathElement;
   depth: SVGPathElement | null;
+  foam: SVGPathElement;
