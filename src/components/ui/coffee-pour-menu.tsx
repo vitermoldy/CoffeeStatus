@@ -1888,3 +1888,4 @@ export function CoffeePourMenu({
   const id = React.useCallback((s: string) => `cpm${uid}-${s}`, [uid]);
 
   const [cups, setCups] = React.useState<{ key: number; item: CoffeeItem }[]>([]);
+  const sim = React.useRef(new Map<number, Cup>());
