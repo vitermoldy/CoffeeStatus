@@ -1984,3 +1984,4 @@ export function CoffeePourMenu({
       c.x += d * Math.sin(c.a);
       c.y += d - d * Math.cos(c.a);
       c.pivot += d;
+      c.mode = "fall";
