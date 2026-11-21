@@ -273,3 +273,4 @@ function silhouette(p: Profile) {
 }
 /** Outer body whose top edge is the front of the rim. */
 function bodyPath(p: Profile) {
+  const m = mid(p);
