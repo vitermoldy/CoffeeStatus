@@ -603,3 +603,4 @@ function makeCup(key: number, item: CoffeeItem): Cup {
     sprig: 0,
     pours: [],
     next: 0,
+    pourT: 0,
