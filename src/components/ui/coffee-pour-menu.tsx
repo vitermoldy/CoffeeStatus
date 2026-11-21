@@ -50,3 +50,4 @@ export interface CoffeeItem {
   /** Spoken by screen readers when the drink is shown. */
   description?: string;
   /** Vessel to serve it in. */
+  vessel: CoffeeVessel;
