@@ -739,3 +739,4 @@ function startPour(c: Cup, i: number) {
     type: l.type,
     amount: l.amount,
     rate: l.amount / clamp(l.amount * 2.6, 0.7, 1.6),
+    poured: 0,
