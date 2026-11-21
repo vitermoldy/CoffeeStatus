@@ -1102,3 +1102,4 @@ function renderCup(c: Cup, t: number) {
   let back = "";
   for (let i = 0; i <= K; i++) {
     const u = COS[i];
+    const pt = `${f1(rS * u)} ${f1(yS + ry * SIN[i] + wave(c, u, t))}`;
