@@ -2028,3 +2028,5 @@ export function CoffeePourMenu({
     if (itemId === selectedId) return;
     if (value === undefined) setInner(itemId);
     onValueChange?.(itemId);
+  };
+
