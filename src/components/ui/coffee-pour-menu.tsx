@@ -191,3 +191,4 @@ const GEO: Record<CoffeeVessel, Geo> = {
     // shallow on purpose: an opaque cup only shows liquid near the rim
     inner: { top: -86, r: 41, bot: -60, rb: 33, c: 42 },
     glass: false,
+    glaze: "terra",
