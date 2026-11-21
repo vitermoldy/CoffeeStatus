@@ -1879,3 +1879,4 @@ export function CoffeePourMenu({
   const [inner, setInner] = React.useState(defaultValue ?? all[0]?.id);
   const selectedId = value ?? inner;
   const selected = all.find((i) => i.id === selectedId) ?? all[0];
+  const groupIndex = groups ? Math.max(0, groups.findIndex((g) => g.items.some((i) => i.id === selected?.id))) : -1;
