@@ -1204,3 +1204,4 @@ function renderCup(c: Cup, t: number) {
     const yb = g.inner.bot - 3;
     for (let k = 0; k < e.bubbles.length; k++) {
       const el = e.bubbles[k];
+      if (fa < 0.01 || yb - yS < 8 || c.mode === "fall") {
