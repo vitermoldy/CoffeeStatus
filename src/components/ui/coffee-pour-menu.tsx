@@ -240,3 +240,4 @@ const GEO: Record<CoffeeVessel, Geo> = {
     glass: true,
     height: 138,
     shadowR: 60,
+    streamX: 0.14,
