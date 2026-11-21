@@ -484,3 +484,4 @@ export function resolveLayers(item: CoffeeItem): Layer[] {
 type Pour = {
   layer: number;
   type: CoffeeLiquid;
+  amount: number;
