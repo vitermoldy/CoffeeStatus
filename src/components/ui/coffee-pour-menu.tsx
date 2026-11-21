@@ -585,3 +585,4 @@ function makeCup(key: number, item: CoffeeItem): Cup {
     item,
     geo,
     mode: "wait",
+    wait: 0,
