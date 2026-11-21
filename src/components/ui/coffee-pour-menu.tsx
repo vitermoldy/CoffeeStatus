@@ -1220,3 +1220,4 @@ function renderCup(c: Cup, t: number) {
   }
 
   for (let k = 0; k < RIPPLES; k++) {
+    const rp = c.ripples[k];
