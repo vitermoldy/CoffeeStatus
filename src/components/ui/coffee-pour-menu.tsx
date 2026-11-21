@@ -356,3 +356,4 @@ type LiquidDef = {
   /** How strongly it colours a mix. Below 0.1 it counts as a clear diluent. */
   tint: number;
   /** Pour stream: fill, opacity at the bottom, highlight strength, width factor. */
+  stream: { fill: string; a: number; hi: number; w: number };
