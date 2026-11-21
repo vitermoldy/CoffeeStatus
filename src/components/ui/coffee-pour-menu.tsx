@@ -204,3 +204,4 @@ const GEO: Record<CoffeeVessel, Geo> = {
     outer: { top: -170, r: 58, bot: 0, rb: 52, c: 55 },
     inner: { top: -170, r: 53.5, bot: -16, rb: 46.5, c: 50 },
     glass: true,
+    handle: "M55 -148C94 -148 98 -130 98 -100C98 -64 92 -42 53 -40",
