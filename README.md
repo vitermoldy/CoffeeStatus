@@ -69,3 +69,4 @@ Stack: Vite 8, React 19, TypeScript, Tailwind CSS 4, `motion` untuk animasi pil 
     { type: "sugar", ml: 20, label: "Gula aren" },
     { type: "milk", ml: 170 },
     { type: "espresso", ml: 60 },
+  ],
