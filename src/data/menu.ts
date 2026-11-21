@@ -64,3 +64,4 @@ export const MENU: CoffeeCategory[] = [
           { type: "milk", ml: 40 },
         ],
         foam: 0.04,
+        foamColor: "#fde2a8",
