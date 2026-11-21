@@ -1664,3 +1664,4 @@ const CupView = React.memo(function CupView({
             <path data-k="swirl" strokeWidth={3.2} />
             <path data-k="swirl" strokeWidth={2.2} />
           </g>
+          <g fill="none" stroke="rgba(255,250,240,1)" strokeWidth={0.9}>
