@@ -2245,3 +2245,4 @@ export function CoffeePourMenu({
           ))}
           <g ref={spillEls}>
             {Array.from({ length: SPILLS }, (_, i) => (
+              <circle key={i} r={0} />
