@@ -1241,3 +1241,4 @@ function renderCup(c: Cup, t: number) {
     if (!p || c.mode === "fall") {
       s.path.setAttribute("d", "");
       s.hi.setAttribute("d", "");
+      continue;
