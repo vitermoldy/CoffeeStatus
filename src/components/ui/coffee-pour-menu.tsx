@@ -417,3 +417,4 @@ function shadeMix(cells: Float32Array, o: number): [RGB, number] {
   let b = 0;
   let wsum = 0;
   let od = 0;
+  for (let j = 0; j < NL; j++) {
