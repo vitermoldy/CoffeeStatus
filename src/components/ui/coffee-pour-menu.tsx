@@ -183,3 +183,5 @@ type Geo = {
   shadowR: number;
   streamX: number;
   streamW: number;
+};
+
