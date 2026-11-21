@@ -234,3 +234,4 @@ const GEO: Record<CoffeeVessel, Geo> = {
     streamW: 4,
   },
   // short, wide glass for iced drinks
+  tumbler: {
