@@ -2011,3 +2011,4 @@ export function CoffeePourMenu({
     loop();
   }, [selected, reduce, loop]);
 
+  const register = React.useCallback(
