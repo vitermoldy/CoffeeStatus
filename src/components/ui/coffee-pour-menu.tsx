@@ -2089,3 +2089,4 @@ export function CoffeePourMenu({
           role="tablist"
           aria-label={TEXT.tabs}
           onKeyDown={onTabKey}
+          className="grid gap-1 rounded-2xl bg-[#3a271d]/[0.06] p-1 [grid-area:tabs]"
