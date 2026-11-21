@@ -1793,3 +1793,4 @@ function Defs({ id }: { id: (s: string) => string }) {
         <stop offset={0} stopColor="#dcc19e" />
         <stop offset={0.5} stopColor="#f3e8d8" />
         <stop offset={1} stopColor="#fdf9f2" />
+      </linearGradient>
