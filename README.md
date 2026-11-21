@@ -88,3 +88,4 @@ Stack: Vite 8, React 19, TypeScript, Tailwind CSS 4, `motion` untuk animasi pil 
 - Opsi lain: `foam` (tebal busa), `foamColor` (warna busa selain susu), `crema`, `art: "heart"`,
   `fizz` (gelembung soda selama dituang).
 
+Komponennya bisa dipakai dengan satu daftar (`items`) atau berkelompok di tab (`categories`),
