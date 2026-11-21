@@ -27,3 +27,4 @@ export const MENU: CoffeeCategory[] = [
         name: "Jus Alpukat",
         subtitle: "250 ml, kental",
         description: "alpukat diblender dengan sirup gula, disiram susu cokelat di atasnya",
+        vessel: "tall-glass",
