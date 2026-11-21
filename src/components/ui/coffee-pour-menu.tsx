@@ -740,3 +740,4 @@ function startPour(c: Cup, i: number) {
     amount: l.amount,
     rate: l.amount / clamp(l.amount * 2.6, 0.7, 1.6),
     poured: 0,
+    x: side * c.geo.streamX * r,
