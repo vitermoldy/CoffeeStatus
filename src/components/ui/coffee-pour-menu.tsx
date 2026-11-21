@@ -500,3 +500,4 @@ type Pour = {
   rippleT: number;
   slot: number;
 };
+type Particle = { x: number; y: number; vx: number; vy: number; r: number; col: string; drop: boolean };
