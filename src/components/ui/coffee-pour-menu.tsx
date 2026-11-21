@@ -2068,3 +2068,4 @@ export function CoffeePourMenu({
 
   const extras = selected ? extrasText(selected) : "";
   const spoken = selected
+    ? `${selected.name}: ${selected.description ?? selected.subtitle ?? ""}. ` +
