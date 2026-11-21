@@ -769,3 +769,4 @@ function splash(c: Cup, x: number, y: number, col: string, n: number, s: number)
       r: 0.8 + Math.random() * 1.5,
       col,
       drop: false,
+    });
