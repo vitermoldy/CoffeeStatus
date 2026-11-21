@@ -60,3 +60,4 @@ export interface CoffeeItem {
   /** Foam cap thickness, as a fraction of the vessel's inner height. */
   foam?: number;
   /** Foam colour as hex when it is not milk foam (juice froth, soda head). */
+  foamColor?: string;
