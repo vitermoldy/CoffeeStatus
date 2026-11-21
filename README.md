@@ -73,3 +73,5 @@ Stack: Vite 8, React 19, TypeScript, Tailwind CSS 4, `motion` untuk animasi pil 
   blend: 0.2,                 // 0 tetap berlapis, 1 tercampur rata
   ice: 3,                     // es batu, 0 sampai 4
 }
+```
+
