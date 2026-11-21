@@ -661,3 +661,4 @@ const MEAN = new Float64Array(NL);
 function stir(c: Cup, k: number) {
   const cells = c.cells;
   let tot = 0;
+  const m = MEAN.fill(0);
