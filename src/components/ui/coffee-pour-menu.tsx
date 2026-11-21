@@ -1231,3 +1231,4 @@ function renderCup(c: Cup, t: number) {
     el.setAttribute("cy", f1(yS + wave(c, clamp(rp.x / rS, -1, 1), t)).toString());
     el.setAttribute("rx", f1(rx).toString());
     el.setAttribute("ry", f1(rx * P).toString());
+    el.setAttribute("opacity", (0.55 * (1 - rp.age / 0.7)).toFixed(3));
