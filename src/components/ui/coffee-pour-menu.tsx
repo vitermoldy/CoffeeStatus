@@ -2189,3 +2189,4 @@ export function CoffeePourMenu({
         </div>
       </div>
 
+      {showRecipe && selected && (
