@@ -1570,3 +1570,4 @@ const CupView = React.memo(function CupView({
   const mintCount = solid("mint", MINT.length);
   const limeCount = solid("lime", LIME.length);
   return (
+    <g ref={(el) => register(k, el)}>
