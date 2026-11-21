@@ -1309,3 +1309,4 @@ function cacheEls(root: SVGGElement): Els {
 
 const GLAZE = {
   cream: { body: "cerCream", rim: "#fbf7f0", rimLine: "#5b331b", inner: "innerCream", edge: "edgeCream", saucer: "saucerCream", handle: "handleCream", ao: "aoCream" },
+  terra: { body: "cerTerra", rim: "#f7efe3", rimLine: "", inner: "innerCream", edge: "edgeTerra", saucer: "saucerCream", handle: "handleTerra", ao: "aoTerra" },
