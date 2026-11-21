@@ -742,3 +742,4 @@ function startPour(c: Cup, i: number) {
     poured: 0,
     x: side * c.geo.streamX * r,
     w: c.geo.streamW * STREAM[l.type].w,
+    phase: l.type === "espresso" ? "lead" : "fall",
