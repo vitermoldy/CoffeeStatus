@@ -558,3 +558,4 @@ type Cup = {
   pours: Pour[];
   next: number;
   pourT: number;
+  parts: Particle[];
