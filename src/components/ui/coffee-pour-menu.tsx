@@ -260,3 +260,4 @@ const GEO: Record<CoffeeVessel, Geo> = {
 
 const f1 = (n: number) => Math.round(n * 10) / 10;
 const clamp = (v: number, a: number, b: number) => Math.min(b, Math.max(a, v));
+const lerp = (a: number, b: number, t: number) => a + (b - a) * t;
