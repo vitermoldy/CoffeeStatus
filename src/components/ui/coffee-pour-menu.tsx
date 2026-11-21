@@ -1967,3 +1967,4 @@ export function CoffeePourMenu({
     shown.current = selected.id;
     let falling = 0;
     for (const c of [...sim.current.values()]) {
+      if (c.mode === "fall" || c.mode === "fadeOut") {
