@@ -1560,3 +1560,4 @@ const CupView = React.memo(function CupView({
   const froth = it.foam && it.foamColor ? hexRGB(it.foamColor) : null;
   const frothStops = froth && {
     lo: css(mixRGB(froth, [90, 60, 40], 0.18)),
+    mid: css(froth),
