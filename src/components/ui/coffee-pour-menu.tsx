@@ -2202,3 +2202,4 @@ export function CoffeePourMenu({
           </div>
           <ol className="mt-2.5 flex flex-col gap-2.5">
             {layers.map((l, i) => (
+              <li key={`${selected.id}-${i}`} data-row data-state="wait" className="group/row">
