@@ -79,3 +79,4 @@ export interface CoffeeGarnish {
   count: number;
 }
 
+export interface CoffeeCategory {
