@@ -551,3 +551,4 @@ type Cup = {
   cells: Float32Array;
   layers: Layer[];
   /** Poured fraction of each layer, 0 to 1. */
+  progress: Float32Array;
