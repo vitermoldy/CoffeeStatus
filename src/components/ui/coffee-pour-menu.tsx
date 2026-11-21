@@ -1332,3 +1332,4 @@ function Saucer({ g, id }: { g: Geo; id: (s: string) => string }) {
       {/* cup's own shadow in the well */}
       <ellipse cx={7} cy={o.bot + 4} rx={o.rb * 1.75} ry={o.rb * P * 1.9} fill={`url(#${id("shadow")})`} />
       <ellipse cx={1} cy={o.bot + 2.5} rx={o.rb * 1.05} ry={o.rb * P * 1.1} fill="rgba(60,35,18,0.32)" filter={`url(#${id("blur2")})`} />
+    </g>
