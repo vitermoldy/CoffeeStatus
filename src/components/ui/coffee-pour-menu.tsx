@@ -855,3 +855,4 @@ function stepCup(c: Cup, dt: number, t: number, spills: Particle[]): boolean {
       ? c.pourT > 0.02
       : overlap
         ? prev.poured >= prev.amount * 0.6
+        : prev.phase === "drips" || prev.phase === "done";
