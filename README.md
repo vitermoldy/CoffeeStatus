@@ -6,3 +6,4 @@ menghitung berapa ml tiap bahan yang sudah masuk. Semua gelas dan cairan digamba
 dalam kode.
 
 Komponen dasarnya `coffee-pour-menu` karya Aakash Mehra
+([aakashmehra.com](https://aakashmehra.com/ref/coffeepourmenu)), dikembangkan di proyek ini untuk
