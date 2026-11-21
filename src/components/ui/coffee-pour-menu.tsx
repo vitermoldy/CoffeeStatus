@@ -718,3 +718,4 @@ function kick(c: Cup, u: number, s: number) {
 function fillInstantly(c: Cup) {
   for (const l of c.layers) {
     for (let v = 0; v < l.amount; v += 0.01) deposit(c, l.type, Math.min(0.01, l.amount - v));
+  }
