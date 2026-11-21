@@ -235,3 +235,4 @@ const GEO: Record<CoffeeVessel, Geo> = {
   },
   // short, wide glass for iced drinks
   tumbler: {
+    outer: { top: -136, r: 58, bot: 0, rb: 49, c: 54 },
