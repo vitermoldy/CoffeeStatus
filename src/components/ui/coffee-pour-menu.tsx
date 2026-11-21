@@ -2014,3 +2014,4 @@ export function CoffeePourMenu({
   const register = React.useCallback(
     (key: number, el: SVGGElement | null) => {
       const c = sim.current.get(key);
+      if (c && el) {
