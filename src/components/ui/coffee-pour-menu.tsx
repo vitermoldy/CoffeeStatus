@@ -508,3 +508,4 @@ type Els = {
   shadow: SVGGElement;
   body: SVGGElement;
   liquid: SVGGElement;
+  liq: SVGPathElement;
