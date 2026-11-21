@@ -1876,3 +1876,4 @@ export function CoffeePourMenu({
 }: CoffeePourMenuProps) {
   const groups = categories?.length ? categories : null;
   const all = React.useMemo(() => (groups ? groups.flatMap((g) => g.items) : items), [groups, items]);
+  const [inner, setInner] = React.useState(defaultValue ?? all[0]?.id);
