@@ -725,3 +725,4 @@ function fillInstantly(c: Cup) {
   c.foam = 1;
   c.art = 1;
   c.progress.fill(1);
+  c.fizzT = FIZZ_T;
