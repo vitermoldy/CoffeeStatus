@@ -1275,3 +1275,4 @@ function cacheEls(root: SVGGElement): Els {
     shadow: (q("shadow") as SVGGElement),
     body: (q("body") as SVGGElement),
     liquid: (q("liquid") as SVGGElement),
+    liq: (q("liq") as SVGPathElement),
