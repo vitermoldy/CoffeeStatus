@@ -2088,3 +2088,4 @@ export function CoffeePourMenu({
         <div
           role="tablist"
           aria-label={TEXT.tabs}
+          onKeyDown={onTabKey}
