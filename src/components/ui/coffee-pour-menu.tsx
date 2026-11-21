@@ -925,3 +925,4 @@ function stepCup(c: Cup, dt: number, t: number, spills: Particle[]): boolean {
       }
     }
     if (p.phase === "drips") {
+      if (p.drips > 0 && p.timer > 0.12 + Math.random() * 0.1) {
