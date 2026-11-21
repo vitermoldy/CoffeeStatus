@@ -1586,3 +1586,4 @@ const CupView = React.memo(function CupView({
               <stop offset={1} stopColor={frothStops.lo} />
             </radialGradient>
           </>
+        )}
