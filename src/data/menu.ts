@@ -24,3 +24,4 @@ export const MENU: CoffeeCategory[] = [
       },
       {
         id: "jus-alpukat",
+        name: "Jus Alpukat",
