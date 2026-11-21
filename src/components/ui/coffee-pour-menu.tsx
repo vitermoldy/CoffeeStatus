@@ -110,3 +110,4 @@ export const DEFAULT_COFFEE_ITEMS: CoffeeItem[] = [
     subtitle: "30 ml, pekat",
     description: "satu shot pendek dan pekat dengan crema keemasan",
     vessel: "demitasse",
+    layers: [{ type: "espresso", amount: 0.72, ml: 30 }],
