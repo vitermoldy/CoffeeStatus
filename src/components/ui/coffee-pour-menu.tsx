@@ -175,3 +175,4 @@ type Geo = {
   glass: boolean;
   glaze?: "cream" | "terra";
   saucer?: { y: number; r: number };
+  handle?: string;
