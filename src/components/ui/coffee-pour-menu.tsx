@@ -1400,3 +1400,4 @@ function VesselFront({ g, id }: { g: Geo; id: (s: string) => string }) {
           const arc = `M${f1(-r)} ${f1(y)}A${f1(r)} ${f1(r * P)} 0 0 0 ${f1(r)} ${f1(y)}`;
           return (
             <g key={d} fill="none" strokeLinecap="round">
+              <path d={arc} stroke="rgba(90,58,32,0.22)" strokeWidth={1} transform="translate(0 1.2)" />
