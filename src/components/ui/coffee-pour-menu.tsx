@@ -1620,3 +1620,4 @@ const CupView = React.memo(function CupView({
               {Array.from({ length: FIZZ }, (_, i) => (
                 <circle key={i} data-k="bub" r={0} />
               ))}
+            </g>
