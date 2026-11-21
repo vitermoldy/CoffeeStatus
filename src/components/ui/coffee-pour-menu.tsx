@@ -1110,3 +1110,4 @@ function renderCup(c: Cup, t: number) {
   e.surf.setAttribute("d", surf);
   e.sclip.setAttribute("d", surf);
   const body = `${back}L${f1(rS + 40)} ${g.inner.bot + 40}L${f1(-rS - 40)} ${g.inner.bot + 40}Z`;
+  e.liq.setAttribute("d", body);
