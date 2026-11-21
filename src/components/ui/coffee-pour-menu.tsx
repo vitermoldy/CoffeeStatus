@@ -944,3 +944,4 @@ function stepCup(c: Cup, dt: number, t: number, spills: Particle[]): boolean {
     const sy = yS + wave(c, clamp(q.x / rS, -1, 1), t);
     if (q.vy > 0 && q.y >= sy) {
       if (q.drop) {
+        splash(c, q.x, sy, q.col, 3, 0.6);
