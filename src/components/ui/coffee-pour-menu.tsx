@@ -1912,3 +1912,4 @@ export function CoffeePourMenu({
       for (const c of sim.current.values()) {
         busy = stepCup(c, dt, t, spills.current) || busy;
         const gone =
+          (c.mode === "fall" && c.y - c.pivot - c.geo.height > H + 20) ||
