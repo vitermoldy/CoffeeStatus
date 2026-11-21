@@ -1068,3 +1068,4 @@ function renderCup(c: Cup, t: number) {
     const rest = g.inner.bot + v * g.inner.rb * P * 0.5 - s * 0.45;
     const float = yS + v * ry * 0.55 + wave(c, u * 0.6, t) + s * 0.12;
     e.ice[k].setAttribute(
+      "transform",
