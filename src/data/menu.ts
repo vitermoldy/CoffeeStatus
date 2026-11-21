@@ -137,3 +137,4 @@ export const MENU: CoffeeCategory[] = [
         name: "Mojito",
         subtitle: "200 ml, tanpa alkohol",
         description: "daun mint dan jeruk nipis ditumbuk dengan sirup gula, diberi es, lalu disiram air soda",
+        vessel: "tall-glass",
