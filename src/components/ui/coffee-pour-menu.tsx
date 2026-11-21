@@ -125,3 +125,4 @@ export const DEFAULT_COFFEE_ITEMS: CoffeeItem[] = [
     ],
     crema: true,
     blend: 0.9,
+  },
