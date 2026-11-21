@@ -20,3 +20,4 @@ import { cn } from "@/lib/utils";
 /*                                   Types                                    */
 /* -------------------------------------------------------------------------- */
 
+/** Vessel the drink is served in. */
