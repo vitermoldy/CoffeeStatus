@@ -469,3 +469,4 @@ const FIZZ_T = 2.5; // seconds the soda keeps fizzing after the last pour
 /** A layer with its fill height worked out and its recipe-card label. */
 type Layer = { type: CoffeeLiquid; amount: number; ml?: number; label: string };
 
+/** Layers of an item, with `amount` filled in from `fill` and `ml` where it is missing. */
