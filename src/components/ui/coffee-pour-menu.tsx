@@ -2257,3 +2257,4 @@ export function CoffeePourMenu({
   );
 }
 
+export default CoffeePourMenu;
