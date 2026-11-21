@@ -1906,3 +1906,4 @@ export function CoffeePourMenu({
     const tick = (now: number) => {
       const dt = Math.min(1 / 30, (now - last) / 1000);
       last = now;
+      const t = now / 1000;
