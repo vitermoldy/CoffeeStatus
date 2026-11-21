@@ -1956,3 +1956,4 @@ export function CoffeePourMenu({
     raf.current = 0;
   }, []);
 
+  // Selection changed: the current cup leaves, the newest choice always wins.
