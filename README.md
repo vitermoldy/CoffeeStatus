@@ -67,3 +67,4 @@ Stack: Vite 8, React 19, TypeScript, Tailwind CSS 4, `motion` untuk animasi pil 
   fill: 0.8,                  // tinggi isi gelas, dibagi ke tiap lapisan sesuai ml
   layers: [
     { type: "sugar", ml: 20, label: "Gula aren" },
+    { type: "milk", ml: 170 },
