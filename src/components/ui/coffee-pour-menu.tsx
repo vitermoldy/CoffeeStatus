@@ -133,3 +133,4 @@ export const DEFAULT_COFFEE_ITEMS: CoffeeItem[] = [
     description: "espresso dengan susu panas dan busa tebal",
     vessel: "cup",
     layers: [
+      { type: "espresso", amount: 0.3, ml: 60 },
