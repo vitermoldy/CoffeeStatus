@@ -2130,3 +2130,4 @@ export function CoffeePourMenu({
         <div
           role="radiogroup"
           aria-label={group?.label ?? TEXT.menu}
+          onKeyDown={onKeyDown}
