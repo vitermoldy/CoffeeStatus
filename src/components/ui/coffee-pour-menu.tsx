@@ -1074,3 +1074,4 @@ function renderCup(c: Cup, t: number) {
   }
 
   // muddled mint and lime: most stay on the bottom, the floaters rise with the surface like the ice
+  const place = (el: SVGGElement, [u, v, sz, ang, floats]: Solid, size: number, squash: number) => {
