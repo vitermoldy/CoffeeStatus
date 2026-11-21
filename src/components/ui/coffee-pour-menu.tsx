@@ -166,3 +166,4 @@ const SRC = -FLOOR - 10; // pour source, local y, just above the stage
 const P = 0.34; // ellipse squash: how far above the table we look from
 const N = 14; // liquid column cells
 
+/** Quadratic wall: top radius r, bottom radius rb, control x c (y is linear in t). */
