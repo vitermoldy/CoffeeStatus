@@ -494,3 +494,4 @@ type Pour = {
   head: number;
   headV: number;
   tail: number;
+  tailV: number;
