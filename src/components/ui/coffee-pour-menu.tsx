@@ -2016,3 +2016,4 @@ export function CoffeePourMenu({
       const c = sim.current.get(key);
       if (c && el) {
         c.el = cacheEls(el);
+        c.dirty = true;
