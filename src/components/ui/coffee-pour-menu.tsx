@@ -1722,3 +1722,4 @@ const CupView = React.memo(function CupView({
   );
 });
 
+const BUBBLES: [number, number, number][] = [
