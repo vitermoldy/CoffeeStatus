@@ -2032,3 +2032,4 @@ export function CoffeePourMenu({
 
   const onKeyDown = (e: React.KeyboardEvent) => {
     const i = list.findIndex((it) => it.id === selectedId);
+    let n = -1;
