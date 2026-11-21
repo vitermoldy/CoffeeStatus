@@ -1494,3 +1494,4 @@ const SPRIG_H = 58;
 /** Sprig leaves: height up the stem (0 to 1), angle, size. */
 const SPRIG: [number, number, number][] = [
   [0.4, -150, 0.42],
+  [0.42, -30, 0.4],
