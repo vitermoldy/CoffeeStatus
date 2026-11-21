@@ -1094,3 +1094,4 @@ function renderCup(c: Cup, t: number) {
     e.sprig.setAttribute(
       "transform",
       `translate(${f1(-rS * 0.28)} ${f1(yS + 3 + wave(c, -0.28, t))}) rotate(${(-8 + c.w1 * 2).toFixed(1)}) scale(${f1(SPRIG_H * (0.55 + 0.45 * k))})`,
+    );
