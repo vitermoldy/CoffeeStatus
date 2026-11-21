@@ -534,3 +534,4 @@ type Els = {
 type Cup = {
   key: number;
   item: CoffeeItem;
+  geo: Geo;
