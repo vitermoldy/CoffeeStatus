@@ -700,3 +700,5 @@ function share(c: Cup, T: number) {
     x += c.cells[i * NL + T] * f;
   }
   return tot ? x / tot : 1;
+}
+
