@@ -1649,3 +1649,4 @@ const CupView = React.memo(function CupView({
               )}
               {it.art === "heart" && (
                 <>
+                  <g data-k="foamtop" opacity={0}>
