@@ -1975,3 +1975,4 @@ export function CoffeePourMenu({
         sim.current.delete(c.key); // never made it on stage
         continue;
       }
+      if (reduce) {
