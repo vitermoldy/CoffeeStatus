@@ -928,3 +928,4 @@ function stepCup(c: Cup, dt: number, t: number, spills: Particle[]): boolean {
       if (p.drips > 0 && p.timer > 0.12 + Math.random() * 0.1) {
         spawnDrop(c, p);
         p.drips--;
+        p.timer = 0;
