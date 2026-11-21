@@ -1089,3 +1089,4 @@ function renderCup(c: Cup, t: number) {
   if (c.level <= 0) return;
 
   if (e.sprig) {
+    const k = easeOut(c.sprig);
