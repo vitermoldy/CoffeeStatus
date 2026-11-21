@@ -737,3 +737,4 @@ function startPour(c: Cup, i: number) {
   c.pours.push({
     layer: i,
     type: l.type,
+    amount: l.amount,
