@@ -771,3 +771,4 @@ function splash(c: Cup, x: number, y: number, col: string, n: number, s: number)
       drop: false,
     });
   }
+  if (c.ripples.length >= RIPPLES) c.ripples.shift();
