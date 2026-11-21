@@ -1949,3 +1949,5 @@ export function CoffeePourMenu({
       raf.current = busy ? requestAnimationFrame(tick) : 0;
     };
     raf.current = requestAnimationFrame(tick);
+  }, []);
+
