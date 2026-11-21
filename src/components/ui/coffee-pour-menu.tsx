@@ -1755,3 +1755,4 @@ function Defs({ id }: { id: (s: string) => string }) {
     </filter>
   );
   return (
+    <defs>
