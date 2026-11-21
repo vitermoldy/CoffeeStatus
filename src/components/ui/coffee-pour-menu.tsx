@@ -100,3 +100,4 @@ export interface CoffeePourMenuProps {
   /** Called when the user picks a drink. */
   onValueChange?: (id: string) => void;
   /** Extra classes for the root element. */
+  className?: string;
