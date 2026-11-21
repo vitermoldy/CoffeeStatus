@@ -1182,3 +1182,4 @@ function renderCup(c: Cup, t: number) {
   for (let k = 0; k < e.tendrils.length; k++) {
     const td = c.tendrils[k];
     if (!td) {
+      e.tendrils[k].setAttribute("d", "");
