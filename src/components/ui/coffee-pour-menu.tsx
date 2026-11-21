@@ -2213,3 +2213,4 @@ export function CoffeePourMenu({
                     <span className="truncate text-[#6b4a35] transition-colors duration-300 group-data-[state=done]/row:text-[#3a271d] group-data-[state=pour]/row:text-[#3a271d]">
                       {l.label}
                     </span>
+                  </span>
