@@ -244,3 +244,4 @@ const GEO: Record<CoffeeVessel, Geo> = {
     streamW: 4.2,
   },
   // mason-jar mug: near-straight walls with a slight belly
+  jar: {
