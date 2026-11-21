@@ -150,3 +150,4 @@ export const DEFAULT_COFFEE_ITEMS: CoffeeItem[] = [
       { type: "milk", amount: 0.51, ml: 240, label: "Susu panas" },
     ],
     foam: 0.11,
+    blend: 0.15,
