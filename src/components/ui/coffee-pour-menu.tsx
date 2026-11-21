@@ -514,3 +514,4 @@ type Els = {
   surf: SVGPathElement;
   sclip: SVGPathElement;
   decor: SVGGElement;
+  crema: SVGGElement | null;
