@@ -821,3 +821,4 @@ function stepCup(c: Cup, dt: number, t: number, spills: Particle[]): boolean {
         const qy = g.inner.top + c.pivot;
         const cs = Math.cos(c.a);
         const sn = Math.sin(c.a);
+        const rx = cs * qx - sn * qy;
