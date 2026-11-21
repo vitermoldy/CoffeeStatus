@@ -588,3 +588,4 @@ function makeCup(key: number, item: CoffeeItem): Cup {
     wait: 0,
     x: W + 160,
     y: FLOOR,
+    vx: 0,
