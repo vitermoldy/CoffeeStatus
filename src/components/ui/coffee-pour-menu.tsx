@@ -641,3 +641,4 @@ function deposit(c: Cup, type: CoffeeLiquid, dv: number) {
     const a1 = clamp(L1 * N - i, 0, 1);
     if (a1 > a0) {
       const k = (a1 - a0) / a1;
+      for (let j = 0; j < NL; j++) cells[o + j] *= 1 - k;
