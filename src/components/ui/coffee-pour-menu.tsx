@@ -262,3 +262,4 @@ const f1 = (n: number) => Math.round(n * 10) / 10;
 const clamp = (v: number, a: number, b: number) => Math.min(b, Math.max(a, v));
 const lerp = (a: number, b: number, t: number) => a + (b - a) * t;
 const mid = (p: Profile) => (p.top + p.bot) / 2;
+/** Wall radius at t (0 top, 1 bottom). */
