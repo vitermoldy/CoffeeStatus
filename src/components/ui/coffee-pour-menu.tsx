@@ -1515,3 +1515,4 @@ function MintLeaf({ fill = "#4f9a44" }: { fill?: string }) {
 
 function LimeSlice() {
   return (
+    <>
