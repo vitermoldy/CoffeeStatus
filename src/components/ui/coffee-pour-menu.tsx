@@ -854,3 +854,4 @@ function stepCup(c: Cup, dt: number, t: number, spills: Particle[]): boolean {
     const ready = !prev
       ? c.pourT > 0.02
       : overlap
+        ? prev.poured >= prev.amount * 0.6
