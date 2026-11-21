@@ -566,3 +566,4 @@ type Cup = {
   w2: number;
   v2: number;
   w3: number;
+  mix: number;
