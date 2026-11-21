@@ -1338,3 +1338,4 @@ function Saucer({ g, id }: { g: Geo; id: (s: string) => string }) {
 
 function VesselBack({ g, id }: { g: Geo; id: (s: string) => string }) {
   const o = g.outer;
+  const i = g.inner;
