@@ -1193,3 +1193,4 @@ function renderCup(c: Cup, t: number) {
       const x = td.x + td.dir * s * s * rS * 0.6 * grow + Math.sin(s * 5 + td.age * 3.5 + td.ph) * s * 8;
       d += `${i ? "L" : "M"}${f1(x)} ${f1(yS + 2 + s * depth)}`;
     }
+    e.tendrils[k].setAttribute("d", d);
