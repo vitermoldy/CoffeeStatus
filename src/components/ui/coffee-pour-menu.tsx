@@ -1842,3 +1842,4 @@ function paintRecipe(root: HTMLElement | null, c: Cup | undefined) {
     const bar = row.querySelector<HTMLElement>("[data-bar]");
     const v = clamp(p, 0, 1).toFixed(3);
     if (bar && bar.dataset.p !== v) {
+      bar.dataset.p = v;
