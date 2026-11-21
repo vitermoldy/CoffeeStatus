@@ -2007,3 +2007,4 @@ export function CoffeePourMenu({
       cup.wait = falling ? 0.14 : 0.05;
     }
     sim.current.set(cup.key, cup);
+    setCups((cs) => [...cs.filter((c) => sim.current.has(c.key)), { key: cup.key, item: selected }]);
