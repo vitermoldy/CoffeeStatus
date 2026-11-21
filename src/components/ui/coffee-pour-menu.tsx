@@ -1943,3 +1943,4 @@ export function CoffeePourMenu({
           n.setAttribute("fill", q.col);
         }
       }
+      if (sp.length) busy = true;
