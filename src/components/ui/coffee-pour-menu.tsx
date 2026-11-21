@@ -836,3 +836,4 @@ function stepCup(c: Cup, dt: number, t: number, spills: Particle[]): boolean {
         c.level = Math.max(0.05, c.level - 0.004);
       }
     }
+  } else if (c.mode === "fadeIn") {
