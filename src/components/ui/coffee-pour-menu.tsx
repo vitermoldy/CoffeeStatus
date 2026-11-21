@@ -1739,3 +1739,4 @@ function Defs({ id }: { id: (s: string) => string }) {
     <linearGradient id={id(name)} x1={0} y1={v ? 0 : 0} x2={v ? 0 : 1} y2={v ? 1 : 0}>
       {stops.map(([o, c]) => (
         <stop key={o} offset={o} stopColor={c} />
+      ))}
