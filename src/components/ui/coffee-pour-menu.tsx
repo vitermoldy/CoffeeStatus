@@ -990,3 +990,4 @@ function stepCup(c: Cup, dt: number, t: number, spills: Particle[]): boolean {
   if (c.mix > 0) {
     stir(c, 1 - Math.exp(-(it.blend ?? 1) * c.mix * 3.2 * dt));
     diffuse(c, Math.min(0.25, c.mix * dt * 6 * Math.sqrt(it.blend ?? 1)));
+    busy = true;
