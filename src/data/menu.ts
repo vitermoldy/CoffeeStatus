@@ -63,3 +63,4 @@ export const MENU: CoffeeCategory[] = [
           { type: "yogurt", ml: 100 },
           { type: "milk", ml: 40 },
         ],
+        foam: 0.04,
