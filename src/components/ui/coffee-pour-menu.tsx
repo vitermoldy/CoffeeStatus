@@ -374,3 +374,4 @@ const LIQUIDS = {
   avocado: { label: "Jus alpukat", color: [172, 188, 88], opacity: 1, tint: 1.3, stream: { fill: "rgb(166,184,82)", a: 1, hi: 0.7, w: 2.1 }, swirl: "rgb(205,214,140)", pen: 0.14, jet: 0.6 },
   sugar: { label: "Sirup gula", color: [244, 232, 200], opacity: 0.35, tint: 0.25, stream: { fill: "rgb(238,222,184)", a: 0.85, hi: 1, w: 1 }, swirl: "rgb(250,242,220)", pen: 0.08, jet: 0.4 },
   chocolate: { label: "Susu cokelat", color: [92, 52, 30], opacity: 1, tint: 2.2, stream: { fill: "rgb(86,48,26)", a: 1, hi: 0.4, w: 1.2 }, swirl: "rgb(110,66,40)", pen: 0.1, jet: 0.45 },
+  strawberry: { label: "Stroberi", color: [214, 58, 78], opacity: 0.95, tint: 1.6, stream: { fill: "rgb(206,46,70)", a: 1, hi: 0.6, w: 2 }, swirl: "rgb(236,120,140)", pen: 0.16, jet: 0.65 },
