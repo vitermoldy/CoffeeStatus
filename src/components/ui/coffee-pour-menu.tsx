@@ -1938,3 +1938,4 @@ export function CoffeePourMenu({
             continue;
           }
           n.setAttribute("cx", f1(q.x).toString());
+          n.setAttribute("cy", f1(q.y).toString());
