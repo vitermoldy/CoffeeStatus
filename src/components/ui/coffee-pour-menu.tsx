@@ -1366,3 +1366,4 @@ function VesselBack({ g, id }: { g: Geo; id: (s: string) => string }) {
           <path d={g.handle} fill="none" stroke="rgba(60,30,15,0.18)" strokeWidth={g.handleW! * 0.25} strokeLinecap="round" transform="translate(0.8 2)" filter={`url(#${id("blur1")})`} />
         </g>
       )}
+      {/* rim top and the glazed interior */}
