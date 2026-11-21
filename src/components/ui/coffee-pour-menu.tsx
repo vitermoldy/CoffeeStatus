@@ -1495,3 +1495,4 @@ const SPRIG_H = 58;
 const SPRIG: [number, number, number][] = [
   [0.4, -150, 0.42],
   [0.42, -30, 0.4],
+  [0.66, -140, 0.36],
