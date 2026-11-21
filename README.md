@@ -100,3 +100,4 @@ resep langsung selesai.
 ## Perubahan dari komponen aslinya
 
 - Cairan tidak lagi terbatas pada espresso, air, dan susu. Campuran kopi tetap memakai warna asli
+  buatan Aakash Mehra, campuran lain memakai warna rata-rata berbobot dan kepekatan per bahan.
