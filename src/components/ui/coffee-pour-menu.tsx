@@ -399,3 +399,4 @@ const pick = <T,>(f: (d: LiquidDef) => T) =>
 const STREAM = pick((d) => d.stream);
 const SWIRL = pick((d) => d.swirl);
 const PEN = pick((d) => d.pen);
+const JET = pick((d) => d.jet);
