@@ -389,3 +389,4 @@ const LIQUIDS = {
 } satisfies Record<string, LiquidDef>;
 
 const LIQ = Object.keys(LIQUIDS) as CoffeeLiquid[];
+/** Number of liquids tracked in every cell of the column. */
