@@ -770,3 +770,4 @@ function splash(c: Cup, x: number, y: number, col: string, n: number, s: number)
       col,
       drop: false,
     });
+  }
