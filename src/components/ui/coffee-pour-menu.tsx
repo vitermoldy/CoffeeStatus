@@ -543,3 +543,4 @@ type Cup = {
   vy: number;
   a: number;
   va: number;
+  pivot: number;
