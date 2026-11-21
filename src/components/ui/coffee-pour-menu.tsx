@@ -427,3 +427,4 @@ function shadeMix(cells: Float32Array, o: number): [RGB, number] {
     r += col[0] * w;
     g += col[1] * w;
     b += col[2] * w;
+    wsum += w;
