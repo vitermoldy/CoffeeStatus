@@ -2166,3 +2166,4 @@ export function CoffeePourMenu({
                         // dimmed names still meet WCAG AA: 4.5:1 at 19px, 3:1 at 34px
                         active
                           ? "text-[#3a271d]"
+                          : "text-[#3a271d]/75 group-hover:text-[#3a271d]/90 sm:text-[#3a271d]/60 sm:group-hover:text-[#3a271d]/80",
