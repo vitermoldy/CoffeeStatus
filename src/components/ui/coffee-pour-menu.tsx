@@ -1203,3 +1203,4 @@ function renderCup(c: Cup, t: number) {
     const fa = clamp((FIZZ_T - c.fizzT) / 2, 0, 1);
     const yb = g.inner.bot - 3;
     for (let k = 0; k < e.bubbles.length; k++) {
+      const el = e.bubbles[k];
