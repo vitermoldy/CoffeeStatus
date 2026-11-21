@@ -1958,3 +1958,4 @@ export function CoffeePourMenu({
 
   // Selection changed: the current cup leaves, the newest choice always wins.
   React.useEffect(() => {
+    if (!selected) return;
