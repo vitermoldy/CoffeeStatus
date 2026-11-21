@@ -31,3 +31,4 @@ export interface CoffeeLayer {
   type: CoffeeLiquid;
   /**
    * How much, as a fraction (0 to 1) of the vessel's inner height. Without it
+   * the layer takes its share of the item's `fill`, in proportion to `ml`.
