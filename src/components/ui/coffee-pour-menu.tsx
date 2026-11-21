@@ -1027,3 +1027,4 @@ function streamPath(p: Pour, yBot: number, t: number) {
   let hiTop = "";
   for (let i = 0; i <= n; i++) {
     const y = lerp(yTop, yBot, i / n);
+    const v = Math.sqrt(V0 * V0 + 2 * G_STREAM * Math.max(0, y - SRC));
