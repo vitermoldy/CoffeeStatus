@@ -982,3 +982,4 @@ function stepCup(c: Cup, dt: number, t: number, spills: Particle[]): boolean {
     if (!pouring) c.fizzT += dt; // bubbles run during the pour, then fade
     busy = true;
   }
+  if (!pouring && c.level > 0 && c.sprig < 1 && c.mode !== "fall" && it.garnish?.some((g) => g.type === "mint")) {
