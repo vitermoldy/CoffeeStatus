@@ -5,3 +5,4 @@ gelas baru meluncur masuk, lalu minumannya dituang lapis demi lapis. Kartu resep
 menghitung berapa ml tiap bahan yang sudah masuk. Semua gelas dan cairan digambar dengan SVG di
 dalam kode.
 
+Komponen dasarnya `coffee-pour-menu` karya Aakash Mehra
