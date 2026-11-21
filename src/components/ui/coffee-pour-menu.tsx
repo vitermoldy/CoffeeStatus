@@ -1406,3 +1406,4 @@ function VesselFront({ g, id }: { g: Geo; id: (s: string) => string }) {
           );
         })}
         {/* rim */}
+        <ellipse cx={0} cy={o.top} rx={o.r} ry={o.r * P} fill="none" stroke="rgba(255,255,255,0.95)" strokeWidth={1.4} />
