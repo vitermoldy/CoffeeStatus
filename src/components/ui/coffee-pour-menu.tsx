@@ -894,3 +894,4 @@ function stepCup(c: Cup, dt: number, t: number, spills: Particle[]): boolean {
     if (p.phase === "flow" || p.phase === "tail") {
       if (p.poured < p.amount) {
         const dv = Math.min(p.rate * dt, p.amount - p.poured);
+        // does this pour differ from the liquid it lands in?
