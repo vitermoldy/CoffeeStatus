@@ -1572,3 +1572,4 @@ const CupView = React.memo(function CupView({
   return (
     <g ref={(el) => register(k, el)}>
       <defs>
+        {frothStops && (
