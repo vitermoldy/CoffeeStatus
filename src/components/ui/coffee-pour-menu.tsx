@@ -900,3 +900,4 @@ function stepCup(c: Cup, dt: number, t: number, spills: Particle[]): boolean {
         p.poured += dv;
         c.progress[p.layer] = p.poured / p.amount;
         if (differs) {
+          c.mix = Math.min(1, c.mix + dt * 3);
