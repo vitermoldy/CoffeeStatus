@@ -1404,3 +1404,4 @@ function VesselFront({ g, id }: { g: Geo; id: (s: string) => string }) {
               <path d={arc} stroke="white" strokeOpacity={0.8} strokeWidth={1.3} />
             </g>
           );
+        })}
