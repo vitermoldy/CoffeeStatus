@@ -719,3 +719,4 @@ function fillInstantly(c: Cup) {
   for (const l of c.layers) {
     for (let v = 0; v < l.amount; v += 0.01) deposit(c, l.type, Math.min(0.01, l.amount - v));
   }
+  stir(c, 1 - Math.exp(-(c.item.blend ?? 1) * 5.4));
