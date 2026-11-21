@@ -513,3 +513,4 @@ type Els = {
   foam: SVGPathElement;
   surf: SVGPathElement;
   sclip: SVGPathElement;
+  decor: SVGGElement;
