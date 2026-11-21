@@ -176,3 +176,4 @@ type Geo = {
   glaze?: "cream" | "terra";
   saucer?: { y: number; r: number };
   handle?: string;
+  handleW?: number;
