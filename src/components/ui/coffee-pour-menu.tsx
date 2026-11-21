@@ -1382,3 +1382,4 @@ function VesselFront({ g, id }: { g: Geo; id: (s: string) => string }) {
     return (
       <g>
         <path d={`${silhouette(o)}${silhouette(i)}`} fillRule="evenodd" fill={`url(#${id("glassWall")})`} />
+        {/* thick base: refracts the liquid above it */}
