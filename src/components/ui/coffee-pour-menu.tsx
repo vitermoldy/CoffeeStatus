@@ -83,3 +83,4 @@ export interface CoffeeCategory {
   id: string;
   /** Tab label. */
   label: string;
+  items: CoffeeItem[];
