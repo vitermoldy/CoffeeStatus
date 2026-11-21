@@ -699,3 +699,4 @@ function share(c: Cup, T: number) {
     tot += f;
     x += c.cells[i * NL + T] * f;
   }
+  return tot ? x / tot : 1;
