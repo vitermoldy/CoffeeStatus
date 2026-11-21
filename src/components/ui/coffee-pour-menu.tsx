@@ -1488,3 +1488,4 @@ const LIME: Solid[] = [
   [-0.4, -0.2, 0.95, 25, 1],
   [0.1, -0.6, 0.9, 5, 0],
 ];
+/** Leaf shape, base at x -0.5, tip at x 0.5. */
