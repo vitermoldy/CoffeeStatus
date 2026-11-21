@@ -59,3 +59,4 @@ export const MENU: CoffeeCategory[] = [
         vessel: "glass-mug",
         fill: 0.78,
         layers: [
+          { type: "mango", ml: 140 },
