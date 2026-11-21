@@ -344,3 +344,4 @@ const hexRGB = (h: string): RGB => {
   return [(n >> 16) & 255, (n >> 8) & 255, n & 255];
 };
 
+type LiquidDef = {
