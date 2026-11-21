@@ -1416,3 +1416,4 @@ function VesselFront({ g, id }: { g: Geo; id: (s: string) => string }) {
   return (
     <g>
       <path d={bodyPath(o)} fill={`url(#${id(gl.body)})`} />
+      <path d={bodyPath(o)} fill={`url(#${id(gl.ao)})`} />
