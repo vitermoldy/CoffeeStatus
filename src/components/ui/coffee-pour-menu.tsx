@@ -27,3 +27,4 @@ export type CoffeeVessel = "demitasse" | "glass-mug" | "cup" | "tall-glass" | "t
 export type CoffeeLiquid = keyof typeof LIQUIDS;
 
 export interface CoffeeLayer {
+  /** What is poured. */
