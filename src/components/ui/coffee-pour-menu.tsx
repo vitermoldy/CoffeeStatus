@@ -106,3 +106,4 @@ export interface CoffeePourMenuProps {
 export const DEFAULT_COFFEE_ITEMS: CoffeeItem[] = [
   {
     id: "espresso",
+    name: "Espresso",
