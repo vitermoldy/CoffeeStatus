@@ -1741,3 +1741,4 @@ function Defs({ id }: { id: (s: string) => string }) {
         <stop key={o} offset={o} stopColor={c} />
       ))}
     </linearGradient>
+  );
