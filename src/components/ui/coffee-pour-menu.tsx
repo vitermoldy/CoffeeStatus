@@ -288,3 +288,4 @@ function wallLine(p: Profile, k: number, t0: number, t1: number) {
   return `M${f1(k * wallR(p, t0))} ${f1(y0)}Q${f1(k * wallR(p, (t0 + t1) / 2) * 1.02)} ${f1(ym)} ${f1(k * wallR(p, t1))} ${f1(y1)}`;
 }
 
+/* -------------------------------------------------------------------------- */
