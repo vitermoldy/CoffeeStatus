@@ -19,3 +19,5 @@ npm run build      # cek tipe + build ke dist/
 
 Di Windows, jalankan dari `C:\MyRepo\CoffeeStatus` (huruf C besar).
 
+## Menu
+
