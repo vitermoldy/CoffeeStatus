@@ -4,3 +4,4 @@ import '@fontsource-variable/fraunces/opsz.css'
 import './index.css'
 import App from './App'
 
+createRoot(document.getElementById('root')!).render(
