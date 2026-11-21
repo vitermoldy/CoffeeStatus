@@ -657,3 +657,4 @@ function deposit(c: Cup, type: CoffeeLiquid, dv: number) {
 
 const MEAN = new Float64Array(NL);
 
+/** Stirring: relax every filled cell toward the column's mean. */
