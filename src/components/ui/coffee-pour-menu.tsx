@@ -886,3 +886,4 @@ function stepCup(c: Cup, dt: number, t: number, spills: Particle[]): boolean {
       if (p.head >= surfY) {
         p.phase = "flow";
         const top = c.cells[topCell(c) * NL + TYPE_INDEX[p.type]];
+        splash(c, p.x, surfY, STREAM[p.type].fill, c.level > 0.02 ? 6 : 3, 1);
