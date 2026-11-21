@@ -1240,3 +1240,4 @@ function renderCup(c: Cup, t: number) {
     const s = e.streams[k];
     if (!p || c.mode === "fall") {
       s.path.setAttribute("d", "");
+      s.hi.setAttribute("d", "");
