@@ -901,3 +901,4 @@ function stepCup(c: Cup, dt: number, t: number, spills: Particle[]): boolean {
         c.progress[p.layer] = p.poured / p.amount;
         if (differs) {
           c.mix = Math.min(1, c.mix + dt * 3);
+          c.swirlCol = SWIRL[p.type];
