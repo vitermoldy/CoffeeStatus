@@ -665,3 +665,4 @@ function stir(c: Cup, k: number) {
   for (let i = 0; i < N; i++) {
     const f = clamp(c.level * N - i, 0, 1);
     if (f <= 0) break;
+    tot += f;
