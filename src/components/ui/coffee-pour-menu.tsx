@@ -299,3 +299,4 @@ const mixRGB = (a: RGB, b: RGB, t: number): RGB => [
   lerp(a[2], b[2], t),
 ];
 function ramp(stops: [number, RGB][], t: number): RGB {
+  if (t <= stops[0][0]) return stops[0][1];
