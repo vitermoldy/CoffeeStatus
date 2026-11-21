@@ -2072,3 +2072,4 @@ export function CoffeePourMenu({
       (layers.some((l) => l.ml)
         ? `${TEXT.recipe}: ${layers.map((l) => `${lowerFirst(l.label)}${l.ml ? ` ${l.ml} ml` : ""}`).join(", ")}.`
         : "") +
+      (extras ? ` Dengan ${extras}.` : "")
