@@ -65,3 +65,4 @@ Stack: Vite 8, React 19, TypeScript, Tailwind CSS 4, `motion` untuk animasi pil 
   description: "espresso, susu dan sirup gula aren",
   vessel: "tumbler",          // demitasse | glass-mug | cup | tall-glass | tumbler | jar
   fill: 0.8,                  // tinggi isi gelas, dibagi ke tiap lapisan sesuai ml
+  layers: [
