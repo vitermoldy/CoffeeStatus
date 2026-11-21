@@ -1902,3 +1902,4 @@ export function CoffeePourMenu({
 
   const loop = React.useCallback(() => {
     if (raf.current) return;
+    let last = performance.now();
