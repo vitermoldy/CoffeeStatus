@@ -1150,3 +1150,4 @@ function renderCup(c: Cup, t: number) {
     `matrix(${f1(rS)} ${(c.w1 / 1).toFixed(2)} 0 ${f1(ry)} 0 ${f1(yS + c.w2)})`,
   );
   e.crema?.setAttribute("opacity", easeOut(c.crema).toFixed(3));
+  e.foamTop?.setAttribute("opacity", easeOut(c.foam).toFixed(3));
