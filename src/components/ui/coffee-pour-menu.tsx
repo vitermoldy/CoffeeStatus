@@ -2066,3 +2066,4 @@ export function CoffeePourMenu({
     tabs.current[n]?.focus();
   };
 
+  const extras = selected ? extrasText(selected) : "";
