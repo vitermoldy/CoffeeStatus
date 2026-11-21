@@ -1195,3 +1195,4 @@ function renderCup(c: Cup, t: number) {
     }
     e.tendrils[k].setAttribute("d", d);
     e.tendrils[k].setAttribute("stroke", td.col);
+    e.tendrils[k].setAttribute("opacity", (0.6 * (1 - td.age / 1.8)).toFixed(3));
