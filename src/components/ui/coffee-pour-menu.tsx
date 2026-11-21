@@ -2100,3 +2100,4 @@ export function CoffeePourMenu({
                 ref={(el) => {
                   tabs.current[i] = el;
                 }}
+                id={`${uid}-tab-${i}`}
