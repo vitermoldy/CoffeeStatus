@@ -1299,3 +1299,4 @@ function cacheEls(root: SVGGElement): Els {
     bubbles: (all("bub") as SVGCircleElement[]),
     mint: (all("mint") as SVGGElement[]),
     lime: (all("lime") as SVGGElement[]),
+    sprig: (q("sprig") as SVGGElement | null),
