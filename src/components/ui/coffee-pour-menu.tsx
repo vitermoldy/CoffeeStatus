@@ -486,3 +486,4 @@ type Pour = {
   type: CoffeeLiquid;
   amount: number;
   rate: number;
+  poured: number;
