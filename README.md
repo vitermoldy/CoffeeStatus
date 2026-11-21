@@ -59,3 +59,4 @@ Stack: Vite 8, React 19, TypeScript, Tailwind CSS 4, `motion` untuk animasi pil 
 
 ```tsx
 {
+  id: "es-kopi-susu",
