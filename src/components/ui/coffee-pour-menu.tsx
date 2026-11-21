@@ -2162,3 +2162,4 @@ export function CoffeePourMenu({
                     <span
                       className={cn(
                         // long names wrap on phones instead of being cut off
+                        "text-[19px] leading-tight font-medium tracking-[-0.025em] text-balance transition-colors duration-300 sm:truncate sm:text-[34px] sm:leading-[1.1]",
