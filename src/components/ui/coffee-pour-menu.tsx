@@ -1987,3 +1987,4 @@ export function CoffeePourMenu({
       c.mode = "fall";
       c.vy = -150 - Math.random() * 60;
       c.vx = -30 - Math.random() * 50 + c.vx * 0.3;
+      c.va = (Math.random() < 0.75 ? -1 : 1) * (1.3 + Math.random() * 1.4) + c.va * 0.3;
