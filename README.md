@@ -13,3 +13,4 @@ jus, teh, dan soda.
 
 ```bash
 npm install
+npm run dev        # http://localhost:5193
