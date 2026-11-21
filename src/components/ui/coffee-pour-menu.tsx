@@ -1801,3 +1801,4 @@ function Defs({ id }: { id: (s: string) => string }) {
       {(Object.keys(GEO) as CoffeeVessel[]).map((v) => (
         <clipPath key={v} id={id(`clip-${v}`)}>
           <path d={silhouette(GEO[v].inner)} />
+        </clipPath>
