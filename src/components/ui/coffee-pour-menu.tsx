@@ -1253,3 +1253,4 @@ function renderCup(c: Cup, t: number) {
     s.stops[1].setAttribute("stop-opacity", STREAM[p.type].a.toFixed(2));
   }
 
+  for (let k = 0; k < PARTS; k++) {
