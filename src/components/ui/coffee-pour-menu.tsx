@@ -462,3 +462,4 @@ const V0 = 220;
 const PARTS = 26;
 const RIPPLES = 6;
 const TENDRILS = 3;
+const SPILLS = 32;
