@@ -218,3 +218,4 @@ const GEO: Record<CoffeeVessel, Geo> = {
     glaze: "cream",
     saucer: { y: -6, r: 132 },
     handle: "M75 -98C112 -106 126 -68 98 -52C88 -46 78 -45 66 -47",
+    handleW: 11,
