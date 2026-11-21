@@ -2024,3 +2024,4 @@ export function CoffeePourMenu({
     [loop],
   );
 
+  const select = (itemId: string) => {
