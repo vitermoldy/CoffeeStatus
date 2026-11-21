@@ -1114,3 +1114,4 @@ function renderCup(c: Cup, t: number) {
   e.depth?.setAttribute("d", body);
 
   if (g.glass && foamH > 0.002) {
+    const yL = levelY(g, c.level);
