@@ -1952,3 +1952,4 @@ export function CoffeePourMenu({
   }, []);
 
   React.useEffect(() => () => {
+    cancelAnimationFrame(raf.current);
