@@ -1307,3 +1307,4 @@ function cacheEls(root: SVGGElement): Els {
 /*                                 Vessel art                                 */
 /* -------------------------------------------------------------------------- */
 
+const GLAZE = {
