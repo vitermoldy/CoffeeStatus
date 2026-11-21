@@ -67,3 +67,4 @@ export interface CoffeeItem {
   blend?: number;
   /** Ice cubes in the glass, 0 to 4. They rest on the bottom until the drink lifts them. */
   ice?: number;
+  /** Solids muddled in the glass before the pour (mint leaves, lime slices). Listed on the recipe card. */
