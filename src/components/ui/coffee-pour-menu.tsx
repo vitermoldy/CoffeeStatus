@@ -808,3 +808,4 @@ function stepCup(c: Cup, dt: number, t: number, spills: Particle[]): boolean {
     c.fallT += dt;
     c.vy += G_FALL * dt;
     c.x += c.vx * dt;
+    c.y += c.vy * dt;
