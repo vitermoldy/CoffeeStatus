@@ -282,3 +282,4 @@ function frontBand(r1: number, y1: number, r2: number, y2: number) {
 }
 /** A line running down the wall at a fraction k of its radius. */
 function wallLine(p: Profile, k: number, t0: number, t1: number) {
+  const y0 = lerp(p.top, p.bot, t0);
