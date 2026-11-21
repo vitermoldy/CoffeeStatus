@@ -1959,3 +1959,4 @@ export function CoffeePourMenu({
   // Selection changed: the current cup leaves, the newest choice always wins.
   React.useEffect(() => {
     if (!selected) return;
+    const live = [...sim.current.values()].some((c) => c.mode !== "fall" && c.mode !== "fadeOut");
