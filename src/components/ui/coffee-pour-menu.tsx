@@ -1599,3 +1599,4 @@ const CupView = React.memo(function CupView({
           </linearGradient>
         ))}
         <clipPath id={sclip}>
+          <path data-k="sclip" />
