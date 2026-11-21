@@ -140,3 +140,4 @@ export const DEFAULT_COFFEE_ITEMS: CoffeeItem[] = [
     art: "heart",
   },
   {
+    id: "latte",
