@@ -668,3 +668,4 @@ function stir(c: Cup, k: number) {
     tot += f;
     for (let j = 0; j < NL; j++) m[j] += cells[i * NL + j] * f;
   }
+  if (tot <= 0) return;
