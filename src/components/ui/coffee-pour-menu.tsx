@@ -843,3 +843,5 @@ function stepCup(c: Cup, dt: number, t: number, spills: Particle[]): boolean {
   } else if (c.mode === "fadeOut") {
     c.opacity = Math.max(0, c.opacity - dt / 0.25);
     busy = true;
+  }
+
