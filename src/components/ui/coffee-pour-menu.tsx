@@ -1885,3 +1885,5 @@ export function CoffeePourMenu({
   const layers = React.useMemo(() => (selected ? resolveLayers(selected) : []), [selected]);
   const reduce = useReducedMotion() ?? false;
   const uid = React.useId().replace(/[^a-zA-Z0-9_-]/g, "");
+  const id = React.useCallback((s: string) => `cpm${uid}-${s}`, [uid]);
+
