@@ -43,3 +43,4 @@ export const MENU: CoffeeCategory[] = [
         description: "stroberi, pisang dan yogurt diblender jadi smoothie",
         vessel: "jar",
         fill: 0.8,
+        layers: [
