@@ -2106,3 +2106,4 @@ export function CoffeePourMenu({
                 aria-selected={on}
                 aria-controls={`${uid}-list`}
                 tabIndex={on ? 0 : -1}
+                onClick={() => openGroup(g)}
