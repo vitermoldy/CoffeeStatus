@@ -2195,3 +2195,4 @@ export function CoffeePourMenu({
           aria-label={`${TEXT.recipe} ${selected.name}`}
           className="rounded-[22px] bg-[#f6ead9]/75 px-4 py-3.5 shadow-[inset_0_0_0_1px_rgba(120,75,35,0.14)] [grid-area:recipe] sm:px-6 sm:py-4"
         >
+          {/* live counter for sighted users; screen readers get the recipe from the list and the live region */}
