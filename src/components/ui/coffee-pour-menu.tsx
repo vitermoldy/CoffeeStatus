@@ -63,3 +63,4 @@ export interface CoffeeItem {
   foamColor?: string;
   /** Latte art drawn on the surface once settled. */
   art?: "heart" | "none";
+  /** How completely the pours blend, 0 (stay layered) to 1 (fully mixed). Default 1. */
