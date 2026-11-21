@@ -2247,3 +2247,4 @@ export function CoffeePourMenu({
             {Array.from({ length: SPILLS }, (_, i) => (
               <circle key={i} r={0} />
             ))}
+          </g>
