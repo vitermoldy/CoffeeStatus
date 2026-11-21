@@ -1242,3 +1242,4 @@ function renderCup(c: Cup, t: number) {
       s.path.setAttribute("d", "");
       s.hi.setAttribute("d", "");
       continue;
+    }
