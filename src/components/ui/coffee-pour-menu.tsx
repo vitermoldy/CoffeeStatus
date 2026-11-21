@@ -1910,3 +1910,4 @@ export function CoffeePourMenu({
       let busy = false;
       let removed = false;
       for (const c of sim.current.values()) {
+        busy = stepCup(c, dt, t, spills.current) || busy;
