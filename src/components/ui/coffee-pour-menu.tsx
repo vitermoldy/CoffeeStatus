@@ -2030,3 +2030,4 @@ export function CoffeePourMenu({
     onValueChange?.(itemId);
   };
 
+  const onKeyDown = (e: React.KeyboardEvent) => {
