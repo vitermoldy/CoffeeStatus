@@ -1283,3 +1283,4 @@ function cacheEls(root: SVGGElement): Els {
     decor: (q("decor") as SVGGElement),
     crema: (q("crema") as SVGGElement | null),
     foamTop: (q("foamtop") as SVGGElement | null),
+    art: (q("art") as SVGGElement | null),
