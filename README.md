@@ -61,3 +61,4 @@ Stack: Vite 8, React 19, TypeScript, Tailwind CSS 4, `motion` untuk animasi pil 
 {
   id: "es-kopi-susu",
   name: "Es Kopi Susu",
+  subtitle: "250 ml, manis",
