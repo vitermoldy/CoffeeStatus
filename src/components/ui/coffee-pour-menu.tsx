@@ -1010,3 +1010,4 @@ function stepCup(c: Cup, dt: number, t: number, spills: Particle[]): boolean {
   return busy;
 }
 
+/* -------------------------------------------------------------------------- */
