@@ -687,3 +687,5 @@ function diffuse(c: Cup, k: number) {
       cells[(i + 1) * NL + j] -= f;
     }
   }
+}
+
