@@ -811,3 +811,4 @@ function stepCup(c: Cup, dt: number, t: number, spills: Particle[]): boolean {
     c.y += c.vy * dt;
     c.a += c.va * dt;
     busy = true;
+    // tipped far enough: liquid spills over the low side of the rim
