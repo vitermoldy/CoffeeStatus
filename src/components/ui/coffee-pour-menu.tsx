@@ -1569,3 +1569,4 @@ const CupView = React.memo(function CupView({
     clamp(Math.round(it.garnish?.find((x) => x.type === type)?.count ?? 0), 0, max);
   const mintCount = solid("mint", MINT.length);
   const limeCount = solid("lime", LIME.length);
+  return (
