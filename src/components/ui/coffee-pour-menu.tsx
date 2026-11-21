@@ -2192,3 +2192,4 @@ export function CoffeePourMenu({
       {showRecipe && selected && (
         <section
           ref={recipeEl}
+          aria-label={`${TEXT.recipe} ${selected.name}`}
