@@ -1223,3 +1223,4 @@ function renderCup(c: Cup, t: number) {
     const rp = c.ripples[k];
     const el = e.ripples[k];
     if (!rp) {
+      el.setAttribute("opacity", "0");
