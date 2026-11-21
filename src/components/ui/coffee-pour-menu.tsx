@@ -2239,3 +2239,4 @@ export function CoffeePourMenu({
           </radialGradient>
           <rect x={0} y={FLOOR - 36} width={W} height={H - FLOOR + 36} fill={`url(#${id("table")})`} />
           {/* pool of pendant light on the counter */}
+          <ellipse cx={CX} cy={FLOOR + 2} rx={170} ry={46} fill={`url(#${id("pool")})`} />
