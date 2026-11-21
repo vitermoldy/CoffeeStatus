@@ -1705,3 +1705,4 @@ const CupView = React.memo(function CupView({
             <circle key={i} data-k="part" r={0} />
           ))}
         </g>
+        {mintCount > 0 && (
