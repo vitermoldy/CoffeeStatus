@@ -1629,3 +1629,4 @@ const CupView = React.memo(function CupView({
               <circle r={1.1} fill={`url(#${id("sheen")})`} />
               {it.crema && (
                 <g data-k="crema" opacity={0}>
+                  <circle r={1.1} fill={`url(#${id("crema")})`} />
