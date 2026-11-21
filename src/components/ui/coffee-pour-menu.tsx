@@ -1965,3 +1965,4 @@ export function CoffeePourMenu({
       return;
     }
     shown.current = selected.id;
+    let falling = 0;
