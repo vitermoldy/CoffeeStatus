@@ -492,3 +492,4 @@ type Pour = {
   phase: "lead" | "fall" | "flow" | "tail" | "drips" | "done";
   timer: number;
   head: number;
+  headV: number;
