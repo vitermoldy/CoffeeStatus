@@ -1045,3 +1045,4 @@ function renderCup(c: Cup, t: number) {
   if (!e) return;
   const g = c.geo;
   const it = c.item;
+  e.root.setAttribute("opacity", c.opacity.toFixed(3));
