@@ -188,3 +188,4 @@ type Geo = {
 const GEO: Record<CoffeeVessel, Geo> = {
   demitasse: {
     outer: { top: -86, r: 46, bot: -14, rb: 27, c: 53 },
+    // shallow on purpose: an opaque cup only shows liquid near the rim
