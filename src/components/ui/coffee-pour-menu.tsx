@@ -816,3 +816,4 @@ function stepCup(c: Cup, dt: number, t: number, spills: Particle[]): boolean {
       c.spill += dt * 60 * c.level;
       while (c.spill > 1 && spills.length < SPILLS) {
         c.spill -= 1;
+        const side = Math.sign(c.a) || -1;
