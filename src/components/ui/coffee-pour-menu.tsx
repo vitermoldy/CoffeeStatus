@@ -479,3 +479,5 @@ export function resolveLayers(item: CoffeeItem): Layer[] {
     ml: l.ml,
     label: l.label ?? LIQUIDS[l.type].label,
   }));
+}
+
