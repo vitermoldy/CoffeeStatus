@@ -1700,3 +1700,4 @@ const CupView = React.memo(function CupView({
             <path data-k={`streamhi${s}`} fill="none" stroke="white" strokeWidth={0.9} strokeLinecap="round" />
           </g>
         ))}
+        <g>
