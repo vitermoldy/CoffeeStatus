@@ -1655,3 +1655,4 @@ const CupView = React.memo(function CupView({
                   <g data-k="art" opacity={0}>
                     <path d={HEART} fill={`url(#${id("heart")})`} transform="scale(0.62)" />
                     <path d="M0 0.48C0.02 0.2 -0.02 -0.05 0 -0.28" fill="none" stroke="rgba(170,110,60,0.35)" strokeWidth={0.035} transform="scale(0.62)" />
+                  </g>
