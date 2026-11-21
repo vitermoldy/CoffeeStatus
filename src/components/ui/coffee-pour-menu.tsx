@@ -52,3 +52,4 @@ export interface CoffeeItem {
   /** Vessel to serve it in. */
   vessel: CoffeeVessel;
   /** Pours in order. A milk pour after espresso overlaps it slightly. */
+  layers: CoffeeLayer[];
