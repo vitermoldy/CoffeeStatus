@@ -349,3 +349,4 @@ type LiquidDef = {
   label: string;
   /** Colour of a glass full of it. */
   color: RGB;
+  /** Colour by concentration when clear liquids dilute it (espresso, tea). */
