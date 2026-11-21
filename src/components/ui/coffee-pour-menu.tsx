@@ -2178,3 +2178,4 @@ export function CoffeePourMenu({
                           active ? "text-[#8a5226]" : "text-[#6b4a35]",
                         )}
                       >
+                        {it.subtitle}
