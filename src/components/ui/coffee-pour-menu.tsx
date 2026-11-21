@@ -1090,3 +1090,4 @@ function renderCup(c: Cup, t: number) {
 
   if (e.sprig) {
     const k = easeOut(c.sprig);
+    e.sprig.setAttribute("opacity", clamp(c.sprig * 2, 0, 1).toFixed(3));
