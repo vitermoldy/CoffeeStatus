@@ -2214,3 +2214,4 @@ export function CoffeePourMenu({
                       {l.label}
                     </span>
                   </span>
+                  {l.ml != null && <span className="shrink-0 tabular-nums text-[#3a271d]">{l.ml} ml</span>}
