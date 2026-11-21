@@ -2015,3 +2015,4 @@ export function CoffeePourMenu({
     (key: number, el: SVGGElement | null) => {
       const c = sim.current.get(key);
       if (c && el) {
+        c.el = cacheEls(el);
