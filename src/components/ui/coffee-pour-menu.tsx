@@ -2041,3 +2041,5 @@ export function CoffeePourMenu({
     e.preventDefault();
     select(list[n].id);
     btns.current[n]?.focus();
+  };
+
