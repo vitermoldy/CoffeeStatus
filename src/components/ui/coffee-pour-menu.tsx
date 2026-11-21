@@ -1362,3 +1362,4 @@ function VesselBack({ g, id }: { g: Geo; id: (s: string) => string }) {
       {g.handle && (
         <g>
           <path d={g.handle} fill="none" stroke={`url(#${id(gl.handle)})`} strokeWidth={g.handleW} strokeLinecap="round" />
+          <path d={g.handle} fill="none" stroke="rgba(255,255,255,0.55)" strokeWidth={g.handleW! * 0.22} strokeLinecap="round" transform="translate(-0.6 -1.6)" filter={`url(#${id("blur1")})`} />
