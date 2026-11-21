@@ -2061,3 +2061,4 @@ export function CoffeePourMenu({
     else if (e.key === "Home") n = 0;
     else if (e.key === "End") n = groups.length - 1;
     if (n < 0) return;
+    e.preventDefault();
