@@ -1852,3 +1852,4 @@ function paintRecipe(root: HTMLElement | null, c: Cup | undefined) {
     const total = c.layers.reduce((s, l) => s + (l.ml ?? 0), 0);
     status = TEXT.ready;
     count = total ? `${total} ml` : "";
+  } else if (last >= 0) {
