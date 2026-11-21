@@ -723,3 +723,4 @@ function fillInstantly(c: Cup) {
   for (let i = 0; i < 40; i++) diffuse(c, 0.1);
   c.crema = 1;
   c.foam = 1;
+  c.art = 1;
