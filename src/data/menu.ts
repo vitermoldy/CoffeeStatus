@@ -155,3 +155,4 @@ export const MENU: CoffeeCategory[] = [
       },
     ],
   },
+];
