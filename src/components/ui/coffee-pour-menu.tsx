@@ -1505,3 +1505,4 @@ const GARNISH = {
 } as const;
 
 function MintLeaf({ fill = "#4f9a44" }: { fill?: string }) {
+  return (
