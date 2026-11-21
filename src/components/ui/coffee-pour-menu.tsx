@@ -62,3 +62,4 @@ export interface CoffeeItem {
   /** Foam colour as hex when it is not milk foam (juice froth, soda head). */
   foamColor?: string;
   /** Latte art drawn on the surface once settled. */
+  art?: "heart" | "none";
