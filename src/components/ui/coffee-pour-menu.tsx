@@ -325,3 +325,4 @@ const MILK_RAMP: [number, RGB][] = [
 ];
 /** Colour and opacity of a mix of espresso, water and milk. */
 function shade(e: number, w: number, m: number): [RGB, number] {
+  const s = e + w + m || 1;
