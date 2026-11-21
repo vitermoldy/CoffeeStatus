@@ -1983,3 +1983,4 @@ export function CoffeePourMenu({
       const d = c.geo.height * 0.45 - c.pivot;
       c.x += d * Math.sin(c.a);
       c.y += d - d * Math.cos(c.a);
+      c.pivot += d;
