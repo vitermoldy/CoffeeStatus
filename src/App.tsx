@@ -6,3 +6,4 @@ export default function App() {
     <main className="grid min-h-dvh content-start justify-items-center sm:pt-[4vh]">
       <h1 className="sr-only">CoffeeStatus</h1>
       <CoffeePourMenuDemo />
+    </main>
