@@ -112,3 +112,4 @@ export const MENU: CoffeeCategory[] = [
           { type: "tea", ml: 200 },
           { type: "lemon", ml: 25 },
           { type: "honey", ml: 25 },
+        ],
