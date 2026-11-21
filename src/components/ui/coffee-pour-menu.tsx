@@ -1361,3 +1361,4 @@ function VesselBack({ g, id }: { g: Geo; id: (s: string) => string }) {
       <path d={frontBand(fr * 0.97, o.bot + 3, fr * 0.97, o.bot + 4)} fill="rgba(60,35,18,0.35)" />
       {g.handle && (
         <g>
+          <path d={g.handle} fill="none" stroke={`url(#${id(gl.handle)})`} strokeWidth={g.handleW} strokeLinecap="round" />
