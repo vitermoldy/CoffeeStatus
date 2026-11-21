@@ -1028,3 +1028,4 @@ function streamPath(p: Pour, yBot: number, t: number) {
   for (let i = 0; i <= n; i++) {
     const y = lerp(yTop, yBot, i / n);
     const v = Math.sqrt(V0 * V0 + 2 * G_STREAM * Math.max(0, y - SRC));
+    const hw = (p.w / 2) * Math.max(0.62, Math.pow(V0 / v, 0.3));
