@@ -1873,3 +1873,4 @@ export function CoffeePourMenu({
   onValueChange,
   showRecipe = true,
   className,
+}: CoffeePourMenuProps) {
