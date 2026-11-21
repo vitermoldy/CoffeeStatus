@@ -600,3 +600,4 @@ function makeCup(key: number, item: CoffeeItem): Cup {
     layers,
     progress: new Float32Array(layers.length),
     fizzT: 0,
+    sprig: 0,
