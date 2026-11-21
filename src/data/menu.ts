@@ -58,3 +58,4 @@ export const MENU: CoffeeCategory[] = [
         description: "mangga, yogurt dan susu diblender ala India",
         vessel: "glass-mug",
         fill: 0.78,
+        layers: [
