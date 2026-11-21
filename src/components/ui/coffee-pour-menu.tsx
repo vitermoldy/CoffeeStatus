@@ -304,3 +304,4 @@ function ramp(stops: [number, RGB][], t: number): RGB {
     const [p, c] = stops[i];
     if (t <= p) {
       const [p0, c0] = stops[i - 1];
+      return mixRGB(c0, c, (t - p0) / (p - p0 || 1));
