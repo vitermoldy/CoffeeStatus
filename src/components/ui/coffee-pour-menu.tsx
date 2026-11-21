@@ -1024,3 +1024,4 @@ function streamPath(p: Pour, yBot: number, t: number) {
   const L: string[] = [];
   const R: string[] = [];
   const n = 12;
+  let hiTop = "";
