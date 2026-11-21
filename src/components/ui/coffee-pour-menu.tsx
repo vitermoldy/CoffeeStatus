@@ -649,3 +649,4 @@ function deposit(c: Cup, type: CoffeeLiquid, dv: number) {
       const k = Math.min(0.4, JET[type] * dv * N * 0.5 * Math.exp(-d / PEN[type]));
       for (let j = 0; j < NL; j++) cells[o + j] *= 1 - k;
       cells[o + T] += k;
+    }
