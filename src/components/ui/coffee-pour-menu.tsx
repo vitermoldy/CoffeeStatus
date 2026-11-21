@@ -400,3 +400,5 @@ const STREAM = pick((d) => d.stream);
 const SWIRL = pick((d) => d.swirl);
 const PEN = pick((d) => d.pen);
 const JET = pick((d) => d.jet);
+const TYPE_INDEX = Object.fromEntries(LIQ.map((k, i) => [k, i])) as Record<CoffeeLiquid, number>;
+
