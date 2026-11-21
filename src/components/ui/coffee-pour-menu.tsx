@@ -1521,3 +1521,4 @@ function LimeSlice() {
       {Array.from({ length: 8 }, (_, i) => {
         const a = (i / 8) * Math.PI * 2;
         return (
+          <path key={i} d={`M0 0L${(Math.cos(a) * 0.4).toFixed(2)} ${(Math.sin(a) * 0.4).toFixed(2)}`} stroke="#c3d672" strokeWidth={1.1} vectorEffect="non-scaling-stroke" />
