@@ -963,3 +963,4 @@ function stepCup(c: Cup, dt: number, t: number, spills: Particle[]): boolean {
   }
   if (c.ripples.length || c.tendrils.length) busy = true;
 
+  /* surface waves: damped springs; tilt follows the cup so liquid stays level */
