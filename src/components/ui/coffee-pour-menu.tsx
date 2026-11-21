@@ -608,3 +608,4 @@ function makeCup(key: number, item: CoffeeItem): Cup {
     ripples: [],
     tendrils: [],
     w1: 0,
+    v1: 0,
