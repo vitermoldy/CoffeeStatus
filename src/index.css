@@ -1,3 +1,4 @@
 @import 'tailwindcss';
 
 /* One light theme: the component draws ceramic cups on a cream counter and has no dark look,
+   so the page keeps that light on dark-mode systems too. */
