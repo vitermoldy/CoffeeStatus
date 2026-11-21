@@ -1084,3 +1084,4 @@ function renderCup(c: Cup, t: number) {
       `translate(${f1(u * (up ? rS * 0.6 : g.inner.rb * 0.9))} ${f1(up ? float : rest)}) scale(1 ${squash}) rotate(${(ang + (up ? c.w1 * 3 : 0)).toFixed(1)}) scale(${f1(s)})`,
     );
   };
+  for (let k = 0; k < e.mint.length; k++) place(e.mint[k], MINT[k], 0.72, 0.7);
