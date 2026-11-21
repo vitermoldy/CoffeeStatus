@@ -1633,3 +1633,4 @@ const CupView = React.memo(function CupView({
                   <ellipse cx={-0.3} cy={-0.1} rx={0.16} ry={0.1} fill="rgba(110,55,22,0.35)" />
                   <ellipse cx={0.28} cy={0.25} rx={0.12} ry={0.08} fill="rgba(110,55,22,0.3)" />
                   <ellipse cx={0.1} cy={-0.4} rx={0.1} ry={0.06} fill="rgba(110,55,22,0.25)" />
+                  <ellipse cx={-0.1} cy={0.1} rx={0.42} ry={0.32} fill="rgba(240,195,130,0.22)" />
