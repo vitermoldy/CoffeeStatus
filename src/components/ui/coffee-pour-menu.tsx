@@ -2146,3 +2146,4 @@ export function CoffeePourMenu({
                 aria-checked={active}
                 tabIndex={active ? 0 : -1}
                 onPointerEnter={(e) => e.pointerType === "mouse" && select(it.id)}
+                onFocus={() => select(it.id)}
