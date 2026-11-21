@@ -1630,3 +1630,4 @@ const CupView = React.memo(function CupView({
               {it.crema && (
                 <g data-k="crema" opacity={0}>
                   <circle r={1.1} fill={`url(#${id("crema")})`} />
+                  <ellipse cx={-0.3} cy={-0.1} rx={0.16} ry={0.1} fill="rgba(110,55,22,0.35)" />
