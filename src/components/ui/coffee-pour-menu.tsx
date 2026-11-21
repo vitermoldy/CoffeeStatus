@@ -1313,3 +1313,4 @@ const GLAZE = {
 } as const;
 
 function Saucer({ g, id }: { g: Geo; id: (s: string) => string }) {
+  if (!g.saucer) return null;
