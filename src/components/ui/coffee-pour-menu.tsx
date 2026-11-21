@@ -965,3 +965,4 @@ function stepCup(c: Cup, dt: number, t: number, spills: Particle[]): boolean {
 
   /* surface waves: damped springs; tilt follows the cup so liquid stays level */
   const tiltTarget = clamp(-Math.tan(c.a), -0.9, 0.9) * rS * (c.mode === "fall" ? 0.8 : 1);
+  c.v1 += (-70 * (c.w1 - tiltTarget) - 3.2 * c.v1) * dt;
