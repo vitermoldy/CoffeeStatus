@@ -536,3 +536,4 @@ type Cup = {
   item: CoffeeItem;
   geo: Geo;
   mode: "wait" | "enter" | "rest" | "fall" | "fadeIn" | "fadeOut";
+  wait: number;
