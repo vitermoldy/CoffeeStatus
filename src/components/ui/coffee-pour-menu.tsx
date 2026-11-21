@@ -915,3 +915,4 @@ function stepCup(c: Cup, dt: number, t: number, spills: Particle[]): boolean {
         kick(c, p.x / rS, 0.12);
       }
       if (p.phase === "flow" && p.poured >= p.amount) p.phase = "tail";
+    }
