@@ -971,3 +971,4 @@ function stepCup(c: Cup, dt: number, t: number, spills: Particle[]): boolean {
   c.w2 += c.v2 * dt;
   c.w3 *= Math.exp(-2.6 * dt);
   if (c.mode !== "fall") {
+    const m = rS * P * 0.8;
