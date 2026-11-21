@@ -1040,3 +1040,4 @@ function streamPath(p: Pour, yBot: number, t: number) {
   return [d, `${hiTop}L${f1(p.x - hwB * 0.35)} ${f1(yBot - 2)}`];
 }
 
+function renderCup(c: Cup, t: number) {
