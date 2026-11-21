@@ -372,3 +372,4 @@ const LIQUIDS = {
   orange: { label: "Jus jeruk", color: [247, 160, 40], opacity: 0.9, tint: 1.2, stream: { fill: "rgb(244,150,30)", a: 0.95, hi: 0.8, w: 1.6 }, swirl: "rgb(252,196,110)", pen: 0.2, jet: 0.7 },
   carrot: { label: "Jus wortel", color: [234, 106, 28], opacity: 0.95, tint: 1.4, stream: { fill: "rgb(230,100,25)", a: 1, hi: 0.7, w: 1.6 }, swirl: "rgb(245,150,80)", pen: 0.2, jet: 0.7 },
   avocado: { label: "Jus alpukat", color: [172, 188, 88], opacity: 1, tint: 1.3, stream: { fill: "rgb(166,184,82)", a: 1, hi: 0.7, w: 2.1 }, swirl: "rgb(205,214,140)", pen: 0.14, jet: 0.6 },
+  sugar: { label: "Sirup gula", color: [244, 232, 200], opacity: 0.35, tint: 0.25, stream: { fill: "rgb(238,222,184)", a: 0.85, hi: 1, w: 1 }, swirl: "rgb(250,242,220)", pen: 0.08, jet: 0.4 },
