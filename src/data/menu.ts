@@ -15,3 +15,4 @@ export const MENU: CoffeeCategory[] = [
         vessel: "tumbler",
         fill: 0.78,
         layers: [
+          { type: "orange", ml: 150 },
