@@ -1321,3 +1321,4 @@ function Saucer({ g, id }: { g: Geo; id: (s: string) => string }) {
     <g>
       <path d={frontBand(r, y, r * 0.985, y + 7)} fill={`url(#${id(gl.edge)})`} />
       <path d={frontBand(r * 0.985, y + 7, r * 0.6, y + 11)} fill="rgba(70,45,25,0.18)" />
+      <ellipse cx={0} cy={y} rx={r} ry={r * P} fill={`url(#${id(gl.saucer)})`} />
