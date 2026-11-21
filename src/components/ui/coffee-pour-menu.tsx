@@ -1933,3 +1933,4 @@ export function CoffeePourMenu({
         for (let i = 0; i < nodes.length; i++) {
           const q = sp[i];
           const n = nodes[i];
+          if (!q) {
