@@ -1962,3 +1962,4 @@ export function CoffeePourMenu({
     const live = [...sim.current.values()].some((c) => c.mode !== "fall" && c.mode !== "fadeOut");
     if (live && shown.current === selected.id) {
       loop();
+      return;
