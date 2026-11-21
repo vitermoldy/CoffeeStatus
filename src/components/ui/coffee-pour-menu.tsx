@@ -994,3 +994,4 @@ function stepCup(c: Cup, dt: number, t: number, spills: Particle[]): boolean {
   }
   if (it.crema && c.level > 0.05 && c.crema < 1) {
     c.crema = Math.min(1, c.crema + dt / (pouring ? 2.4 : 0.9));
+    busy = true;
