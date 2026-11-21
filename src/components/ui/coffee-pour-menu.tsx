@@ -1551,3 +1551,4 @@ const CupView = React.memo(function CupView({
   register: (key: number, el: SVGGElement | null) => void;
 }) {
   const it = cup.item;
+  const g = GEO[it.vessel] ?? GEO.cup;
