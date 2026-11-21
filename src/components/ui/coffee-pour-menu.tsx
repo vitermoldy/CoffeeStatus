@@ -2004,3 +2004,4 @@ export function CoffeePourMenu({
       cup.x = CX;
       fillInstantly(cup);
     } else {
+      cup.wait = falling ? 0.14 : 0.05;
