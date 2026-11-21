@@ -34,3 +34,4 @@ Di Windows, jalankan dari `C:\MyRepo\CoffeeStatus` (huruf C besar).
 | Teh & soda | Es Teh Susu | jar + es | teh hitam 150 ml, susu kental manis 40 ml, susu evaporasi 50 ml |
 | Teh & soda | Matcha Latte | tumbler + es | susu dingin 170 ml, matcha 70 ml |
 | Teh & soda | Teh Lemon Madu | glass-mug | teh 200 ml, air lemon 25 ml, madu 25 ml |
+| Teh & soda | Soda Gembira | tall-glass + es | sirup merah 30 ml, susu kental manis 30 ml, air soda 190 ml |
