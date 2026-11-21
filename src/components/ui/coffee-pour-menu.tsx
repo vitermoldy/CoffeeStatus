@@ -1464,3 +1464,4 @@ function Shadow({ g, id }: { g: Geo; id: (s: string) => string }) {
 }
 
 /** Ice cubes: position across (u) and into (v) the surface, size factor, angle in degrees. */
+const ICE: [number, number, number, number][] = [
