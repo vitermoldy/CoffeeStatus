@@ -433,3 +433,4 @@ function shadeMix(cells: Float32Array, o: number): [RGB, number] {
   return [[r / wsum, g / wsum, b / wsum], 1 - Math.exp(-od)];
 }
 
+/** Colour and opacity of cell i of a column. */
