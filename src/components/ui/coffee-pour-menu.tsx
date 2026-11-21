@@ -8,3 +8,4 @@
  * with a small hand-rolled physics loop (gravity, springs, damped waves).
  *
  * CoffeeStatus additions: any liquid from LIQUIDS (juices, purees, tea, syrups,
+ * soda), drinks grouped under tabs, ice and soda bubbles, and a recipe card that
