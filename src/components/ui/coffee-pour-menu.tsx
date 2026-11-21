@@ -1587,3 +1587,4 @@ const CupView = React.memo(function CupView({
             </radialGradient>
           </>
         )}
+        <linearGradient id={liqId} gradientUnits="userSpaceOnUse" x1={0} y1={g.inner.bot} x2={0} y2={g.inner.top}>
