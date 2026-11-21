@@ -680,3 +680,4 @@ function stir(c: Cup, k: number) {
 function diffuse(c: Cup, k: number) {
   const cells = c.cells;
   const top = Math.min(N - 1, Math.ceil(c.level * N) - 1);
+  for (let i = 0; i < top; i++) {
