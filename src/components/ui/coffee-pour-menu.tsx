@@ -1415,3 +1415,4 @@ function VesselFront({ g, id }: { g: Geo; id: (s: string) => string }) {
   const gl = GLAZE[g.glaze ?? "cream"];
   return (
     <g>
+      <path d={bodyPath(o)} fill={`url(#${id(gl.body)})`} />
