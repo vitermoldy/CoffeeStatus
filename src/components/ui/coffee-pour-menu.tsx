@@ -1771,3 +1771,4 @@ function Defs({ id }: { id: (s: string) => string }) {
           <stop offset={0} stopColor={n === "aoCream" ? "rgb(96,64,38)" : "rgb(70,30,12)"} stopOpacity={0} />
           <stop offset={0.55} stopColor={n === "aoCream" ? "rgb(96,64,38)" : "rgb(70,30,12)"} stopOpacity={0} />
           <stop offset={1} stopColor={n === "aoCream" ? "rgb(96,64,38)" : "rgb(70,30,12)"} stopOpacity={n === "aoCream" ? 0.28 : 0.38} />
+        </linearGradient>
