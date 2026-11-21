@@ -1176,3 +1176,5 @@ function renderCup(c: Cup, t: number) {
     e.swirl[k].setAttribute("d", d);
     e.swirl[k].setAttribute("stroke", c.swirlCol);
     e.swirl[k].setAttribute("opacity", sa.toFixed(3));
+  }
+
