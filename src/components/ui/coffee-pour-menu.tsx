@@ -151,3 +151,4 @@ export const DEFAULT_COFFEE_ITEMS: CoffeeItem[] = [
     ],
     foam: 0.11,
     blend: 0.15,
+  },
