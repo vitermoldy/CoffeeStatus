@@ -2251,3 +2251,4 @@ export function CoffeePourMenu({
         </svg>
         <p aria-live="polite" className="sr-only">
           {spoken}
+        </p>
