@@ -1817,3 +1817,4 @@ const TEXT = {
   recipe: "Resep",
   waiting: "Menyiapkan gelas",
   pouring: "Menuang",
+  ready: "Siap disajikan",
