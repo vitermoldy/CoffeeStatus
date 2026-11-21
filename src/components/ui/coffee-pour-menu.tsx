@@ -1613,3 +1613,4 @@ const CupView = React.memo(function CupView({
               {Array.from({ length: TENDRILS }, (_, i) => (
                 <path key={i} data-k="tendril" strokeWidth={6 - i} />
               ))}
+            </g>
