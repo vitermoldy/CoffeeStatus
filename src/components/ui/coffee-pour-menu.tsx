@@ -837,3 +837,4 @@ function stepCup(c: Cup, dt: number, t: number, spills: Particle[]): boolean {
       }
     }
   } else if (c.mode === "fadeIn") {
+    c.opacity = Math.min(1, c.opacity + dt / 0.3);
