@@ -1459,3 +1459,4 @@ function Shadow({ g, id }: { g: Geo; id: (s: string) => string }) {
       {g.glass && (
         <ellipse cx={r * 0.55} cy={5} rx={r * 0.55} ry={r * P * 0.5} fill="rgba(232,160,90,0.3)" filter={`url(#${id("blur3")})`} />
       )}
+    </g>
