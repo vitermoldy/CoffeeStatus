@@ -1247,3 +1247,4 @@ function renderCup(c: Cup, t: number) {
     const [d, hi] = streamPath(p, yBot, t);
     s.path.setAttribute("d", d);
     s.hi.setAttribute("d", hi);
+    s.hi.setAttribute("stroke-opacity", STREAM[p.type].hi.toFixed(2));
