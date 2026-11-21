@@ -118,3 +118,4 @@ export const MENU: CoffeeCategory[] = [
         id: "soda-gembira",
         name: "Soda Gembira",
         subtitle: "250 ml, berbuih",
+        description: "sirup merah dan susu kental manis di dasar gelas, disiram air soda",
