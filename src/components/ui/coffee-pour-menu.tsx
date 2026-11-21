@@ -1199,3 +1199,4 @@ function renderCup(c: Cup, t: number) {
   }
 
   // soda bubbles rise from the bottom and fade once the fizz is spent
+  if (e.bubbles.length) {
