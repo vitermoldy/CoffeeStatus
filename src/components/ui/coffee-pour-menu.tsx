@@ -868,3 +868,4 @@ function stepCup(c: Cup, dt: number, t: number, spills: Particle[]): boolean {
   let flowing = false;
   for (const p of c.pours) {
     if (p.phase === "done") continue;
+    busy = true;
