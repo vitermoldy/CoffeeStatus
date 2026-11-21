@@ -24,3 +24,5 @@ import { cn } from "@/lib/utils";
 export type CoffeeVessel = "demitasse" | "glass-mug" | "cup" | "tall-glass" | "tumbler" | "jar";
 
 /** A liquid that can be poured: one of the keys of LIQUIDS. */
+export type CoffeeLiquid = keyof typeof LIQUIDS;
+
