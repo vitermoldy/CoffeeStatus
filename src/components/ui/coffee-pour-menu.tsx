@@ -1172,3 +1172,4 @@ function renderCup(c: Cup, t: number) {
       const rad = (0.12 + 0.72 * s) * 0.9;
       const u = Math.cos(th) * rad;
       d += `${i ? "L" : "M"}${f1(rS * u)} ${f1(yS + ry * Math.sin(th) * rad + wave(c, u, t))}`;
+    }
