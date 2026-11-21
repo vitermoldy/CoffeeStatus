@@ -1312,3 +1312,4 @@ const GLAZE = {
   terra: { body: "cerTerra", rim: "#f7efe3", rimLine: "", inner: "innerCream", edge: "edgeTerra", saucer: "saucerCream", handle: "handleTerra", ao: "aoTerra" },
 } as const;
 
+function Saucer({ g, id }: { g: Geo; id: (s: string) => string }) {
