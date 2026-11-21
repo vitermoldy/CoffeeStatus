@@ -2009,3 +2009,5 @@ export function CoffeePourMenu({
     sim.current.set(cup.key, cup);
     setCups((cs) => [...cs.filter((c) => sim.current.has(c.key)), { key: cup.key, item: selected }]);
     loop();
+  }, [selected, reduce, loop]);
+
