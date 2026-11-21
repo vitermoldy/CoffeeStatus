@@ -1917,3 +1917,4 @@ export function CoffeePourMenu({
         if (gone) {
           sim.current.delete(c.key);
           removed = true;
+        } else renderCup(c, t);
