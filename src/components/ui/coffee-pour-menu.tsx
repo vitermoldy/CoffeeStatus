@@ -1214,3 +1214,4 @@ function renderCup(c: Cup, t: number) {
       const x = (((k * 53) % 17) / 8.5 - 1) * wr * 0.8 + Math.sin(f * 8 + k) * 1.4;
       el.setAttribute("cx", f1(x).toString());
       el.setAttribute("cy", f1(y).toString());
+      el.setAttribute("r", ((0.6 + f) * (k % 3 ? 1 : 1.4)).toFixed(2));
