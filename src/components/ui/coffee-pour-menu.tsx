@@ -7,3 +7,4 @@
  * current cup off the stage, springs the next vessel in and pours its recipe
  * with a small hand-rolled physics loop (gravity, springs, damped waves).
  *
+ * CoffeeStatus additions: any liquid from LIQUIDS (juices, purees, tea, syrups,
