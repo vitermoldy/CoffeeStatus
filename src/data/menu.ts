@@ -120,3 +120,4 @@ export const MENU: CoffeeCategory[] = [
         subtitle: "250 ml, berbuih",
         description: "sirup merah dan susu kental manis di dasar gelas, disiram air soda",
         vessel: "tall-glass",
+        fill: 0.82,
