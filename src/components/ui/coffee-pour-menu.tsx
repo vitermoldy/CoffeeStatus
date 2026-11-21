@@ -1592,3 +1592,4 @@ const CupView = React.memo(function CupView({
             <stop key={i} data-k="stop" offset={(i + 0.5) / N} stopColor="#3a1e0e" />
           ))}
         </linearGradient>
+        {[0, 1].map((s) => (
