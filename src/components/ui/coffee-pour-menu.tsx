@@ -2173,3 +2173,4 @@ export function CoffeePourMenu({
                     </span>
                     {it.subtitle && (
                       <span
+                        className={cn(
