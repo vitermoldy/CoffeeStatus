@@ -1849,3 +1849,4 @@ function paintRecipe(root: HTMLElement | null, c: Cup | undefined) {
   let status = TEXT.waiting;
   let count = "";
   if (done) {
+    const total = c.layers.reduce((s, l) => s + (l.ml ?? 0), 0);
