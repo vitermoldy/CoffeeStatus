@@ -71,3 +71,5 @@ export interface CoffeeItem {
   garnish?: CoffeeGarnish[];
   /** Soda bubbles rise through the drink for a few seconds. */
   fizz?: boolean;
+}
+
