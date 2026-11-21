@@ -1159,3 +1159,4 @@ function renderCup(c: Cup, t: number) {
 
   // swirl arms on the surface
   const sa = clamp(c.mix * 1.2, 0, 1) * 0.8;
+  for (let k = 0; k < e.swirl.length; k++) {
