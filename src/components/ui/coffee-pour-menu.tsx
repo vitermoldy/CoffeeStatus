@@ -1208,3 +1208,4 @@ function renderCup(c: Cup, t: number) {
         el.setAttribute("r", "0");
         continue;
       }
+      const f = (t * (0.45 + ((k * 37) % 10) / 18) + k * 0.618) % 1;
