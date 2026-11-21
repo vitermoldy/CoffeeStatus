@@ -85,3 +85,4 @@ Stack: Vite 8, React 19, TypeScript, Tailwind CSS 4, `motion` untuk animasi pil 
   `[{ type: "mint", count: 6 }, { type: "lime", count: 2 }]`. Mint juga memunculkan setangkai daun
   di atas gelas setelah selesai dituang. Garnish dan es batu ditulis di bawah kartu resep
   ("Dengan 6 lembar daun mint, 2 iris jeruk nipis dan es batu").
+- Opsi lain: `foam` (tebal busa), `foamColor` (warna busa selain susu), `crema`, `art: "heart"`,
