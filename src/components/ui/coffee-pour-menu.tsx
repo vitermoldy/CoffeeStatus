@@ -302,3 +302,4 @@ function ramp(stops: [number, RGB][], t: number): RGB {
   if (t <= stops[0][0]) return stops[0][1];
   for (let i = 1; i < stops.length; i++) {
     const [p, c] = stops[i];
+    if (t <= p) {
