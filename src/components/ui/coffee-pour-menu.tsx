@@ -1015,3 +1015,4 @@ function stepCup(c: Cup, dt: number, t: number, spills: Particle[]): boolean {
 /* -------------------------------------------------------------------------- */
 
 const K = 36;
+const COS = Array.from({ length: K + 1 }, (_, i) => Math.cos((i / K) * Math.PI * 2 + Math.PI));
