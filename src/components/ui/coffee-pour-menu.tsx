@@ -567,3 +567,4 @@ type Cup = {
   v2: number;
   w3: number;
   mix: number;
+  swirlCol: string;
