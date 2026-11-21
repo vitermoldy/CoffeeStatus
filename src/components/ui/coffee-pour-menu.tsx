@@ -2018,3 +2018,4 @@ export function CoffeePourMenu({
         c.el = cacheEls(el);
         c.dirty = true;
         renderCup(c, performance.now() / 1000);
+        loop();
