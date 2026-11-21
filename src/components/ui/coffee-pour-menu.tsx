@@ -783,3 +783,4 @@ function stepCup(c: Cup, dt: number, t: number, spills: Particle[]): boolean {
 
   /* body motion */
   if (c.mode === "wait") {
+    c.wait -= dt;
