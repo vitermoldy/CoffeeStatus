@@ -1225,3 +1225,4 @@ function renderCup(c: Cup, t: number) {
     if (!rp) {
       el.setAttribute("opacity", "0");
       continue;
+    }
