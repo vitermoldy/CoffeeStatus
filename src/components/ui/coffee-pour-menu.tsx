@@ -1131,3 +1131,4 @@ function renderCup(c: Cup, t: number) {
     c.dirty = false;
     for (let i = 0; i < N; i++) {
       const [rgb, a] = shadeAt(c.cells, i);
+      e.stops[i].setAttribute("stop-color", css(rgb));
