@@ -11,3 +11,4 @@ export default function CoffeePourMenuDemo() {
           href="https://aakashmehra.com/ref/coffeepourmenu"
           target="_blank"
           rel="noopener noreferrer"
+          className="font-medium text-[#3a271d] underline-offset-4 hover:underline"
