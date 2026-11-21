@@ -1501,3 +1501,4 @@ const SPRIG: [number, number, number][] = [
 ];
 const GARNISH = {
   mint: { label: "daun mint", unit: "lembar" },
+  lime: { label: "jeruk nipis", unit: "iris" },
