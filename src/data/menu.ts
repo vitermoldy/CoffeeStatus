@@ -134,3 +134,4 @@ export const MENU: CoffeeCategory[] = [
       },
       {
         id: "mojito",
+        name: "Mojito",
