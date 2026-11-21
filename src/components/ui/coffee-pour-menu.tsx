@@ -336,3 +336,4 @@ function shade(e: number, w: number, m: number): [RGB, number] {
     const st: [number, RGB][] = [[0, rgb], ...MILK_RAMP.map(([p, col]) => [p, mixRGB(MILK, col, c)] as [number, RGB])];
     rgb = ramp(st, m);
   }
+  return [rgb, 1 - (1 - aC) * (1 - Math.min(1, m * 3))];
