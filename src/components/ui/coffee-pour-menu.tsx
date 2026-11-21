@@ -635,3 +635,4 @@ function deposit(c: Cup, type: CoffeeLiquid, dv: number) {
   const L1 = Math.min(0.96, L0 + dv);
   const cells = c.cells;
   for (let i = 0; i < N; i++) {
+    if (i / N >= L1) break;
