@@ -815,3 +815,4 @@ function stepCup(c: Cup, dt: number, t: number, spills: Particle[]): boolean {
     if (c.level > 0.2 && Math.abs(c.a) > 0.3 && spills.length < SPILLS) {
       c.spill += dt * 60 * c.level;
       while (c.spill > 1 && spills.length < SPILLS) {
+        c.spill -= 1;
