@@ -2006,3 +2006,4 @@ export function CoffeePourMenu({
     } else {
       cup.wait = falling ? 0.14 : 0.05;
     }
+    sim.current.set(cup.key, cup);
