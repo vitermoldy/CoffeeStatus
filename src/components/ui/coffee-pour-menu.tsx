@@ -1670,3 +1670,4 @@ const CupView = React.memo(function CupView({
             ))}
           </g>
         </g>
+        {mintCount + limeCount > 0 && (
