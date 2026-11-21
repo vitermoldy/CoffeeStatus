@@ -73,3 +73,4 @@ export const MENU: CoffeeCategory[] = [
     label: "Teh & soda",
     items: [
       {
+        id: "es-teh-susu",
