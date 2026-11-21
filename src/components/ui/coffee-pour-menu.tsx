@@ -626,3 +626,5 @@ function makeCup(key: number, item: CoffeeItem): Cup {
 const foamOf = (it: CoffeeItem) => it.foam ?? (it.crema ? 0.035 : 0);
 const levelY = (g: Geo, f: number) => lerp(g.inner.bot, g.inner.top, f);
 const levelR = (g: Geo, f: number) => wallR(g.inner, 1 - f);
+const easeOut = (t: number) => 1 - Math.pow(1 - clamp(t, 0, 1), 3);
+
