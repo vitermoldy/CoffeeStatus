@@ -1356,3 +1356,4 @@ function VesselBack({ g, id }: { g: Geo; id: (s: string) => string }) {
   return (
     <g>
       <Saucer g={g} id={id} />
+      {/* foot ring */}
