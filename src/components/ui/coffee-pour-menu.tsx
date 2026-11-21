@@ -1543,3 +1543,4 @@ const HEART = "M0 0.78C-0.5 0.36 -0.98 0.02 -0.68 -0.48C-0.46 -0.82 -0.1 -0.74 0
 
 const CupView = React.memo(function CupView({
   cup,
+  id,
