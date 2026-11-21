@@ -2019,3 +2019,4 @@ export function CoffeePourMenu({
         c.dirty = true;
         renderCup(c, performance.now() / 1000);
         loop();
+      }
