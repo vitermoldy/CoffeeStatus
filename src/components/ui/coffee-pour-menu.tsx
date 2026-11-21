@@ -1101,3 +1101,4 @@ function renderCup(c: Cup, t: number) {
   const pts: string[] = [];
   let back = "";
   for (let i = 0; i <= K; i++) {
+    const u = COS[i];
