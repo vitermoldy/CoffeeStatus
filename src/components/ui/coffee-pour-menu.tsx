@@ -623,3 +623,4 @@ function makeCup(key: number, item: CoffeeItem): Cup {
   };
 }
 
+const foamOf = (it: CoffeeItem) => it.foam ?? (it.crema ? 0.035 : 0);
