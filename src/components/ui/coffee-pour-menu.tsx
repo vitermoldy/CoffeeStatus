@@ -1490,3 +1490,4 @@ const LIME: Solid[] = [
 ];
 /** Leaf shape, base at x -0.5, tip at x 0.5. */
 const LEAF = "M-0.5 0C-0.25 -0.27 0.2 -0.27 0.5 0C0.2 0.27 -0.25 0.27 -0.5 0Z";
+const SPRIG_H = 58;
