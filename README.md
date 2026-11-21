@@ -53,3 +53,5 @@ src/
 components.json                  konfigurasi shadcn CLI
 ```
 
+Stack: Vite 8, React 19, TypeScript, Tailwind CSS 4, `motion` untuk animasi pil pilihan.
+
