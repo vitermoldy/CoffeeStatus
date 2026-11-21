@@ -1413,3 +1413,4 @@ function VesselFront({ g, id }: { g: Geo; id: (s: string) => string }) {
     );
   }
   const gl = GLAZE[g.glaze ?? "cream"];
+  return (
