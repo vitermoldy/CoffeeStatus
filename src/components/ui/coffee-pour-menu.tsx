@@ -775,3 +775,4 @@ function splash(c: Cup, x: number, y: number, col: string, n: number, s: number)
   c.ripples.push({ x, age: 0 });
 }
 
+/** Advance one cup. Returns true while anything is still moving. */
