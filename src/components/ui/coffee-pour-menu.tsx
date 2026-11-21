@@ -525,3 +525,4 @@ type Els = {
   streams: { path: SVGPathElement; hi: SVGPathElement; stops: SVGStopElement[] }[];
   parts: SVGCircleElement[];
   ice: SVGGElement[];
+  bubbles: SVGCircleElement[];
