@@ -782,3 +782,4 @@ function stepCup(c: Cup, dt: number, t: number, spills: Particle[]): boolean {
   let busy = false;
 
   /* body motion */
+  if (c.mode === "wait") {
