@@ -1865,3 +1865,4 @@ function paintRecipe(root: HTMLElement | null, c: Cup | undefined) {
   if (n && n.textContent !== count) n.textContent = count;
 }
 
+export function CoffeePourMenu({
