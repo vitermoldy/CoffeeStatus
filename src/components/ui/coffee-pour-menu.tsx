@@ -1992,3 +1992,4 @@ export function CoffeePourMenu({
       c.next = c.layers.length;
       falling++;
     }
+    // cap leftover falling cups
