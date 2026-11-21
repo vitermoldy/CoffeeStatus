@@ -1381,3 +1381,4 @@ function VesselFront({ g, id }: { g: Geo; id: (s: string) => string }) {
   if (g.glass) {
     return (
       <g>
+        <path d={`${silhouette(o)}${silhouette(i)}`} fillRule="evenodd" fill={`url(#${id("glassWall")})`} />
