@@ -1340,3 +1340,4 @@ function VesselBack({ g, id }: { g: Geo; id: (s: string) => string }) {
   const o = g.outer;
   const i = g.inner;
   if (g.glass) {
+    return (
