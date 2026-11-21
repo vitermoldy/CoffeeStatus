@@ -582,3 +582,4 @@ function makeCup(key: number, item: CoffeeItem): Cup {
   const layers = resolveLayers(item);
   return {
     key,
+    item,
