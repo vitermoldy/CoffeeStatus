@@ -611,3 +611,4 @@ function makeCup(key: number, item: CoffeeItem): Cup {
     v1: 0,
     w2: 0,
     v2: 0,
+    w3: 0,
