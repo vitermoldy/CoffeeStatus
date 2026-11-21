@@ -21,3 +21,5 @@ import { cn } from "@/lib/utils";
 /* -------------------------------------------------------------------------- */
 
 /** Vessel the drink is served in. */
+export type CoffeeVessel = "demitasse" | "glass-mug" | "cup" | "tall-glass" | "tumbler" | "jar";
+
