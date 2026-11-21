@@ -104,3 +104,4 @@ resep langsung selesai.
 - Tab kategori, kartu resep dengan hitungan ml, es batu, gelembung soda, busa berwarna, daun mint
   dan irisan jeruk nipis, dan dua gelas baru (`tumbler`, `jar`).
 - Komponen menempel ke atas, bukan di tengah. Tinggi kartu resep berbeda antar minuman, dan kalau
+  di tengah, daftar minuman akan bergeser di bawah kursor saat hover memilih minuman lain.
