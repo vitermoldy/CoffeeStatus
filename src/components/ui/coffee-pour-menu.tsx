@@ -2101,3 +2101,4 @@ export function CoffeePourMenu({
                   tabs.current[i] = el;
                 }}
                 id={`${uid}-tab-${i}`}
+                type="button"
