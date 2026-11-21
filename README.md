@@ -9,3 +9,5 @@ Komponen dasarnya `coffee-pour-menu` karya Aakash Mehra
 ([aakashmehra.com](https://aakashmehra.com/ref/coffeepourmenu)), dikembangkan di proyek ini untuk
 jus, teh, dan soda.
 
+## Menjalankan
+
