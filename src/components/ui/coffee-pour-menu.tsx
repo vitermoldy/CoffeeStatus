@@ -1319,3 +1319,4 @@ function Saucer({ g, id }: { g: Geo; id: (s: string) => string }) {
   const o = g.outer;
   return (
     <g>
+      <path d={frontBand(r, y, r * 0.985, y + 7)} fill={`url(#${id(gl.edge)})`} />
