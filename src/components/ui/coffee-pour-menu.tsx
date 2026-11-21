@@ -340,3 +340,4 @@ function shade(e: number, w: number, m: number): [RGB, number] {
 }
 const css = (c: RGB) => `rgb(${c[0] | 0},${c[1] | 0},${c[2] | 0})`;
 const hexRGB = (h: string): RGB => {
+  const n = parseInt(h.replace("#", "").padEnd(6, "0").slice(0, 6), 16);
