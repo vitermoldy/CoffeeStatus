@@ -201,3 +201,4 @@ const GEO: Record<CoffeeVessel, Geo> = {
     streamW: 3,
   },
   "glass-mug": {
+    outer: { top: -170, r: 58, bot: 0, rb: 52, c: 55 },
