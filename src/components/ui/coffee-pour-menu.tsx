@@ -789,3 +789,4 @@ function stepCup(c: Cup, dt: number, t: number, spills: Particle[]): boolean {
   }
   if (c.mode === "enter" || c.mode === "rest") {
     const ax = -130 * (c.x - CX) - 15.5 * c.vx;
+    c.vx += ax * dt;
