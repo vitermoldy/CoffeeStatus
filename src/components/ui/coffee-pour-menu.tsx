@@ -423,3 +423,4 @@ function shadeMix(cells: Float32Array, o: number): [RGB, number] {
     const d = DEF[j];
     od += f * OD[j];
     const col = d.ramp ? ramp(d.ramp, 1 - Math.pow(1 - f / (f + clear), 2)) : d.color;
+    const w = f * d.tint;
