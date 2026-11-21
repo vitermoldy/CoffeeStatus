@@ -1181,3 +1181,4 @@ function renderCup(c: Cup, t: number) {
   // plumes sinking through the liquid (glass only)
   for (let k = 0; k < e.tendrils.length; k++) {
     const td = c.tendrils[k];
+    if (!td) {
