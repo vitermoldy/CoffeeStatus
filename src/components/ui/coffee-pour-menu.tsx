@@ -1163,3 +1163,4 @@ function renderCup(c: Cup, t: number) {
     if (sa < 0.01) {
       e.swirl[k].setAttribute("d", "");
       continue;
+    }
