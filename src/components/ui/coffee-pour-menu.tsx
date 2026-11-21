@@ -1367,3 +1367,4 @@ function VesselBack({ g, id }: { g: Geo; id: (s: string) => string }) {
         </g>
       )}
       {/* rim top and the glazed interior */}
+      <ellipse cx={0} cy={o.top} rx={o.r} ry={o.r * P} fill={gl.rim} />
