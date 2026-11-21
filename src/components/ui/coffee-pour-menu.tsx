@@ -1244,3 +1244,4 @@ function renderCup(c: Cup, t: number) {
       continue;
     }
     const yBot = p.phase === "fall" ? p.head : yS + wave(c, p.x / rS, t) + 1;
+    const [d, hi] = streamPath(p, yBot, t);
