@@ -1607,3 +1607,4 @@ const CupView = React.memo(function CupView({
         <VesselBack g={g} id={id} />
         <g data-k="liquid" opacity={0} clipPath={`url(#${clip})`}>
           <path data-k="liq" fill={`url(#${liqId})`} />
+          {g.glass && <path data-k="depth" fill={`url(#${id("liqDepth")})`} />}
