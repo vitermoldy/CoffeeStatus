@@ -1951,3 +1951,4 @@ export function CoffeePourMenu({
     raf.current = requestAnimationFrame(tick);
   }, []);
 
+  React.useEffect(() => () => {
