@@ -464,3 +464,5 @@ const RIPPLES = 6;
 const TENDRILS = 3;
 const SPILLS = 32;
 const FIZZ = 14; // soda bubbles per glass
+const FIZZ_T = 2.5; // seconds the soda keeps fizzing after the last pour
+
