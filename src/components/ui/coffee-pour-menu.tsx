@@ -1145,3 +1145,4 @@ function renderCup(c: Cup, t: number) {
     }
   }
 
+  e.decor.setAttribute(
