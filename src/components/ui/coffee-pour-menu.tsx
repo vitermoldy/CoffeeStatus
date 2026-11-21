@@ -559,3 +559,4 @@ type Cup = {
   next: number;
   pourT: number;
   parts: Particle[];
+  ripples: { x: number; age: number }[];
