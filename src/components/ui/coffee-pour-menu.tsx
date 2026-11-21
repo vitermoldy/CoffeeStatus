@@ -1301,3 +1301,5 @@ function cacheEls(root: SVGGElement): Els {
     lime: (all("lime") as SVGGElement[]),
     sprig: (q("sprig") as SVGGElement | null),
   };
+}
+
