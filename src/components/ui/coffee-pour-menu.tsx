@@ -199,3 +199,4 @@ const GEO: Record<CoffeeVessel, Geo> = {
     shadowR: 90,
     streamX: 0.12,
     streamW: 3,
+  },
