@@ -850,3 +850,4 @@ function stepCup(c: Cup, dt: number, t: number, spills: Particle[]): boolean {
   if (arrived && c.next < c.layers.length) {
     c.pourT += dt;
     const prev = c.pours[c.pours.length - 1];
+    const overlap = prev && prev.type === "espresso" && c.layers[c.next].type === "milk";
