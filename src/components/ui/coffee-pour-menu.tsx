@@ -1742,3 +1742,4 @@ function Defs({ id }: { id: (s: string) => string }) {
       ))}
     </linearGradient>
   );
+  const rad = (name: string, stops: [number, string][], cx = 0.5, cy = 0.5, r = 0.5) => (
