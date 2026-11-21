@@ -1760,3 +1760,4 @@ function Defs({ id }: { id: (s: string) => string }) {
       {blur("blur1", 1)}
       {blur("blur2", 2)}
       {blur("blur3", 3.2)}
+      {lin("cerCream", [[0, "#c3b49e"], [0.1, "#ddd1c0"], [0.3, "#f6f0e6"], [0.42, "#fffdf9"], [0.62, "#f1e8dc"], [0.85, "#d7c9b6"], [1, "#bba98f"]])}
