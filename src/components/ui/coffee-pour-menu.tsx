@@ -1189,3 +1189,4 @@ function renderCup(c: Cup, t: number) {
     const depth = (yS - g.inner.bot) * 0.85 * grow;
     let d = "";
     for (let i = 0; i <= 10; i++) {
+      const s = i / 10;
