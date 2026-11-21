@@ -1867,3 +1867,4 @@ function paintRecipe(root: HTMLElement | null, c: Cup | undefined) {
 
 export function CoffeePourMenu({
   items = DEFAULT_COFFEE_ITEMS,
+  categories,
