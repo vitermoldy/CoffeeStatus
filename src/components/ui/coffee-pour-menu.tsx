@@ -1996,3 +1996,4 @@ export function CoffeePourMenu({
     const fallers = [...sim.current.values()].filter((c) => c.mode === "fall");
     for (const c of fallers.slice(0, Math.max(0, fallers.length - 3))) sim.current.delete(c.key);
 
+    const cup = makeCup(nextKey.current++, selected);
