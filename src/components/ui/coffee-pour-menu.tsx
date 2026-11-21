@@ -473,3 +473,4 @@ type Layer = { type: CoffeeLiquid; amount: number; ml?: number; label: string };
 export function resolveLayers(item: CoffeeItem): Layer[] {
   const total = item.layers.reduce((s, l) => s + (l.ml ?? 0), 0);
   const fill = item.fill ?? 0.8;
+  return item.layers.map((l) => ({
