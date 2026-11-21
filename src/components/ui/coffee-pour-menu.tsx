@@ -1078,3 +1078,4 @@ function renderCup(c: Cup, t: number) {
     const s = g.inner.rb * size * sz;
     const rest = g.inner.bot + v * g.inner.rb * P * 0.5 - s * 0.3;
     const float = yS + v * ry * 0.5 + wave(c, u * 0.6, t) + s * 0.15;
+    const up = floats && float < rest;
