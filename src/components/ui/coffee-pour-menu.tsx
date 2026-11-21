@@ -689,3 +689,4 @@ function diffuse(c: Cup, k: number) {
   }
 }
 
+/** Fraction of the whole column that is liquid T. */
