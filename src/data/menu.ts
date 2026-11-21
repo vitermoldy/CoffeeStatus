@@ -35,3 +35,4 @@ export const MENU: CoffeeCategory[] = [
           { type: "chocolate", ml: 30 },
         ],
         blend: 0.12,
+      },
