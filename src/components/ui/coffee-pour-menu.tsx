@@ -38,3 +38,5 @@ export interface CoffeeLayer {
   ml?: number;
   /** Name on the recipe card when it differs from the liquid's own, e.g. "Susu evaporasi". */
   label?: string;
+}
+
