@@ -1711,3 +1711,4 @@ const CupView = React.memo(function CupView({
             <path d="M0 0.05C0.02 -0.4 -0.01 -0.7 0.03 -1" fill="none" stroke="#3f7d35" strokeWidth={1.6} strokeLinecap="round" vectorEffect="non-scaling-stroke" />
             {SPRIG.map(([h, ang, size], i) => (
               <g key={i} transform={`translate(0.02 ${-h}) rotate(${ang}) translate(${size / 2} 0) scale(${size})`}>
+                <MintLeaf fill="#5aa84c" />
