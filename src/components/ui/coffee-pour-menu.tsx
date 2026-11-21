@@ -992,3 +992,4 @@ function stepCup(c: Cup, dt: number, t: number, spills: Particle[]): boolean {
     diffuse(c, Math.min(0.25, c.mix * dt * 6 * Math.sqrt(it.blend ?? 1)));
     busy = true;
   }
+  if (it.crema && c.level > 0.05 && c.crema < 1) {
