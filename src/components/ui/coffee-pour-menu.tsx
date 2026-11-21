@@ -2124,3 +2124,4 @@ export function CoffeePourMenu({
       <div
         id={`${uid}-list`}
         role={groups ? "tabpanel" : undefined}
+        aria-labelledby={groups ? `${uid}-tab-${groupIndex}` : undefined}
