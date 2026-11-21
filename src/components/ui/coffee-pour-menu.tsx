@@ -1863,3 +1863,5 @@ function paintRecipe(root: HTMLElement | null, c: Cup | undefined) {
   const n = root.querySelector<HTMLElement>("[data-count]");
   if (s && s.textContent !== status) s.textContent = status;
   if (n && n.textContent !== count) n.textContent = count;
+}
+
