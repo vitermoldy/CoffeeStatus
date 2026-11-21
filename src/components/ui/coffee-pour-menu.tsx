@@ -1118,3 +1118,4 @@ function renderCup(c: Cup, t: number) {
     const rL = levelR(g, c.level) * 1.02;
     // front arc of the liquid level, walked right to left
     let front = "";
+    for (let i = K / 2; i <= K; i++) {
