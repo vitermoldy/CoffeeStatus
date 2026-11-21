@@ -323,3 +323,4 @@ const MILK_RAMP: [number, RGB][] = [
   [0.9, [236, 217, 190]],
   [1, MILK],
 ];
+/** Colour and opacity of a mix of espresso, water and milk. */
