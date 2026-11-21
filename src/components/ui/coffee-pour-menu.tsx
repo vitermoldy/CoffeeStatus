@@ -49,3 +49,4 @@ export interface CoffeeItem {
   subtitle?: string;
   /** Spoken by screen readers when the drink is shown. */
   description?: string;
+  /** Vessel to serve it in. */
