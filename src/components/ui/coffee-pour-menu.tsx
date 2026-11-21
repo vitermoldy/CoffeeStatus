@@ -1997,3 +1997,4 @@ export function CoffeePourMenu({
     for (const c of fallers.slice(0, Math.max(0, fallers.length - 3))) sim.current.delete(c.key);
 
     const cup = makeCup(nextKey.current++, selected);
+    curKey.current = cup.key;
