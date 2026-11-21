@@ -2049,3 +2049,4 @@ export function CoffeePourMenu({
   }, [group, selected]);
 
   const openGroup = (g: CoffeeCategory) => {
+    const next = g.items.find((i) => i.id === lastPick.current[g.id]) ?? g.items[0];
