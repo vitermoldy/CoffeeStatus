@@ -1784,3 +1784,4 @@ function Defs({ id }: { id: (s: string) => string }) {
         <stop offset={1} stopColor="rgb(90,66,46)" stopOpacity={0.18} />
       </linearGradient>
       {lin("liqDepth", [[0, "rgba(18,8,3,0.55)"], [0.16, "rgba(18,8,3,0.1)"], [0.38, "rgba(255,230,200,0.08)"], [0.62, "rgba(18,8,3,0)"], [0.84, "rgba(18,8,3,0.12)"], [1, "rgba(18,8,3,0.6)"]])}
+      {rad("sheen", [[0, "rgba(255,255,255,0.28)"], [0.6, "rgba(255,255,255,0.06)"], [1, "rgba(255,255,255,0)"]], 0.38, 0.3, 0.6)}
