@@ -1026,3 +1026,4 @@ function streamPath(p: Pour, yBot: number, t: number) {
   const n = 12;
   let hiTop = "";
   for (let i = 0; i <= n; i++) {
+    const y = lerp(yTop, yBot, i / n);
