@@ -2027,3 +2027,4 @@ export function CoffeePourMenu({
   const select = (itemId: string) => {
     if (itemId === selectedId) return;
     if (value === undefined) setInner(itemId);
+    onValueChange?.(itemId);
