@@ -145,3 +145,4 @@ export const DEFAULT_COFFEE_ITEMS: CoffeeItem[] = [
     subtitle: "300 ml, lembut",
     description: "espresso dengan banyak susu panas dan busa tipis",
     vessel: "tall-glass",
+    layers: [
