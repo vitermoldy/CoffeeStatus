@@ -1157,3 +1157,4 @@ function renderCup(c: Cup, t: number) {
     e.art.setAttribute("transform", `translate(0 0.08) scale(${s.toFixed(3)})`);
   }
 
+  // swirl arms on the surface
