@@ -810,3 +810,4 @@ function stepCup(c: Cup, dt: number, t: number, spills: Particle[]): boolean {
     c.x += c.vx * dt;
     c.y += c.vy * dt;
     c.a += c.va * dt;
+    busy = true;
