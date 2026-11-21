@@ -489,3 +489,4 @@ type Pour = {
   poured: number;
   x: number;
   w: number;
+  phase: "lead" | "fall" | "flow" | "tail" | "drips" | "done";
