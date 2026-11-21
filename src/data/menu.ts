@@ -84,3 +84,4 @@ export const MENU: CoffeeCategory[] = [
           { type: "condensed", ml: 40 },
           { type: "milk", ml: 50, label: "Susu evaporasi" },
         ],
+        blend: 0.22,
