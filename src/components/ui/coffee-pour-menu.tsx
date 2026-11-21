@@ -674,3 +674,5 @@ function stir(c: Cup, k: number) {
     for (let j = 0; j < NL; j++) cells[i * NL + j] += (m[j] / tot - cells[i * NL + j]) * k;
   }
   c.dirty = true;
+}
+
