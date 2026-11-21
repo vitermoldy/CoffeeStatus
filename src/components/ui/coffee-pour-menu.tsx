@@ -185,3 +185,4 @@ type Geo = {
   streamW: number;
 };
 
+const GEO: Record<CoffeeVessel, Geo> = {
