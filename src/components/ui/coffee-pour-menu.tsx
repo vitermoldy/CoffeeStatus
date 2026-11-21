@@ -1871,3 +1871,4 @@ export function CoffeePourMenu({
   defaultValue,
   value,
   onValueChange,
+  showRecipe = true,
