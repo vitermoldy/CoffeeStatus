@@ -970,3 +970,4 @@ function stepCup(c: Cup, dt: number, t: number, spills: Particle[]): boolean {
   c.v2 += (-190 * c.w2 - 5 * c.v2) * dt;
   c.w2 += c.v2 * dt;
   c.w3 *= Math.exp(-2.6 * dt);
+  if (c.mode !== "fall") {
