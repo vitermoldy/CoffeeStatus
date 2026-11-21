@@ -764,3 +764,4 @@ function splash(c: Cup, x: number, y: number, col: string, n: number, s: number)
     c.parts.push({
       x: x + (Math.random() - 0.5) * 4,
       y: y - 1,
+      vx: (Math.random() - 0.5) * 150 * s,
