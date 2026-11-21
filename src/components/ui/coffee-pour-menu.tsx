@@ -2152,3 +2152,4 @@ export function CoffeePourMenu({
               >
                 {active && (
                   <motion.span
+                    layoutId={`${uid}-pill`}
