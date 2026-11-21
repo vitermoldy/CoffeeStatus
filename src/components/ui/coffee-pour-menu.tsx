@@ -1186,3 +1186,4 @@ function renderCup(c: Cup, t: number) {
       continue;
     }
     const grow = easeOut(td.age / 0.7);
+    const depth = (yS - g.inner.bot) * 0.85 * grow;
