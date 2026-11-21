@@ -939,3 +939,4 @@ function stepCup(c: Cup, dt: number, t: number, spills: Particle[]): boolean {
   for (let i = c.parts.length - 1; i >= 0; i--) {
     const q = c.parts[i];
     q.vy += G_STREAM * dt;
+    q.x += q.vx * dt;
