@@ -438,3 +438,4 @@ function shadeAt(cells: Float32Array, i: number): [RGB, number] {
   const o = i * NL;
   let other = 0;
   for (let j = 3; j < NL; j++) other += cells[o + j];
+  const coffee = shade(cells[o], cells[o + 1], cells[o + 2]);
