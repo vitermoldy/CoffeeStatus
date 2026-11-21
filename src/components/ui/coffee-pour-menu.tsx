@@ -1475,3 +1475,4 @@ const ICE: [number, number, number, number][] = [
 type Solid = [number, number, number, number, number];
 const MINT: Solid[] = [
   [-0.5, 0.2, 1, -30, 0],
+  [0.35, -0.3, 0.9, 40, 0],
