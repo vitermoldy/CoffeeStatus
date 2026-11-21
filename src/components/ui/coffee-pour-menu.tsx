@@ -1293,3 +1293,4 @@ function cacheEls(root: SVGGElement): Els {
       path: (q(`stream${i}`) as SVGPathElement),
       hi: (q(`streamhi${i}`) as SVGPathElement),
       stops: (all(`sstop${i}`) as SVGStopElement[]),
+    })),
