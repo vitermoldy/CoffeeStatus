@@ -862,3 +862,5 @@ function stepCup(c: Cup, dt: number, t: number, spills: Particle[]): boolean {
 
   const fTop = c.level + foamOf(it) * easeOut(c.foam);
   const yS = levelY(g, fTop);
+  const rS = levelR(g, fTop);
+
