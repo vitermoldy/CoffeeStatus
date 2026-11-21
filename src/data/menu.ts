@@ -89,3 +89,4 @@ export const MENU: CoffeeCategory[] = [
       },
       {
         id: "matcha-latte",
+        name: "Matcha Latte",
