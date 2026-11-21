@@ -550,3 +550,4 @@ type Cup = {
   /** N cells bottom to top, each holding the share of every liquid (NL values). */
   cells: Float32Array;
   layers: Layer[];
+  /** Poured fraction of each layer, 0 to 1. */
