@@ -2035,3 +2035,4 @@ export function CoffeePourMenu({
     let n = -1;
     if (e.key === "ArrowDown" || e.key === "ArrowRight") n = (i + 1) % list.length;
     else if (e.key === "ArrowUp" || e.key === "ArrowLeft") n = (i - 1 + list.length) % list.length;
+    else if (e.key === "Home") n = 0;
