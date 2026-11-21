@@ -693,3 +693,4 @@ function diffuse(c: Cup, k: number) {
 function share(c: Cup, T: number) {
   let tot = 0;
   let x = 0;
+  for (let i = 0; i < N; i++) {
