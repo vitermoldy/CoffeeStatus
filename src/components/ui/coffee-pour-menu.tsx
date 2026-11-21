@@ -615,3 +615,4 @@ function makeCup(key: number, item: CoffeeItem): Cup {
     mix: 0,
     swirlCol: SWIRL.milk,
     crema: 0,
+    foam: 0,
