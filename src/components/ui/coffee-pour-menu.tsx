@@ -958,3 +958,4 @@ function stepCup(c: Cup, dt: number, t: number, spills: Particle[]): boolean {
     if (c.ripples[i].age > 0.7) c.ripples.splice(i, 1);
   }
   for (let i = c.tendrils.length - 1; i >= 0; i--) {
+    c.tendrils[i].age += dt;
