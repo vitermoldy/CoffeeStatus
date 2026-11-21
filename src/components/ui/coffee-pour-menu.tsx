@@ -1944,3 +1944,4 @@ export function CoffeePourMenu({
         }
       }
       if (sp.length) busy = true;
+      paintRecipe(recipeEl.current, sim.current.get(curKey.current));
