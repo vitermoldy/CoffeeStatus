@@ -528,3 +528,4 @@ type Els = {
   bubbles: SVGCircleElement[];
   mint: SVGGElement[];
   lime: SVGGElement[];
+  sprig: SVGGElement | null;
