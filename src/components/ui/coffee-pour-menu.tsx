@@ -1973,3 +1973,4 @@ export function CoffeePourMenu({
       }
       if (c.mode === "wait") {
         sim.current.delete(c.key); // never made it on stage
+        continue;
