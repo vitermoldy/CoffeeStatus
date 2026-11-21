@@ -138,3 +138,4 @@ export const DEFAULT_COFFEE_ITEMS: CoffeeItem[] = [
     ],
     foam: 0.14,
     art: "heart",
+  },
