@@ -2067,3 +2067,4 @@ export function CoffeePourMenu({
   };
 
   const extras = selected ? extrasText(selected) : "";
+  const spoken = selected
