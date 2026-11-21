@@ -1985,3 +1985,4 @@ export function CoffeePourMenu({
       c.y += d - d * Math.cos(c.a);
       c.pivot += d;
       c.mode = "fall";
+      c.vy = -150 - Math.random() * 60;
