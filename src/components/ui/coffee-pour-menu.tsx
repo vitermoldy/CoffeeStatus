@@ -411,3 +411,4 @@ function shadeMix(cells: Float32Array, o: number): [RGB, number] {
     if (DEF[j].tint < 0.1) clear += cells[o + j];
   }
   if (tot <= 1e-6) return [MILK, 0];
+  clear /= tot;
