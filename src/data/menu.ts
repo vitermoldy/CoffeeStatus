@@ -10,3 +10,4 @@ export const MENU: CoffeeCategory[] = [
       {
         id: "jus-jeruk-wortel",
         name: "Jus Jeruk Wortel",
+        subtitle: "250 ml, segar",
