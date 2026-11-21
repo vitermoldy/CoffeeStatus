@@ -1534,3 +1534,4 @@ function extrasText(item: CoffeeItem) {
   const parts = (item.garnish ?? [])
     .filter((g) => g.count > 0)
     .map((g) => `${g.count} ${GARNISH[g.type].unit} ${GARNISH[g.type].label}`);
+  if (item.ice) parts.push("es batu");
