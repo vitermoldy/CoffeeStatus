@@ -1198,3 +1198,4 @@ function renderCup(c: Cup, t: number) {
     e.tendrils[k].setAttribute("opacity", (0.6 * (1 - td.age / 1.8)).toFixed(3));
   }
 
+  // soda bubbles rise from the bottom and fade once the fizz is spent
