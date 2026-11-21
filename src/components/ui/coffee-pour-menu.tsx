@@ -490,3 +490,4 @@ type Pour = {
   x: number;
   w: number;
   phase: "lead" | "fall" | "flow" | "tail" | "drips" | "done";
+  timer: number;
