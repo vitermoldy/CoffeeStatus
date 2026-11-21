@@ -1442,3 +1442,4 @@ function GlassHandle({ d, w, mask }: { d: string; w: number; mask: string }) {
         <path d={d} fill="none" stroke="white" strokeWidth={w} strokeLinecap="round" />
         <path d={d} fill="none" stroke="black" strokeWidth={w - 2.8} strokeLinecap="round" />
       </mask>
+      <path d={d} fill="none" stroke="rgba(255,250,240,0.35)" strokeWidth={w} strokeLinecap="round" />
