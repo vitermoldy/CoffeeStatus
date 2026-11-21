@@ -651,3 +651,4 @@ function deposit(c: Cup, type: CoffeeLiquid, dv: number) {
       cells[o + T] += k;
     }
   }
+  c.level = L1;
