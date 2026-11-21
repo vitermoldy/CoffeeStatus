@@ -731,3 +731,4 @@ function fillInstantly(c: Cup) {
 }
 
 function startPour(c: Cup, i: number) {
+  const l = c.layers[i];
