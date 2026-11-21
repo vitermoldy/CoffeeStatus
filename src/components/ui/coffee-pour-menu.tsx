@@ -353,3 +353,4 @@ type LiquidDef = {
   ramp?: [number, RGB][];
   /** 0 is clear like water, 1 is opaque like milk. */
   opacity: number;
+  /** How strongly it colours a mix. Below 0.1 it counts as a clear diluent. */
