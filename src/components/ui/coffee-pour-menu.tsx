@@ -967,3 +967,4 @@ function stepCup(c: Cup, dt: number, t: number, spills: Particle[]): boolean {
   const tiltTarget = clamp(-Math.tan(c.a), -0.9, 0.9) * rS * (c.mode === "fall" ? 0.8 : 1);
   c.v1 += (-70 * (c.w1 - tiltTarget) - 3.2 * c.v1) * dt;
   c.w1 += c.v1 * dt;
+  c.v2 += (-190 * c.w2 - 5 * c.v2) * dt;
