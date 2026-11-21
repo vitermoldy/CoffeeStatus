@@ -1934,3 +1934,4 @@ export function CoffeePourMenu({
           const q = sp[i];
           const n = nodes[i];
           if (!q) {
+            n.setAttribute("r", "0");
