@@ -92,3 +92,4 @@ Komponennya bisa dipakai dengan satu daftar (`items`) atau berkelompok di tab (`
 terkontrol (`value` + `onValueChange`) atau tidak (`defaultValue`). `showRecipe={false}`
 menyembunyikan kartu resep.
 
+Keyboard: Tab masuk ke tab kategori yang terbuka. Panah kiri/kanan berpindah kategori, Home dan
