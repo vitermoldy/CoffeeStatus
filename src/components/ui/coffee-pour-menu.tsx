@@ -1606,3 +1606,4 @@ const CupView = React.memo(function CupView({
       <g data-k="body" transform={`translate(${W + 160} ${FLOOR})`}>
         <VesselBack g={g} id={id} />
         <g data-k="liquid" opacity={0} clipPath={`url(#${clip})`}>
+          <path data-k="liq" fill={`url(#${liqId})`} />
