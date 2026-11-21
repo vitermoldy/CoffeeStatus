@@ -436,3 +436,4 @@ function shadeMix(cells: Float32Array, o: number): [RGB, number] {
 /** Colour and opacity of cell i of a column. */
 function shadeAt(cells: Float32Array, i: number): [RGB, number] {
   const o = i * NL;
+  let other = 0;
