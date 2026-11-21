@@ -1315,3 +1315,4 @@ const GLAZE = {
 function Saucer({ g, id }: { g: Geo; id: (s: string) => string }) {
   if (!g.saucer) return null;
   const { y, r } = g.saucer;
+  const gl = GLAZE[g.glaze ?? "cream"];
