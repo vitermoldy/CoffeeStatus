@@ -2078,3 +2078,4 @@ export function CoffeePourMenu({
   return (
     <div
       className={cn(
+        // phones stack tabs, drinks, stage, recipe; wider screens keep the stage on the right.
