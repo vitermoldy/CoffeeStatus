@@ -237,3 +237,4 @@ const GEO: Record<CoffeeVessel, Geo> = {
   tumbler: {
     outer: { top: -136, r: 58, bot: 0, rb: 49, c: 54 },
     inner: { top: -136, r: 54, bot: -20, rb: 44, c: 49.5 },
+    glass: true,
