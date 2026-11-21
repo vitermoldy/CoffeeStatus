@@ -284,3 +284,4 @@ function frontBand(r1: number, y1: number, r2: number, y2: number) {
 function wallLine(p: Profile, k: number, t0: number, t1: number) {
   const y0 = lerp(p.top, p.bot, t0);
   const y1 = lerp(p.top, p.bot, t1);
+  const ym = (y0 + y1) / 2;
