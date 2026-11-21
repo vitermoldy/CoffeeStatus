@@ -351,3 +351,4 @@ type LiquidDef = {
   color: RGB;
   /** Colour by concentration when clear liquids dilute it (espresso, tea). */
   ramp?: [number, RGB][];
+  /** 0 is clear like water, 1 is opaque like milk. */
