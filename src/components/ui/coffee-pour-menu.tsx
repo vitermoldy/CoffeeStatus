@@ -945,3 +945,4 @@ function stepCup(c: Cup, dt: number, t: number, spills: Particle[]): boolean {
     if (q.vy > 0 && q.y >= sy) {
       if (q.drop) {
         splash(c, q.x, sy, q.col, 3, 0.6);
+        kick(c, q.x / rS, 0.35);
