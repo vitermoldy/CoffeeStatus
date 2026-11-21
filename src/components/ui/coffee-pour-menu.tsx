@@ -1213,3 +1213,4 @@ function renderCup(c: Cup, t: number) {
       const wr = wallR(g.inner, clamp((y - g.inner.top) / (g.inner.bot - g.inner.top), 0, 1));
       const x = (((k * 53) % 17) / 8.5 - 1) * wr * 0.8 + Math.sin(f * 8 + k) * 1.4;
       el.setAttribute("cx", f1(x).toString());
+      el.setAttribute("cy", f1(y).toString());
