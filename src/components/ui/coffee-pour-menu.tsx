@@ -594,3 +594,4 @@ function makeCup(key: number, item: CoffeeItem): Cup {
     va: 0,
     pivot: 0,
     opacity: 1,
+    fallT: 0,
