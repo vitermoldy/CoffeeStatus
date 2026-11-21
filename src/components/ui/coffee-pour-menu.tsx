@@ -1870,3 +1870,4 @@ export function CoffeePourMenu({
   categories,
   defaultValue,
   value,
+  onValueChange,
