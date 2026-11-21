@@ -1059,3 +1059,5 @@ function renderCup(c: Cup, t: number) {
   const yS = levelY(g, fTop);
   const rS = levelR(g, fTop) * 1.02;
   const ry = rS * P;
+  e.liquid.setAttribute("opacity", clamp(c.level * 50, 0, 1).toFixed(3));
+
