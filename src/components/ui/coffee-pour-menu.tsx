@@ -34,3 +34,4 @@ export interface CoffeeLayer {
    * the layer takes its share of the item's `fill`, in proportion to `ml`.
    */
   amount?: number;
+  /** Volume shown on the recipe card. */
