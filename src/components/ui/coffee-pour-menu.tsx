@@ -1616,3 +1616,4 @@ const CupView = React.memo(function CupView({
             </g>
           )}
           {it.fizz && (
+            <g fill="rgba(255,255,255,0.85)">
