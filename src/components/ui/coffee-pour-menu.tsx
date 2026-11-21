@@ -736,3 +736,4 @@ function startPour(c: Cup, i: number) {
   const side = i % 2 === 0 ? -1 : 1;
   c.pours.push({
     layer: i,
+    type: l.type,
