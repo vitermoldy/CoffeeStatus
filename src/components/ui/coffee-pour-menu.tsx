@@ -1165,3 +1165,4 @@ function renderCup(c: Cup, t: number) {
       continue;
     }
     let d = "";
+    const rot = t * 2.6 + k * Math.PI;
