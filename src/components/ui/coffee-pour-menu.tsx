@@ -671,3 +671,4 @@ function stir(c: Cup, k: number) {
   if (tot <= 0) return;
   for (let i = 0; i < N; i++) {
     if (i / N >= c.level) break;
+    for (let j = 0; j < NL; j++) cells[i * NL + j] += (m[j] / tot - cells[i * NL + j]) * k;
