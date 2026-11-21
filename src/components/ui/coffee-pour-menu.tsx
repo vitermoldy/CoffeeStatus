@@ -1908,3 +1908,4 @@ export function CoffeePourMenu({
       last = now;
       const t = now / 1000;
       let busy = false;
+      let removed = false;
