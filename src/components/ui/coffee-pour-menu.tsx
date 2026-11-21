@@ -1981,3 +1981,4 @@ export function CoffeePourMenu({
       }
       // swap the pivot to the centre of mass without a visual jump
       const d = c.geo.height * 0.45 - c.pivot;
+      c.x += d * Math.sin(c.a);
