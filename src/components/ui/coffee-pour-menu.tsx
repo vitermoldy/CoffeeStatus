@@ -1969,3 +1969,4 @@ export function CoffeePourMenu({
     for (const c of [...sim.current.values()]) {
       if (c.mode === "fall" || c.mode === "fadeOut") {
         falling++;
+        continue;
