@@ -2110,3 +2110,4 @@ export function CoffeePourMenu({
                 className={cn(
                   "min-h-11 truncate rounded-xl px-2 text-[14px] font-medium tracking-tight outline-none transition-colors focus-visible:ring-2 focus-visible:ring-[#8a5226] active:translate-y-px sm:text-[15px]",
                   on
+                    ? "bg-[#f7ecdd] text-[#3a271d] shadow-[0_1px_2px_rgba(90,55,25,0.12),inset_0_0_0_1px_rgba(185,122,69,0.3)]"
