@@ -1845,3 +1845,4 @@ function paintRecipe(root: HTMLElement | null, c: Cup | undefined) {
       bar.dataset.p = v;
       bar.style.transform = `scaleX(${v})`;
     }
+  }
