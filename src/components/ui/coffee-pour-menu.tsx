@@ -390,3 +390,4 @@ const LIQUIDS = {
 
 const LIQ = Object.keys(LIQUIDS) as CoffeeLiquid[];
 /** Number of liquids tracked in every cell of the column. */
+const NL = LIQ.length;
