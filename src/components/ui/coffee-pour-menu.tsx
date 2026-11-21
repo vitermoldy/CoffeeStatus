@@ -186,3 +186,4 @@ type Geo = {
 };
 
 const GEO: Record<CoffeeVessel, Geo> = {
+  demitasse: {
