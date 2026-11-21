@@ -1083,3 +1083,4 @@ function renderCup(c: Cup, t: number) {
       "transform",
       `translate(${f1(u * (up ? rS * 0.6 : g.inner.rb * 0.9))} ${f1(up ? float : rest)}) scale(1 ${squash}) rotate(${(ang + (up ? c.w1 * 3 : 0)).toFixed(1)}) scale(${f1(s)})`,
     );
+  };
