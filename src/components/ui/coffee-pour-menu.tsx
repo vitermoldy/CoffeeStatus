@@ -860,3 +860,4 @@ function stepCup(c: Cup, dt: number, t: number, spills: Particle[]): boolean {
     busy = true;
   }
 
+  const fTop = c.level + foamOf(it) * easeOut(c.foam);
