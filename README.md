@@ -12,3 +12,4 @@ jus, teh, dan soda.
 ## Menjalankan
 
 ```bash
+npm install
