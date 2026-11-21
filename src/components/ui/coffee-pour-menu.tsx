@@ -666,3 +666,4 @@ function stir(c: Cup, k: number) {
     const f = clamp(c.level * N - i, 0, 1);
     if (f <= 0) break;
     tot += f;
+    for (let j = 0; j < NL; j++) m[j] += cells[i * NL + j] * f;
