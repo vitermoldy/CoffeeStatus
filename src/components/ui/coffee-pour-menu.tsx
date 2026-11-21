@@ -733,3 +733,4 @@ function fillInstantly(c: Cup) {
 function startPour(c: Cup, i: number) {
   const l = c.layers[i];
   const r = c.geo.inner.r;
+  const side = i % 2 === 0 ? -1 : 1;
