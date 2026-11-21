@@ -178,3 +178,4 @@ type Geo = {
   handle?: string;
   handleW?: number;
   /** Screw-thread lines on a glass, as distances below the rim. */
+  rings?: number[];
