@@ -1516,3 +1516,4 @@ function MintLeaf({ fill = "#4f9a44" }: { fill?: string }) {
 function LimeSlice() {
   return (
     <>
+      <circle r={0.5} fill="#a9c63c" stroke="#6f8f22" strokeWidth={0.9} vectorEffect="non-scaling-stroke" />
