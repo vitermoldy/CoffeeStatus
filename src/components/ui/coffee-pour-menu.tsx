@@ -524,3 +524,4 @@ type Els = {
   ripples: SVGEllipseElement[];
   streams: { path: SVGPathElement; hi: SVGPathElement; stops: SVGStopElement[] }[];
   parts: SVGCircleElement[];
+  ice: SVGGElement[];
