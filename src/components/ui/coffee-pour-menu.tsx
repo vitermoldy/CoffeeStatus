@@ -1086,3 +1086,5 @@ function renderCup(c: Cup, t: number) {
   };
   for (let k = 0; k < e.mint.length; k++) place(e.mint[k], MINT[k], 0.72, 0.7);
   for (let k = 0; k < e.lime.length; k++) place(e.lime[k], LIME[k], 0.86, 0.62);
+  if (c.level <= 0) return;
+
