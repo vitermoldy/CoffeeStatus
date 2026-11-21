@@ -1916,3 +1916,4 @@ export function CoffeePourMenu({
           (c.mode === "fadeOut" && c.opacity <= 0);
         if (gone) {
           sim.current.delete(c.key);
+          removed = true;
