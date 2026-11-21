@@ -2179,3 +2179,4 @@ export function CoffeePourMenu({
                         )}
                       >
                         {it.subtitle}
+                      </span>
