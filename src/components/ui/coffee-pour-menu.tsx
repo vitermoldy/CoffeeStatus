@@ -98,3 +98,4 @@ export interface CoffeePourMenuProps {
   /** Selected id (controlled). */
   value?: string;
   /** Called when the user picks a drink. */
+  onValueChange?: (id: string) => void;
