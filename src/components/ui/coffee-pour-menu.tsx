@@ -646,3 +646,4 @@ function deposit(c: Cup, type: CoffeeLiquid, dv: number) {
     }
     if (a0 > 0) {
       const d = Math.max(0, L1 - (i + 0.5) / N);
+      const k = Math.min(0.4, JET[type] * dv * N * 0.5 * Math.exp(-d / PEN[type]));
