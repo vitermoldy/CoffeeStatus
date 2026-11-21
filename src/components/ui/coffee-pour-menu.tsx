@@ -1257,3 +1257,4 @@ function renderCup(c: Cup, t: number) {
     const q = c.parts[k];
     const el = e.parts[k];
     if (!q) {
+      el.setAttribute("r", "0");
