@@ -602,3 +602,4 @@ function makeCup(key: number, item: CoffeeItem): Cup {
     fizzT: 0,
     sprig: 0,
     pours: [],
+    next: 0,
