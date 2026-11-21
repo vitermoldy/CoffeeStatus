@@ -747,3 +747,4 @@ function startPour(c: Cup, i: number) {
     head: SRC,
     headV: V0,
     tail: SRC,
+    tailV: V0,
