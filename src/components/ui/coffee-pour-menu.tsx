@@ -520,3 +520,4 @@ type Els = {
   base: SVGPathElement | null;
   stops: SVGStopElement[];
   swirl: SVGPathElement[];
+  tendrils: SVGPathElement[];
