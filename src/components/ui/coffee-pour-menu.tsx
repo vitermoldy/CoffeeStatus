@@ -1880,3 +1880,4 @@ export function CoffeePourMenu({
   const selectedId = value ?? inner;
   const selected = all.find((i) => i.id === selectedId) ?? all[0];
   const groupIndex = groups ? Math.max(0, groups.findIndex((g) => g.items.some((i) => i.id === selected?.id))) : -1;
+  const group = groups?.[groupIndex];
