@@ -2082,3 +2082,4 @@ export function CoffeePourMenu({
         // Everything hangs from the top so a taller recipe card never moves the drinks under the pointer.
         "relative grid w-full items-start gap-5 rounded-[32px] bg-[#e4cdb0] p-4 text-[#3a271d] [grid-template-areas:'tabs'_'list'_'stage'_'recipe'] sm:grid-cols-[minmax(0,0.85fr)_minmax(0,1.15fr)] sm:grid-rows-[auto_auto_auto_1fr] sm:gap-x-10 sm:gap-y-4 sm:p-10 sm:[grid-template-areas:'tabs_stage'_'list_stage'_'recipe_stage'_'._stage']",
         className,
+      )}
