@@ -1919,3 +1919,4 @@ export function CoffeePourMenu({
           removed = true;
         } else renderCup(c, t);
       }
+      // spilled drops in stage space
