@@ -476,3 +476,4 @@ export function resolveLayers(item: CoffeeItem): Layer[] {
   return item.layers.map((l) => ({
     type: l.type,
     amount: l.amount ?? (total > 0 ? (fill * (l.ml ?? 0)) / total : fill / item.layers.length),
+    ml: l.ml,
