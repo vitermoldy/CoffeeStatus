@@ -1920,3 +1920,4 @@ export function CoffeePourMenu({
         } else renderCup(c, t);
       }
       // spilled drops in stage space
+      const sp = spills.current;
