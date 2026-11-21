@@ -177,3 +177,4 @@ type Geo = {
   saucer?: { y: number; r: number };
   handle?: string;
   handleW?: number;
+  /** Screw-thread lines on a glass, as distances below the rim. */
