@@ -1909,3 +1909,4 @@ export function CoffeePourMenu({
       const t = now / 1000;
       let busy = false;
       let removed = false;
+      for (const c of sim.current.values()) {
