@@ -555,3 +555,4 @@ type Cup = {
   fizzT: number;
   /** Mint sprig on top, 0 hidden to 1 grown. */
   sprig: number;
+  pours: Pour[];
