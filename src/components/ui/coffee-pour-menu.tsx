@@ -47,3 +47,4 @@ export interface CoffeeItem {
   name: string;
   /** Small line under the name, e.g. "180 ml, velvety". */
   subtitle?: string;
+  /** Spoken by screen readers when the drink is shown. */
