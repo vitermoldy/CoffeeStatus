@@ -1230,3 +1230,4 @@ function renderCup(c: Cup, t: number) {
     el.setAttribute("cx", f1(rp.x).toString());
     el.setAttribute("cy", f1(yS + wave(c, clamp(rp.x / rS, -1, 1), t)).toString());
     el.setAttribute("rx", f1(rx).toString());
+    el.setAttribute("ry", f1(rx * P).toString());
