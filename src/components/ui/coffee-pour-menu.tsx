@@ -1278,3 +1278,4 @@ function cacheEls(root: SVGGElement): Els {
     liq: (q("liq") as SVGPathElement),
     depth: (q("depth") as SVGPathElement | null),
     foam: (q("foam") as SVGPathElement),
+    surf: (q("surf") as SVGPathElement),
