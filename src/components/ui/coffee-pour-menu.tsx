@@ -1519,3 +1519,4 @@ function LimeSlice() {
       <circle r={0.5} fill="#a9c63c" stroke="#6f8f22" strokeWidth={0.9} vectorEffect="non-scaling-stroke" />
       <circle r={0.42} fill="#e4edb0" />
       {Array.from({ length: 8 }, (_, i) => {
+        const a = (i / 8) * Math.PI * 2;
