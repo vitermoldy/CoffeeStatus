@@ -2103,3 +2103,4 @@ export function CoffeePourMenu({
                 id={`${uid}-tab-${i}`}
                 type="button"
                 role="tab"
+                aria-selected={on}
