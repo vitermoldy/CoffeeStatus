@@ -1756,3 +1756,4 @@ function Defs({ id }: { id: (s: string) => string }) {
   );
   return (
     <defs>
+      {blur("blur05", 0.5)}
