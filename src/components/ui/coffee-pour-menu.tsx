@@ -101,3 +101,5 @@ export interface CoffeePourMenuProps {
   onValueChange?: (id: string) => void;
   /** Extra classes for the root element. */
   className?: string;
+}
+
