@@ -1281,3 +1281,4 @@ function cacheEls(root: SVGGElement): Els {
     surf: (q("surf") as SVGPathElement),
     sclip: (q("sclip") as SVGPathElement),
     decor: (q("decor") as SVGGElement),
+    crema: (q("crema") as SVGGElement | null),
