@@ -977,3 +977,4 @@ function stepCup(c: Cup, dt: number, t: number, spills: Particle[]): boolean {
   if (Math.abs(c.w1 - tiltTarget) + Math.abs(c.v1) * 0.1 + Math.abs(c.w2) + Math.abs(c.v2) * 0.1 + c.w3 > 0.02) busy = true;
 
   /* mixing, crema, foam, art */
+  const pouring = c.next < c.layers.length || c.pours.some((p) => p.phase !== "done");
