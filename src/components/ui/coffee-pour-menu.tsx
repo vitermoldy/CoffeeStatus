@@ -393,3 +393,4 @@ const LIQ = Object.keys(LIQUIDS) as CoffeeLiquid[];
 const NL = LIQ.length;
 const DEF: LiquidDef[] = LIQ.map((k) => LIQUIDS[k]);
 // optical depth per unit share; opaque liquids stay opaque even when diluted 1:6
+const OD = DEF.map((d) => -Math.log(1 - Math.min(0.999, d.opacity)));
