@@ -1539,3 +1539,5 @@ function extrasText(item: CoffeeItem) {
   return parts.length === 1 ? parts[0] : `${parts.slice(0, -1).join(", ")} dan ${parts[parts.length - 1]}`;
 }
 
+const HEART = "M0 0.78C-0.5 0.36 -0.98 0.02 -0.68 -0.48C-0.46 -0.82 -0.1 -0.74 0 -0.4C0.1 -0.74 0.46 -0.82 0.68 -0.48C0.98 0.02 0.5 0.36 0 0.78Z";
+
