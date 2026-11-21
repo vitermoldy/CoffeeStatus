@@ -865,3 +865,4 @@ function stepCup(c: Cup, dt: number, t: number, spills: Particle[]): boolean {
   const rS = levelR(g, fTop);
 
   /* pours */
+  let flowing = false;
