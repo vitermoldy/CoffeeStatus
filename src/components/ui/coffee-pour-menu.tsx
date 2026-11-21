@@ -1844,3 +1844,4 @@ function paintRecipe(root: HTMLElement | null, c: Cup | undefined) {
     if (bar && bar.dataset.p !== v) {
       bar.dataset.p = v;
       bar.style.transform = `scaleX(${v})`;
+    }
