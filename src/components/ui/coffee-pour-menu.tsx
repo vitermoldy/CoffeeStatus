@@ -933,3 +933,5 @@ function stepCup(c: Cup, dt: number, t: number, spills: Particle[]): boolean {
         p.phase = "done";
       }
     }
+  }
+
