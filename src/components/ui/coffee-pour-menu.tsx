@@ -57,3 +57,4 @@ export interface CoffeeItem {
   fill?: number;
   /** Golden crema on top (espresso style). */
   crema?: boolean;
+  /** Foam cap thickness, as a fraction of the vessel's inner height. */
