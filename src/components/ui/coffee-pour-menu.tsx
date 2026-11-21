@@ -1263,3 +1263,4 @@ function renderCup(c: Cup, t: number) {
     el.setAttribute("cx", f1(q.x).toString());
     el.setAttribute("cy", f1(q.y).toString());
     el.setAttribute("r", q.r.toFixed(2));
+    el.setAttribute("fill", q.col);
