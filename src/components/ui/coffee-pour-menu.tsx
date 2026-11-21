@@ -871,3 +871,4 @@ function stepCup(c: Cup, dt: number, t: number, spills: Particle[]): boolean {
     busy = true;
     p.timer += dt;
     const surfY = yS + wave(c, p.x / rS, t);
+    if (p.phase === "lead") {
