@@ -1713,3 +1713,4 @@ const CupView = React.memo(function CupView({
               <g key={i} transform={`translate(0.02 ${-h}) rotate(${ang}) translate(${size / 2} 0) scale(${size})`}>
                 <MintLeaf fill="#5aa84c" />
               </g>
+            ))}
