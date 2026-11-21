@@ -397,3 +397,4 @@ const OD = DEF.map((d) => -Math.log(1 - Math.min(0.999, d.opacity)));
 const pick = <T,>(f: (d: LiquidDef) => T) =>
   Object.fromEntries(LIQ.map((k) => [k, f(LIQUIDS[k])])) as Record<CoffeeLiquid, T>;
 const STREAM = pick((d) => d.stream);
+const SWIRL = pick((d) => d.swirl);
