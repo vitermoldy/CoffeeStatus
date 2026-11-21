@@ -485,3 +485,4 @@ type Pour = {
   layer: number;
   type: CoffeeLiquid;
   amount: number;
+  rate: number;
