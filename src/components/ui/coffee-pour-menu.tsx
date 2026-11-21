@@ -682,3 +682,4 @@ function diffuse(c: Cup, k: number) {
   const top = Math.min(N - 1, Math.ceil(c.level * N) - 1);
   for (let i = 0; i < top; i++) {
     for (let j = 0; j < NL; j++) {
+      const f = (cells[(i + 1) * NL + j] - cells[i * NL + j]) * k;
