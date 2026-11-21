@@ -1853,3 +1853,4 @@ function paintRecipe(root: HTMLElement | null, c: Cup | undefined) {
     status = TEXT.ready;
     count = total ? `${total} ml` : "";
   } else if (last >= 0) {
+    const at = flowing >= 0 ? flowing : last;
