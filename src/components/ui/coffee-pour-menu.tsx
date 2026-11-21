@@ -1887,3 +1887,4 @@ export function CoffeePourMenu({
   const uid = React.useId().replace(/[^a-zA-Z0-9_-]/g, "");
   const id = React.useCallback((s: string) => `cpm${uid}-${s}`, [uid]);
 
+  const [cups, setCups] = React.useState<{ key: number; item: CoffeeItem }[]>([]);
