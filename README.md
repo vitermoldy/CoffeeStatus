@@ -94,3 +94,4 @@ menyembunyikan kartu resep.
 
 Keyboard: Tab masuk ke tab kategori yang terbuka. Panah kiri/kanan berpindah kategori, Home dan
 End ke kategori pertama dan terakhir. Tab berikutnya masuk ke minuman yang terpilih, lalu panah
+memilih minuman. Kalau sistem meminta gerakan dikurangi, gelas langsung tampil penuh dan kartu
