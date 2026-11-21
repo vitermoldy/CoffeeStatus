@@ -125,3 +125,4 @@ export const MENU: CoffeeCategory[] = [
           { type: "syrup", ml: 30 },
           { type: "condensed", ml: 30 },
           { type: "soda", ml: 190 },
+        ],
