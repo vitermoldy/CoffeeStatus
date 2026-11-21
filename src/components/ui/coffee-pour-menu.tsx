@@ -467,3 +467,5 @@ const FIZZ = 14; // soda bubbles per glass
 const FIZZ_T = 2.5; // seconds the soda keeps fizzing after the last pour
 
 /** A layer with its fill height worked out and its recipe-card label. */
+type Layer = { type: CoffeeLiquid; amount: number; ml?: number; label: string };
+
