@@ -1128,3 +1128,4 @@ function renderCup(c: Cup, t: number) {
   }
 
   if (c.dirty) {
+    c.dirty = false;
