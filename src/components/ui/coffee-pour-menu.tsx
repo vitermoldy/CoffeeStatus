@@ -308,3 +308,4 @@ function ramp(stops: [number, RGB][], t: number): RGB {
     }
   }
   return stops[stops.length - 1][1];
+}
