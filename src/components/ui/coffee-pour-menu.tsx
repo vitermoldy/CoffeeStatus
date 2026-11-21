@@ -258,3 +258,4 @@ const GEO: Record<CoffeeVessel, Geo> = {
   },
 };
 
+const f1 = (n: number) => Math.round(n * 10) / 10;
