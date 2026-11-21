@@ -899,3 +899,4 @@ function stepCup(c: Cup, dt: number, t: number, spills: Particle[]): boolean {
         deposit(c, p.type, dv);
         p.poured += dv;
         c.progress[p.layer] = p.poured / p.amount;
+        if (differs) {
