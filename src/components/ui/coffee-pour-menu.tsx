@@ -572,3 +572,4 @@ type Cup = {
   foam: number;
   art: number;
   artV: number;
+  spill: number;
