@@ -753,3 +753,5 @@ function startPour(c: Cup, i: number) {
     rippleT: 0,
     slot: c.pours.filter((p) => p.phase !== "done").length > 0 ? (c.pours[c.pours.length - 1].slot + 1) % 2 : 0,
   });
+}
+
