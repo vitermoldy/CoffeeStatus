@@ -1930,3 +1930,4 @@ export function CoffeePourMenu({
       }
       const nodes = spillEls.current?.children;
       if (nodes) {
+        for (let i = 0; i < nodes.length; i++) {
