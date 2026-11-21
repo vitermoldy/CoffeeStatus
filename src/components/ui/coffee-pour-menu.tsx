@@ -55,3 +55,4 @@ export interface CoffeeItem {
   layers: CoffeeLayer[];
   /** Fill height (0 to 1) shared out by `ml` among layers that have no `amount`. Default 0.8. */
   fill?: number;
+  /** Golden crema on top (espresso style). */
