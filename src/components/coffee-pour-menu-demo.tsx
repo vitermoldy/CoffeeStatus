@@ -10,3 +10,4 @@ export default function CoffeePourMenuDemo() {
         <a
           href="https://aakashmehra.com/ref/coffeepourmenu"
           target="_blank"
+          rel="noopener noreferrer"
