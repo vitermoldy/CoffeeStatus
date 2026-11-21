@@ -1935,3 +1935,4 @@ export function CoffeePourMenu({
           const n = nodes[i];
           if (!q) {
             n.setAttribute("r", "0");
+            continue;
