@@ -946,3 +946,4 @@ function stepCup(c: Cup, dt: number, t: number, spills: Particle[]): boolean {
       if (q.drop) {
         splash(c, q.x, sy, q.col, 3, 0.6);
         kick(c, q.x / rS, 0.35);
+      } else if (c.ripples.length < RIPPLES && Math.random() < 0.3) {
