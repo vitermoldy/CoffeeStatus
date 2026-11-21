@@ -493,3 +493,4 @@ type Pour = {
   timer: number;
   head: number;
   headV: number;
+  tail: number;
