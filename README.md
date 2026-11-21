@@ -83,3 +83,4 @@ Stack: Vite 8, React 19, TypeScript, Tailwind CSS 4, `motion` untuk animasi pil 
   komponen.
 - `garnish` untuk bahan padat yang ditumbuk di gelas sebelum dituang:
   `[{ type: "mint", count: 6 }, { type: "lime", count: 2 }]`. Mint juga memunculkan setangkai daun
+  di atas gelas setelah selesai dituang. Garnish dan es batu ditulis di bawah kartu resep
