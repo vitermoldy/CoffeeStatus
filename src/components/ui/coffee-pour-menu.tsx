@@ -174,3 +174,4 @@ type Geo = {
   inner: Profile;
   glass: boolean;
   glaze?: "cream" | "terra";
+  saucer?: { y: number; r: number };
