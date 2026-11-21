@@ -1859,3 +1859,4 @@ function paintRecipe(root: HTMLElement | null, c: Cup | undefined) {
     status = `${TEXT.pouring} ${lowerFirst(l.label)}`;
     count = l.ml ? `${Math.round(p * l.ml)} / ${l.ml} ml` : `${Math.round(p * 100)}%`;
   }
+  const s = root.querySelector<HTMLElement>("[data-status]");
