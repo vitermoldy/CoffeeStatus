@@ -69,3 +69,4 @@ export interface CoffeeItem {
   ice?: number;
   /** Solids muddled in the glass before the pour (mint leaves, lime slices). Listed on the recipe card. */
   garnish?: CoffeeGarnish[];
+  /** Soda bubbles rise through the drink for a few seconds. */
