@@ -772,3 +772,4 @@ function splash(c: Cup, x: number, y: number, col: string, n: number, s: number)
     });
   }
   if (c.ripples.length >= RIPPLES) c.ripples.shift();
+  c.ripples.push({ x, age: 0 });
