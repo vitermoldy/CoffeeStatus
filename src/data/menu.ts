@@ -38,3 +38,4 @@ export const MENU: CoffeeCategory[] = [
       },
       {
         id: "stroberi-pisang",
+        name: "Stroberi Pisang",
