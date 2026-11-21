@@ -12,3 +12,4 @@ export const MENU: CoffeeCategory[] = [
         name: "Jus Jeruk Wortel",
         subtitle: "250 ml, segar",
         description: "jeruk peras dan wortel, diaduk rata di atas es batu",
+        vessel: "tumbler",
