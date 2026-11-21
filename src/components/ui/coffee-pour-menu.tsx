@@ -599,3 +599,4 @@ function makeCup(key: number, item: CoffeeItem): Cup {
     cells: new Float32Array(N * NL),
     layers,
     progress: new Float32Array(layers.length),
+    fizzT: 0,
