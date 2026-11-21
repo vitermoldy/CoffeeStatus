@@ -1237,3 +1237,4 @@ function renderCup(c: Cup, t: number) {
   // streams
   for (let k = 0; k < 2; k++) {
     const p = c.pours.find((q) => q.slot === k && q.phase !== "done" && q.phase !== "drips");
+    const s = e.streams[k];
