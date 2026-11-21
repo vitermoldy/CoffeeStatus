@@ -968,3 +968,4 @@ function stepCup(c: Cup, dt: number, t: number, spills: Particle[]): boolean {
   c.v1 += (-70 * (c.w1 - tiltTarget) - 3.2 * c.v1) * dt;
   c.w1 += c.v1 * dt;
   c.v2 += (-190 * c.w2 - 5 * c.v2) * dt;
+  c.w2 += c.v2 * dt;
