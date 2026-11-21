@@ -1422,3 +1422,4 @@ function VesselFront({ g, id }: { g: Geo; id: (s: string) => string }) {
       <path d={wallLine(o, -0.6, 0.12, 0.78)} fill="none" stroke="white" strokeOpacity={g.glaze === "terra" ? 0.45 : 0.85} strokeWidth={h * 0.09} strokeLinecap="round" filter={`url(#${id("blur3")})`} />
       <path d={wallLine(o, -0.62, 0.16, 0.5)} fill="none" stroke="white" strokeOpacity={0.8} strokeWidth={1.4} strokeLinecap="round" filter={`url(#${id("blur05")})`} />
       {/* rim lip in front */}
+      <path d={frontBand(o.r, o.top, i.r, i.top + 0.8)} fill={gl.rim} />
