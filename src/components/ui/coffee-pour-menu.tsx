@@ -1047,3 +1047,4 @@ function renderCup(c: Cup, t: number) {
   const it = c.item;
   e.root.setAttribute("opacity", c.opacity.toFixed(3));
   e.body.setAttribute(
+    "transform",
