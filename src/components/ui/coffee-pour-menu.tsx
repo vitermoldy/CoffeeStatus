@@ -1840,3 +1840,4 @@ function paintRecipe(root: HTMLElement | null, c: Cup | undefined) {
     const state = p >= 0.999 ? "done" : started ? "pour" : "wait";
     if (row.dataset.state !== state) row.dataset.state = state;
     const bar = row.querySelector<HTMLElement>("[data-bar]");
+    const v = clamp(p, 0, 1).toFixed(3);
