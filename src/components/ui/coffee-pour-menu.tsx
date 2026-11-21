@@ -1113,3 +1113,4 @@ function renderCup(c: Cup, t: number) {
   e.liq.setAttribute("d", body);
   e.depth?.setAttribute("d", body);
 
+  if (g.glass && foamH > 0.002) {
