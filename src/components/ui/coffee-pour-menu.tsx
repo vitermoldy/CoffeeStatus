@@ -1998,3 +1998,4 @@ export function CoffeePourMenu({
 
     const cup = makeCup(nextKey.current++, selected);
     curKey.current = cup.key;
+    if (reduce) {
