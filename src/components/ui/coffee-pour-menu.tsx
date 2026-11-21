@@ -1471,3 +1471,4 @@ const ICE: [number, number, number, number][] = [
   [0.5, -0.6, 0.8, 5],
 ];
 
+/** Muddled solids: position across (u) and into (v) the glass, size factor, angle, 1 if it floats up. */
