@@ -17,3 +17,4 @@ import { motion, useReducedMotion } from "motion/react";
 import { cn } from "@/lib/utils";
 
 /* -------------------------------------------------------------------------- */
+/*                                   Types                                    */
