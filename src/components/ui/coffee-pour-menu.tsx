@@ -148,3 +148,4 @@ export const DEFAULT_COFFEE_ITEMS: CoffeeItem[] = [
     layers: [
       { type: "espresso", amount: 0.25, ml: 60 },
       { type: "milk", amount: 0.51, ml: 240, label: "Susu panas" },
+    ],
