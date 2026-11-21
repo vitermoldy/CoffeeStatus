@@ -1001,3 +1001,4 @@ function stepCup(c: Cup, dt: number, t: number, spills: Particle[]): boolean {
     busy = true;
   }
   if (it.art === "heart" && c.foam > 0.35 && c.mix < 0.5 && c.mode !== "fall") {
+    c.artV += (-120 * (c.art - 1) - 13 * c.artV) * dt;
