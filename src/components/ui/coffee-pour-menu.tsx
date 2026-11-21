@@ -1836,3 +1836,4 @@ function paintRecipe(root: HTMLElement | null, c: Cup | undefined) {
     if (p > 0 && p < 0.999) flowing = i;
     if (p < 0.999) done = false;
     const row = rows[i];
+    if (!row) continue;
