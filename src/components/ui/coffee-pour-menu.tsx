@@ -529,3 +529,5 @@ type Els = {
   mint: SVGGElement[];
   lime: SVGGElement[];
   sprig: SVGGElement | null;
+};
+
