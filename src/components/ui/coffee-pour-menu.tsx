@@ -253,3 +253,4 @@ const GEO: Record<CoffeeVessel, Geo> = {
     rings: [7, 13],
     height: 202,
     shadowR: 50,
+    streamX: 0.13,
