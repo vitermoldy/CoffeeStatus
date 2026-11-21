@@ -539,3 +539,4 @@ type Cup = {
   wait: number;
   x: number;
   y: number;
+  vx: number;
