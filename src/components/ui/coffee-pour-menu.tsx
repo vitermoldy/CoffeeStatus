@@ -1798,3 +1798,4 @@ function Defs({ id }: { id: (s: string) => string }) {
         <stop offset={0} stopColor="#7a4220" />
         <stop offset={1} stopColor="#c98a51" />
       </linearGradient>
+      {(Object.keys(GEO) as CoffeeVessel[]).map((v) => (
