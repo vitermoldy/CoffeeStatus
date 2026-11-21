@@ -404,3 +404,4 @@ const TYPE_INDEX = Object.fromEntries(LIQ.map((k, i) => [k, i])) as Record<Coffe
 
 /** Any mix: tint-weighted colour, opacity from summed optical depth. */
 function shadeMix(cells: Float32Array, o: number): [RGB, number] {
+  let tot = 0;
