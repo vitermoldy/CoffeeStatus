@@ -1875,3 +1875,4 @@ export function CoffeePourMenu({
   className,
 }: CoffeePourMenuProps) {
   const groups = categories?.length ? categories : null;
+  const all = React.useMemo(() => (groups ? groups.flatMap((g) => g.items) : items), [groups, items]);
