@@ -145,3 +145,4 @@ export const MENU: CoffeeCategory[] = [
         ],
         layers: [
           { type: "lime", ml: 30 },
+          { type: "sugar", ml: 20 },
