@@ -824,3 +824,4 @@ function stepCup(c: Cup, dt: number, t: number, spills: Particle[]): boolean {
         const rx = cs * qx - sn * qy;
         const ry = sn * qx + cs * qy;
         const [col] = shadeAt(c.cells, topCell(c));
+        spills.push({
