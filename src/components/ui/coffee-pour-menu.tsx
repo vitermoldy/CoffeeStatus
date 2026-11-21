@@ -1520,3 +1520,4 @@ function LimeSlice() {
       <circle r={0.42} fill="#e4edb0" />
       {Array.from({ length: 8 }, (_, i) => {
         const a = (i / 8) * Math.PI * 2;
+        return (
