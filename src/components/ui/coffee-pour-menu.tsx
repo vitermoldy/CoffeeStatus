@@ -107,3 +107,4 @@ export const DEFAULT_COFFEE_ITEMS: CoffeeItem[] = [
   {
     id: "espresso",
     name: "Espresso",
+    subtitle: "30 ml, pekat",
