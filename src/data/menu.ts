@@ -154,3 +154,4 @@ export const MENU: CoffeeCategory[] = [
         fizz: true,
       },
     ],
+  },
