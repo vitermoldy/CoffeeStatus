@@ -705,3 +705,4 @@ function share(c: Cup, T: number) {
 const topCell = (c: Cup) => Math.max(0, Math.min(N - 1, Math.ceil(c.level * N) - 1));
 
 /** Wave height at u (-1 left .. 1 right) in px. */
+const wave = (c: Cup, u: number, t: number) =>
