@@ -2231,3 +2231,4 @@ export function CoffeePourMenu({
           <Defs id={id} />
           <linearGradient id={id("table")} x1={0} y1={0} x2={0} y2={1}>
             <stop offset={0} stopColor="rgb(110,66,30)" stopOpacity={0} />
+            <stop offset={1} stopColor="rgb(110,66,30)" stopOpacity={0.14} />
