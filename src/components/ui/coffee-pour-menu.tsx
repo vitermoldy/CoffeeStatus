@@ -1734,3 +1734,4 @@ const BUBBLES: [number, number, number][] = [
   [-0.2, 0.9, 0.025],
 ];
 
+function Defs({ id }: { id: (s: string) => string }) {
