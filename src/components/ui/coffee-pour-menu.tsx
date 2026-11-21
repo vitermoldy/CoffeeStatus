@@ -800,3 +800,4 @@ function stepCup(c: Cup, dt: number, t: number, spills: Particle[]): boolean {
         c.x = CX;
         c.vx = 0;
         c.a = 0;
+        c.va = 0;
