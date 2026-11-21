@@ -406,3 +406,4 @@ const TYPE_INDEX = Object.fromEntries(LIQ.map((k, i) => [k, i])) as Record<Coffe
 function shadeMix(cells: Float32Array, o: number): [RGB, number] {
   let tot = 0;
   let clear = 0;
+  for (let j = 0; j < NL; j++) {
