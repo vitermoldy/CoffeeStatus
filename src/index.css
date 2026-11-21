@@ -22,3 +22,4 @@
   }
   body {
     font-family: var(--font-menu);
+    -webkit-font-smoothing: antialiased;
