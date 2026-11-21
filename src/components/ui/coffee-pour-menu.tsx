@@ -748,3 +748,4 @@ function startPour(c: Cup, i: number) {
     headV: V0,
     tail: SRC,
     tailV: V0,
+    drips: l.type === "espresso" ? 2 : 1,
