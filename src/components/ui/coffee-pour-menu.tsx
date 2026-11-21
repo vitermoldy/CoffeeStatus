@@ -1604,3 +1604,4 @@ const CupView = React.memo(function CupView({
       </defs>
       <Shadow g={g} id={id} />
       <g data-k="body" transform={`translate(${W + 160} ${FLOOR})`}>
+        <VesselBack g={g} id={id} />
