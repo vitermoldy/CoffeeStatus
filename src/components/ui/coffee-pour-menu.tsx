@@ -1226,3 +1226,4 @@ function renderCup(c: Cup, t: number) {
       el.setAttribute("opacity", "0");
       continue;
     }
+    const rx = 2 + rp.age * rS * 1.3;
