@@ -91,3 +91,4 @@ export const MENU: CoffeeCategory[] = [
         id: "matcha-latte",
         name: "Matcha Latte",
         subtitle: "240 ml, lembut",
+        description: "susu dingin dengan matcha dituang perlahan di atasnya",
