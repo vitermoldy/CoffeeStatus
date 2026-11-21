@@ -1857,3 +1857,4 @@ function paintRecipe(root: HTMLElement | null, c: Cup | undefined) {
     const l = c.layers[at];
     const p = clamp(c.progress[at], 0, 1);
     status = `${TEXT.pouring} ${lowerFirst(l.label)}`;
+    count = l.ml ? `${Math.round(p * l.ml)} / ${l.ml} ml` : `${Math.round(p * 100)}%`;
