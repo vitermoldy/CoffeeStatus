@@ -333,3 +333,4 @@ function shade(e: number, w: number, m: number): [RGB, number] {
   let rgb = ramp(COFFEE_RAMP, c);
   const aC = c < 0.35 ? lerp(0.18, 0.88, c / 0.35) : lerp(0.88, 1, Math.min(1, (c - 0.35) / 0.35));
   if (m > 0.001) {
+    const st: [number, RGB][] = [[0, rgb], ...MILK_RAMP.map(([p, col]) => [p, mixRGB(MILK, col, c)] as [number, RGB])];
