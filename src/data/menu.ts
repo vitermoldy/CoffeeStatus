@@ -135,3 +135,4 @@ export const MENU: CoffeeCategory[] = [
       {
         id: "mojito",
         name: "Mojito",
+        subtitle: "200 ml, tanpa alkohol",
