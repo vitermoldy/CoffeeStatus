@@ -1227,3 +1227,4 @@ function renderCup(c: Cup, t: number) {
       continue;
     }
     const rx = 2 + rp.age * rS * 1.3;
+    el.setAttribute("cx", f1(rp.x).toString());
