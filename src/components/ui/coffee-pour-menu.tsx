@@ -541,3 +541,4 @@ type Cup = {
   y: number;
   vx: number;
   vy: number;
+  a: number;
