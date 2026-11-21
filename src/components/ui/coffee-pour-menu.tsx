@@ -984,3 +984,4 @@ function stepCup(c: Cup, dt: number, t: number, spills: Particle[]): boolean {
   }
   if (!pouring && c.level > 0 && c.sprig < 1 && c.mode !== "fall" && it.garnish?.some((g) => g.type === "mint")) {
     c.sprig = Math.min(1, c.sprig + dt / 0.6);
+    busy = true;
