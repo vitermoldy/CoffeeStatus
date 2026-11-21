@@ -114,3 +114,4 @@ export const DEFAULT_COFFEE_ITEMS: CoffeeItem[] = [
     crema: true,
   },
   {
+    id: "americano",
