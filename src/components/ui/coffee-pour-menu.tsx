@@ -1430,3 +1430,4 @@ function VesselFront({ g, id }: { g: Geo; id: (s: string) => string }) {
       )}
       {g.glaze === "terra" && (
         <path d={`M${-o.r} ${o.top + 3}A${o.r} ${f1(o.r * P)} 0 0 0 ${o.r} ${o.top + 3}`} fill="none" stroke="#f3e7d6" strokeOpacity={0.9} strokeWidth={2.6} />
+      )}
