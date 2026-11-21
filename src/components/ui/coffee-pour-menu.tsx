@@ -2021,3 +2021,4 @@ export function CoffeePourMenu({
         loop();
       }
     },
+    [loop],
