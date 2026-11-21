@@ -761,3 +761,4 @@ function spawnDrop(c: Cup, p: Pour) {
 
 function splash(c: Cup, x: number, y: number, col: string, n: number, s: number) {
   for (let k = 0; k < n && c.parts.length < PARTS; k++) {
+    c.parts.push({
