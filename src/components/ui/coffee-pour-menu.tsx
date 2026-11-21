@@ -329,3 +329,4 @@ function shade(e: number, w: number, m: number): [RGB, number] {
   e /= s;
   w /= s;
   m /= s;
+  const c = e + w > 1e-4 ? 1 - Math.pow(1 - e / (e + w), 2) : 1;
