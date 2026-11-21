@@ -2093,3 +2093,4 @@ export function CoffeePourMenu({
           style={{ gridTemplateColumns: `repeat(${groups.length}, minmax(0, 1fr))` }}
         >
           {groups.map((g, i) => {
+            const on = i === groupIndex;
