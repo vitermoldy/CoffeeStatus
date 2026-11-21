@@ -1438,3 +1438,4 @@ function VesselFront({ g, id }: { g: Geo; id: (s: string) => string }) {
 function GlassHandle({ d, w, mask }: { d: string; w: number; mask: string }) {
   return (
     <g>
+      <mask id={mask} maskUnits="userSpaceOnUse" x={-200} y={-300} width={400} height={400}>
