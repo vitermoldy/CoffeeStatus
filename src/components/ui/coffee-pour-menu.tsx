@@ -457,3 +457,4 @@ function swatch(type: CoffeeLiquid) {
 /* -------------------------------------------------------------------------- */
 
 const G_STREAM = 3000;
+const G_FALL = 2600;
