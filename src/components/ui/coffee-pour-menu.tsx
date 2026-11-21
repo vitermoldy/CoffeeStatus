@@ -1178,3 +1178,4 @@ function renderCup(c: Cup, t: number) {
     e.swirl[k].setAttribute("opacity", sa.toFixed(3));
   }
 
+  // plumes sinking through the liquid (glass only)
