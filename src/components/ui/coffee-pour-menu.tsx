@@ -1318,3 +1318,4 @@ function Saucer({ g, id }: { g: Geo; id: (s: string) => string }) {
   const gl = GLAZE[g.glaze ?? "cream"];
   const o = g.outer;
   return (
+    <g>
