@@ -1563,3 +1563,4 @@ const CupView = React.memo(function CupView({
     mid: css(froth),
     hi: css(mixRGB(froth, [255, 253, 248], 0.65)),
   };
+  const foamFill = frothStops ? id(`fb${k}`) : it.foam ? id("foamBand") : id("cremaBand");
