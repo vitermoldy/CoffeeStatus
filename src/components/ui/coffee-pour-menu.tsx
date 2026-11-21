@@ -1637,3 +1637,4 @@ const CupView = React.memo(function CupView({
                   {BUBBLES.map(([x, y, r], j) => (
                     <circle key={j} cx={x} cy={y} r={r} fill="rgba(255,236,205,0.55)" />
                   ))}
+                </g>
