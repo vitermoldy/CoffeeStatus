@@ -1805,3 +1805,5 @@ function Defs({ id }: { id: (s: string) => string }) {
       ))}
     </defs>
   );
+}
+
