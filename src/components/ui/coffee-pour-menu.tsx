@@ -1744,3 +1744,4 @@ function Defs({ id }: { id: (s: string) => string }) {
   );
   const rad = (name: string, stops: [number, string][], cx = 0.5, cy = 0.5, r = 0.5) => (
     <radialGradient id={id(name)} cx={cx} cy={cy} r={r}>
+      {stops.map(([o, c]) => (
