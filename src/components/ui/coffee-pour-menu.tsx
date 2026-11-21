@@ -1559,3 +1559,4 @@ const CupView = React.memo(function CupView({
   // juice froth and soda heads take their own colour; milk foam keeps the shared gradients
   const froth = it.foam && it.foamColor ? hexRGB(it.foamColor) : null;
   const frothStops = froth && {
+    lo: css(mixRGB(froth, [90, 60, 40], 0.18)),
