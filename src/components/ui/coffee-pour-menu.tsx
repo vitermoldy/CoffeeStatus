@@ -1924,3 +1924,4 @@ export function CoffeePourMenu({
       for (let i = sp.length - 1; i >= 0; i--) {
         const q = sp[i];
         q.vy += G_FALL * dt;
+        q.x += q.vx * dt;
