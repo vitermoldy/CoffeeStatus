@@ -662,3 +662,4 @@ function stir(c: Cup, k: number) {
   const cells = c.cells;
   let tot = 0;
   const m = MEAN.fill(0);
+  for (let i = 0; i < N; i++) {
