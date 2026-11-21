@@ -1379,3 +1379,4 @@ function VesselFront({ g, id }: { g: Geo; id: (s: string) => string }) {
   const i = g.inner;
   const h = o.bot - o.top;
   if (g.glass) {
+    return (
